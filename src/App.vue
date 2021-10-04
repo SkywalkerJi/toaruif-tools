@@ -3,7 +3,7 @@
     <v-navigation-drawer v-model="drawer" app>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="text-h6"> Apex Legends </v-list-item-title>
+          <v-list-item-title class="text-h6"> Toaru IF </v-list-item-title>
           <v-list-item-subtitle> @SkywalkerJi </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
@@ -27,8 +27,9 @@
       app
       color="#fcb69f"
       dark
-      src="gaming.jpg"
+      src="AAA.png"
       prominent
+      shrink-on-scroll
     >
       <template v-slot:img="{ props }">
         <v-img
@@ -39,7 +40,7 @@
 
       <v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
 
-      <v-app-bar-title>Apex Weapon Tools
+      <v-app-bar-title>卡片搜索
       </v-app-bar-title>
 
       <v-spacer></v-spacer>
@@ -68,7 +69,7 @@ export default {
   data: () => ({
     drawer: null,
     items: [
-      { title: "Weapon", icon: "mdi-chemical-weapon", to: "/" },
+      { title: "Card", icon: "mdi-chemical-weapon", to: "/" },
       { title: "About", icon: "mdi-help-box", to: "/about" },
     ],
     right: null,
