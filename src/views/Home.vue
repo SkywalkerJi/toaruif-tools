@@ -78,8 +78,9 @@
         :items-per-page="10"
         class="elevation-1"
       >
-        <template v-slot:item.calories="{ item }">
-          <v-chip :color="getColor(item.attributes)" dark>
+        <template v-slot:item.attributes="{ item }">
+          <v-chip 
+          :color="getColor(item.attributes)" dark>
             {{ item.attributes }}
           </v-chip>
         </template>
@@ -121,9 +122,11 @@ export default {
   },
   created: function () {
     this.card = card;
+    this.getColor("红");
   },
   methods: {
     getColor(attributes) {
+      console.log(1111);
       if (attributes == "红") return "red";
       else if (attributes == "蓝") return "blue";
       else return "green";
