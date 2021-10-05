@@ -1,4 +1,7 @@
-# app
+# とある魔術の禁書目録幻想収束 卡片查询工具
+
+## HOW TO USE
+https://御坂美琴.cn/toaruif-tools/
 
 ## Project setup
 ```
@@ -20,5 +23,5 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## LICENSE
+GPLv3

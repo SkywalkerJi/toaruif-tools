@@ -379,7 +379,6 @@ export default {
         for (let i = 0; i < this.cardSearch.attackDirection.length; i++) {
           keys.attackDirection += this.cardSearch.attackDirection[i];
         }
-        console.log(this.cardSearch.attackDirection, keys.attackDirection);
       }
       this.searchKeysValues(card, keys);
     },
