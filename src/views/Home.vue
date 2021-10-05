@@ -9,7 +9,7 @@
               v-model="cardSearch.obtain"
               :items="obtain"
               :error-messages="errors"
-              label="可选择"
+              label="目前勿选，需要数据"
               data-vv-name="select"
               required
               @change="searchData"
@@ -119,10 +119,128 @@
           </v-card-title></v-col
         >
       </v-row>
+      <v-row>
+        <v-col>
+          <v-card-title
+            >特殊状态效果:
+            <v-chip-group v-model="effect.key1" column multiple>
+              <v-chip filter>护盾</v-chip>
+              <v-chip filter>贯穿</v-chip>
+              <v-chip filter>不屈</v-chip>
+              <v-chip filter>HP恢复妨碍</v-chip>
+              <v-chip filter>强化解除耐性</v-chip>
+              <v-chip filter>弱化状态耐性</v-chip>
+              <v-chip filter>弱化解除耐性</v-chip>
+              <v-chip filter>技能封印</v-chip>
+              <v-chip filter>必杀技封印</v-chip>
+              <v-chip filter>必杀技封印耐性</v-chip>
+              <v-chip filter>辅助封印</v-chip>
+              <v-chip filter>辅助封印耐性</v-chip>
+              <v-chip filter>强化妨碍</v-chip>
+              <v-chip filter>攻击力提升妨碍</v-chip>
+              <v-chip filter>移动不能</v-chip>
+              <v-chip filter>气绝</v-chip>
+              <v-chip filter>感电</v-chip>
+              <v-chip filter>天罚</v-chip>
+              <v-chip filter>集中状态</v-chip>
+              <v-chip filter>持续被害</v-chip>
+              <v-chip filter>出血</v-chip>
+              <v-chip filter>制御不能</v-chip>
+              <v-chip filter>矢量操作</v-chip>
+              <v-chip filter>强制咏唱待机</v-chip>
+              <v-chip filter>外部供奉</v-chip>
+              <v-chip filter>攻击方向</v-chip>
+            </v-chip-group>
+          </v-card-title>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <v-card-title
+            >数值变化效果:
+            <v-chip-group v-model="effect.key2" column multiple>
+              <v-chip filter>暴击必中</v-chip>
+              <v-chip filter>物理攻击力</v-chip>
+              <v-chip filter>异能攻击力</v-chip>
+              <v-chip filter>物理防御力</v-chip>
+              <v-chip filter>异能防御力</v-chip>
+              <v-chip filter>暴击发生率</v-chip>
+              <v-chip filter>暴击回避率</v-chip>
+              <v-chip filter>暴击威力</v-chip>
+              <v-chip filter>威力上升</v-chip>
+              <v-chip filter>伤害减轻</v-chip>
+              <v-chip filter>属性伤害耐性</v-chip>
+            </v-chip-group>
+          </v-card-title>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <v-card-title
+            >其他技能效果:
+            <v-chip-group v-model="effect.key3" column multiple>
+              <v-chip filter>强化状态解除</v-chip>
+              <v-chip filter>强化buff解除</v-chip>
+              <v-chip filter>防御力解除</v-chip>
+              <v-chip filter>特殊状态解除</v-chip>
+              <v-chip filter>弱体化状态解除</v-chip>
+              <v-chip filter>攻击下降状态解除</v-chip>
+              <v-chip filter>造成伤害无效化的特殊状态无视</v-chip>
+              <v-chip filter>sp获得量</v-chip>
+              <v-chip filter>sp</v-chip>
+              <v-chip filter>这次攻击更容易发生暴击</v-chip>
+              <v-chip filter>这次攻击必定发生暴击</v-chip>
+              <v-chip filter>必杀技冷却时间</v-chip>
+              <v-chip filter>技能冷却时间</v-chip>
+              <v-chip filter>hp</v-chip>
+              <v-chip filter>物理防御力当做物理攻击力</v-chip>
+            </v-chip-group>
+          </v-card-title>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <v-card-title
+            >潜能:
+            <v-chip-group v-model="effect.key4" column multiple>
+              <v-chip filter>与该角色同色全体队友能力向上</v-chip>
+              <v-chip filter>与该角色同色全体队友物理能力向上</v-chip>
+              <v-chip filter>与该角色同色全体队友异能能力向上</v-chip>
+              <v-chip filter
+                >与该角色同色全体队友对克制属性角色物理防御力向上</v-chip
+              >
+              <v-chip filter
+                >与该角色同色全体队友对克制属性角色异能防御力向上</v-chip
+              >
+              <v-chip filter
+                >与该角色同色全体队友对克制属性角色物理攻击力向上</v-chip
+              >
+              <v-chip filter
+                >与该角色同色全体队友对克制属性角色异能攻击力向上</v-chip
+              >
+              <v-chip filter>物攻向上</v-chip>
+              <v-chip filter>物防向上</v-chip>
+              <v-chip filter>异攻向上</v-chip>
+              <v-chip filter>异防向上</v-chip>
+              <v-chip filter>器用向上</v-chip>
+              <v-chip filter>方向攻击强化</v-chip>
+              <v-chip filter>集中力向上</v-chip>
+              <v-chip filter>判断力向上</v-chip>
+              <v-chip filter>sp获得量向上</v-chip>
+              <v-chip filter>魔术连携力向上</v-chip>
+              <v-chip filter>科学连携力向上</v-chip>
+              <v-chip filter>术式解析</v-chip>
+              <v-chip filter>构造解析</v-chip>
+              <v-chip filter>科学支援</v-chip>
+              <v-chip filter>魔术支援</v-chip>
+            </v-chip-group>
+          </v-card-title>
+        </v-col>
+      </v-row>
     </v-container>
     <v-container>
       <v-card-title>
-        搜索
+        筛选结果中搜索
         <v-spacer></v-spacer>
         <v-text-field
           v-model="search"
@@ -137,6 +255,7 @@
         :items="card"
         :items-per-page="10"
         :search="search"
+        @click:row="handleClick"
         class="elevation-1"
       >
         <template v-slot:item.attributes="{ item }">
@@ -165,11 +284,17 @@ export default {
         attackMethod: "",
         attackDirection: [],
       },
-      obtain: ["通常", "期间限定", "幻想盛典限定", "活动"],
-      faction: ["科学侧", "魔法侧", "其他阵营", "科学侧 魔法侧"],
+      obtain: ["", "通常", "期间限定", "幻想盛典限定", "活动"],
+      faction: ["", "科学侧", "魔法侧", "其他阵营", "魔法侧 科学侧"],
       items: [],
       errors: [],
       select: [],
+      effect:{
+          key1:[],
+          key2:[],
+          key3:[],
+          key4:[],
+      },
       text: [],
       search: "",
       headers: [
@@ -235,13 +360,17 @@ export default {
       }
       return keys;
     },
+    handleClick(){
+
+    },
     searchData() {
       let keys = this.deleteEmptyKey(this.cardSearch);
       if (this.cardSearch.attackDirection.length > 0) {
         keys.attackDirection = "";
         for (let i = 0; i < this.cardSearch.attackDirection.length; i++) {
-          keys.attackDirection = +this.cardSearch.attackDirection[i];
+          keys.attackDirection += this.cardSearch.attackDirection[i];
         }
+        console.log(this.cardSearch.attackDirection, keys.attackDirection);
       }
       this.searchKeysValues(card, keys);
     },
