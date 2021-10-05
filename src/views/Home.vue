@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+  <infoDialog v-model="showInfoDialog" :inputCard="this.inputCard"></infoDialog>
     <v-container>
       <v-row>
         <v-col>
@@ -273,10 +274,13 @@
 
 <script>
 import card from "../assets/card";
+import infoDialog from "./infoDialog"
 export default {
   name: "Home",
   data() {
     return {
+      inputCard:{},
+      showInfoDialog:false,
       cardSearch: {
         obtain: "",
         faction: "",
@@ -310,19 +314,22 @@ export default {
         { text: "卡种", value: "class" },
         { text: "类型", value: "attackMethod" },
         { text: "方向", value: "attackDirection" },
-        // { text: "HP", value: "hp" },
-        // { text: "器用", value: "dexterity" },
-        // { text: "异攻", value: "physicalAttack" },
-        // { text: "物攻", value: "powerAttack" },
-        // { text: "异防", value: "physicalDefense" },
-        // { text: "物防", value: "powerDefense" },
-        { text: "入手", value: "obtain" },
-        { text: "技能", value: "skill1Effect" },
-        { text: "大招", value: "nirvanaEffect" },
-        { text: "潜在1", value: "potentialAbility1Effect" },
-        { text: "潜在2", value: "potentialAbility2Effect" },
+        { text: "HP", value: "hp" },
+        { text: "器用", value: "dexterity" },
+        { text: "异攻", value: "physicalAttack" },
+        { text: "物攻", value: "powerAttack" },
+        { text: "异防", value: "physicalDefense" },
+        { text: "物防", value: "powerDefense" },
+        // { text: "入手", value: "obtain" },
+        // { text: "技能", value: "skill1Effect" },
+        // { text: "大招", value: "nirvanaEffect" },
+        // { text: "潜在1", value: "potentialAbility1Effect" },
+        // { text: "潜在2", value: "potentialAbility2Effect" },
       ],
     };
+  },
+  components:{
+    infoDialog
   },
   created: function () {
     this.card = card;
@@ -360,9 +367,11 @@ export default {
       }
       return keys;
     },
-    handleClick(){
-
+    handleClick(value){
+      this.showInfoDialog=true;
+      this.inputCard=value;
     },
+    // 搜索
     searchData() {
       let keys = this.deleteEmptyKey(this.cardSearch);
       if (this.cardSearch.attackDirection.length > 0) {
