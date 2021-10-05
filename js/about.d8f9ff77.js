@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{f820:function(t,e,a){"use strict";a.r(e);var n=function(){var t=this,e=t.$createElement;t._self._c;return t._m(0)},r=[function(){var t=this,e=t.$createElement,a=t._self._c||e;return a("div",{staticClass:"about"},[a("h1",[t._v("目前仅为测试数据，需要有人帮忙整理。")]),a("h1",[t._v("请联系 "),a("a",{attrs:{href:"https://twitter.com/Skywalker_Ji"}},[t._v("@SkywalkerJi")])])])}],s=a("2877"),l={},c=Object(s["a"])(l,n,r,!1,null,null,null);e["default"]=c.exports}}]);
-//# sourceMappingURL=about.d8f9ff77.js.map
