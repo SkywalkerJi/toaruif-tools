@@ -1,2 +1,2 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{f820:function(t,e,a){"use strict";a.r(e);var r=function(){var t=this,e=t.$createElement;t._self._c;return t._m(0)},n=[function(){var t=this,e=t.$createElement,a=t._self._c||e;return a("div",{staticClass:"about"},[a("h1",[t._v("目前仅为测试数据，需要有人帮忙整理。")]),a("h1",[t._v("请联系 "),a("a",{attrs:{href:"https://twitter.com/Skywalker_Ji"}},[t._v("@SkywalkerJi")])]),a("h1",[t._v("反馈Q群 "),a("a",{attrs:{href:"https://jq.qq.com/?_wv=1027&k=1v2Y0f8y"}},[t._v("1077682402")])])])}],s=a("2877"),c={},l=Object(s["a"])(c,r,n,!1,null,null,null);e["default"]=l.exports}}]);
-//# sourceMappingURL=about.4117b374.js.map
+//# sourceMappingURL=about.4595a6df.js.map
