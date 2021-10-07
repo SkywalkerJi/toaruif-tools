@@ -9,7 +9,7 @@
               <v-col>
                 <v-text-field
                   dense
-                  v-model="inputCard.chinese"
+                  v-model="inputCard.nameCn"
                   label="卡名"
                   outlined
                   readonly
@@ -18,7 +18,7 @@
               <v-col>
                 <v-text-field
                   dense
-                  v-model="inputCard.attributes"
+                  v-model="inputCard.Chinese.attributes"
                   label="颜色"
                   outlined
                   readonly
@@ -29,7 +29,7 @@
               <v-col>
                 <v-textarea
                   dense
-                  v-model="inputCard.skill1Effect"
+                  v-model="inputCard.Chinese.skill1Effect"
                   label="技能"
                   outlined
                   readonly
@@ -41,7 +41,7 @@
               <v-col>
                 <v-textarea
                   dense
-                  v-model="inputCard.nirvanaEffect"
+                  v-model="inputCard.Chinese.nirvanaEffect"
                   label="大招"
                   outlined
                   readonly
@@ -53,7 +53,7 @@
               <v-col>
                 <v-textarea
                   dense
-                  v-model="inputCard.potentialAbility1Effect"
+                  v-model="inputCard.Chinese.potentialAbility1Effect"
                   label="潜在能力1"
                   outlined
                   readonly
@@ -65,7 +65,7 @@
               <v-col>
                 <v-textarea
                   dense
-                  v-model="inputCard.potentialAbility2Effect"
+                  v-model="inputCard.Chinese.potentialAbility2Effect"
                   label="潜在能力2"
                   outlined
                   readonly
@@ -77,7 +77,7 @@
               <v-col>
                 <v-text-field
                   dense
-                  v-model="inputCard.attackDirection"
+                  v-model="inputCard.Chinese.attackDirection"
                   label="方向"
                   outlined
                   readonly
@@ -86,7 +86,7 @@
               <v-col>
                 <v-text-field
                   dense
-                  v-model="inputCard.attackMethod"
+                  v-model="inputCard.Chinese.attackMethod"
                   label="类型"
                   outlined
                   readonly
@@ -97,7 +97,7 @@
               <v-col>
                 <v-text-field
                   dense
-                  v-model="inputCard.class"
+                  v-model="inputCard.Chinese.class"
                   label="卡种"
                   outlined
                   readonly
@@ -106,7 +106,7 @@
               <v-col>
                 <v-text-field
                   dense
-                  v-model="inputCard.faction"
+                  v-model="inputCard.Chinese.faction"
                   label="阵营"
                   outlined
                   readonly
@@ -117,7 +117,7 @@
               <v-col>
                 <v-text-field
                   dense
-                  v-model="inputCard.initialrarity"
+                  v-model="inputCard.Chinese.initialrarity"
                   label="星级"
                   outlined
                   readonly
@@ -126,7 +126,7 @@
               <v-col>
                 <v-text-field
                   dense
-                  v-model="inputCard.obtain"
+                  v-model="inputCard.Chinese.obtain"
                   label="入手"
                   outlined
                   readonly

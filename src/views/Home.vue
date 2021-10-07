@@ -1,6 +1,9 @@
 <template>
   <div class="home">
-  <infoDialog v-model="showInfoDialog" :inputCard="this.inputCard"></infoDialog>
+    <infoDialog
+      v-model="showInfoDialog"
+      :inputCard="this.inputCard"
+    ></infoDialog>
     <v-container>
       <v-row>
         <v-col>
@@ -13,6 +16,7 @@
               label="目前勿选，需要数据"
               data-vv-name="select"
               required
+              disabled
               @change="searchData"
             ></v-select> </v-card-title
         ></v-col>
@@ -124,7 +128,12 @@
         <v-col>
           <v-card-title
             >特殊状态效果:
-            <v-chip-group v-model="effect.key1" column multiple>
+            <v-chip-group
+              v-model="effect.key1"
+              column
+              multiple
+              @change="searchData"
+            >
               <v-chip filter>护盾</v-chip>
               <v-chip filter>贯穿</v-chip>
               <v-chip filter>不屈</v-chip>
@@ -259,13 +268,13 @@
         @click:row="handleClick"
         class="elevation-1"
       >
-        <template v-slot:item.attributes="{ item }">
-          <v-chip :color="getColor(item.attributes)" dark>
-            {{ item.attributes }}
+        <template v-slot:item.Chinese.attributes="{ item }">
+          <v-chip :color="getColor(item.Chinese.attributes)" dark>
+            {{ item.Chinese.attributes }}
           </v-chip>
         </template>
-        <template v-slot:item.obtain="{ item }">
-          {{ item.limited }}{{ item.obtain }}
+        <template v-slot:item.Chinese.obtain="{ item }">
+          {{ item.Chinese.limited }}{{ item.Chinese.obtain }}
         </template>
       </v-data-table>
     </v-container>
@@ -273,14 +282,15 @@
 </template>
 
 <script>
-import card from "../assets/card";
-import infoDialog from "./infoDialog"
+// import card from "../assets/card";
+import card from "../assets/data2.json";
+import infoDialog from "./infoDialog";
 export default {
   name: "Home",
   data() {
     return {
-      inputCard:{},
-      showInfoDialog:false,
+      inputCard: {},
+      showInfoDialog: false,
       cardSearch: {
         obtain: "",
         faction: "",
@@ -293,62 +303,72 @@ export default {
       items: [],
       errors: [],
       select: [],
-      effect:{
-          key1:[],
-          key2:[],
-          key3:[],
-          key4:[],
+      effect: {
+        key1: [],
+        key2: [],
+        key3: [],
+        key4: [],
       },
       text: [],
       search: "",
       headers: [
         {
-          text: "卡名",
+          text: "中文卡名",
           align: "start",
           sortable: false,
-          value: "chinese",
+          value: "nameCn",
         },
-        { text: "阵营", value: "faction" },
-        { text: "星级", value: "initialrarity" },
-        { text: "颜色", value: "attributes" },
-        { text: "卡种", value: "class" },
-        { text: "类型", value: "attackMethod" },
-        { text: "方向", value: "attackDirection" },
-        { text: "HP", value: "hp" },
-        { text: "器用", value: "dexterity" },
-        { text: "异攻", value: "physicalAttack" },
-        { text: "物攻", value: "powerAttack" },
-        { text: "异防", value: "physicalDefense" },
-        { text: "物防", value: "powerDefense" },
-        // { text: "入手", value: "obtain" },
-        // { text: "技能", value: "skill1Effect" },
-        // { text: "大招", value: "nirvanaEffect" },
-        // { text: "潜在1", value: "potentialAbility1Effect" },
-        // { text: "潜在2", value: "potentialAbility2Effect" },
+        { text: "原名", value: "nameJp" },
+        { text: "阵营", value: "Chinese.faction" },
+        { text: "星级", value: "Chinese.initialrarity" },
+        { text: "颜色", value: "Chinese.attributes" },
+        { text: "卡种", value: "Chinese.class" },
+        { text: "类型", value: "Chinese.attackMethod" },
+        { text: "方向", value: "Chinese.attackDirection" },
+        // { text: "HP", value: "hp" },
+        // { text: "器用", value: "dexterity" },
+        // { text: "异攻", value: "physicalAttack" },
+        // { text: "物攻", value: "powerAttack" },
+        // { text: "异防", value: "physicalDefense" },
+        // { text: "物防", value: "powerDefense" },
+        { text: "入手", value: "Chinese.obtain" },
+        // { text: "技能", value: "Chinese.skill1Effect" },
+        // { text: "大招", value: "Chinese.nirvanaEffect" },
+        // { text: "潜在1", value: "Chinese.potentialAbility1Effect" },
+        // { text: "潜在2", value: "Chinese.potentialAbility2Effect" },
       ],
     };
   },
-  components:{
-    infoDialog
+  components: {
+    infoDialog,
   },
   created: function () {
     this.card = card;
-    this.getColor("红");
   },
   methods: {
     getColor(attributes) {
       if (attributes == "红") return "red";
       else if (attributes == "蓝") return "blue";
-      else return "green";
+      else if (attributes == "绿") return "green";
+      else if (attributes == "紫") return "purple";
+      else if (attributes == "黄") return "yellow";
+      else return "gray";
+    },
+    // Check if array contains all elements of another array
+    checker (arr, target){
+      return(target.every(v => arr.includes(v)))
     },
     // 查询函数(被查询数组,关键词数组)
     searchKeysValues(lists, filters) {
       let resArr = [];
+      // console.log(filters)
       lists.filter((item) => {
         let flag = 1;
         for (let i in filters) {
-          if (!item[i].includes(filters[i])) {
-            flag = 0;
+          if (item.Chinese[i]) {
+            if (!item.Chinese[i].includes(filters[i])) {
+              flag = 0;
+            }
           }
         }
         if (flag === 1) {
@@ -367,9 +387,9 @@ export default {
       }
       return keys;
     },
-    handleClick(value){
-      this.showInfoDialog=true;
-      this.inputCard=value;
+    handleClick(value) {
+      this.showInfoDialog = true;
+      this.inputCard = value;
     },
     // 搜索
     searchData() {
