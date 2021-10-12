@@ -22,15 +22,6 @@
           </v-btn-toggle></v-col
         >
         <v-col>
-          <v-select
-            v-model="cardSearch.faction"
-            :items="faction"
-            label="阵营"
-            filled
-            @change="searchData"
-          ></v-select
-        ></v-col>
-        <v-col>
           <v-btn-toggle
             v-model="cardSearch.initialrarity"
             color="deep-purple accent-3"
@@ -62,7 +53,7 @@
             <v-btn value="红" color="red" class="red--text"> 红 </v-btn>
             <v-btn value="蓝" color="blue" class="blue--text"> 蓝 </v-btn>
             <v-btn value="绿" color="green" class="green--text"> 绿 </v-btn>
-            <v-btn value="黄" color="yellow" class="yellow--text"> 黄 </v-btn>
+            <v-btn value="黄" color="yellow" class="amber--text"> 黄 </v-btn>
             <v-btn value="紫" color="purple" class="purple--text"> 紫 </v-btn>
           </v-btn-toggle>
         </v-col>
@@ -102,6 +93,15 @@
             </v-btn>
           </v-btn-toggle>
         </v-col>
+        <v-col>
+          <v-select
+            v-model="cardSearch.faction"
+            :items="faction"
+            label="阵营"
+            filled
+            @change="searchData"
+          ></v-select
+        ></v-col>
         <v-col>
           <v-select
             v-model="cardSearch.obtain"

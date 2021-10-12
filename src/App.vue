@@ -3,8 +3,8 @@
     <v-navigation-drawer v-model="drawer" app>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="text-h6"> Toaru IF </v-list-item-title>
-          <v-list-item-subtitle> @SkywalkerJi </v-list-item-subtitle>
+          <v-list-item-title class="text-h6"> 幻想收束工具 </v-list-item-title>
+          <v-list-item-subtitle> <a href="https://twitter.com/Skywalker_Ji">@SkywalkerJi</a> </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
 
@@ -40,7 +40,7 @@
 
       <v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
 
-      <v-app-bar-title>卡片筛选
+      <v-app-bar-title>{{$route.name}}
       </v-app-bar-title>
 
       <v-spacer></v-spacer>
@@ -69,8 +69,10 @@ export default {
   data: () => ({
     drawer: null,
     items: [
-      { title: "Card", icon: "mdi-chemical-weapon", to: "/" },
-      { title: "About", icon: "mdi-help-box", to: "/about" },
+      { title: "卡片筛选", icon: "mdi-card-search-outline", to: "/" },
+      { title: "效果帮助", icon: "mdi-help-box", to: "/help" },
+      { title: "参与汉化", icon: "mdi-translate", to: "/paratranz" },
+      { title: "关于", icon: "mdi-information-variant", to: "/about" },
     ],
     right: null,
   }),

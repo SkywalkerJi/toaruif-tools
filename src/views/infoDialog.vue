@@ -38,7 +38,19 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col>
+              <v-col v-if="inputCard.Chinese.skill2Effect">
+                <v-textarea
+                  dense
+                  v-model="inputCard.Chinese.skill2Effect"
+                  label="技能2"
+                  outlined
+                  readonly
+                  rows="2"
+                ></v-textarea>
+              </v-col>
+            </v-row>
+            <v-row>
+              <v-col v-if="inputCard.Chinese.class=='BATTTLE'">
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.nirvanaEffect"
@@ -74,7 +86,7 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col>
+              <v-col  v-if="inputCard.Chinese.class=='BATTTLE'">
                 <v-text-field
                   dense
                   v-model="inputCard.Chinese.attackDirection"
