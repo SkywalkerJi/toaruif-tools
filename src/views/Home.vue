@@ -430,6 +430,12 @@ export default {
       let res = lists.filter((item) => {
         item.Chinese[key] = item.Chinese.skill1Search.concat(
           item.Chinese.skill2Search
+        ).concat(
+          item.Chinese.nirvanaSearch
+        ).concat(
+          item.Chinese.potentialSearch1
+        ).concat(
+          item.Chinese.potentialSearch2
         );
         let res1 = valueArr.every((x) => {
           return item.Chinese[key].includes(x);
