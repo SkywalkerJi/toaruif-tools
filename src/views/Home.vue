@@ -37,20 +37,13 @@
             ></v-select> </v-card-title
         ></v-col> -->
         <v-col>
-          <v-card-title
-            >阵营:
             <v-select
               v-model="cardSearch.faction"
               :items="faction"
-              :error-messages="errors"
-              label="可选择"
-              data-vv-name="select"
-              required
+              label="阵营"
+              filled
               @change="searchData"
-            ></v-select></v-card-title
-        ></v-col>
-      </v-row>
-      <v-row>
+            ></v-select></v-col>
         <v-col>
           <v-card-title
             >初始星级:
@@ -84,8 +77,6 @@
             </v-btn-toggle>
           </v-card-title>
         </v-col>
-      </v-row>
-      <v-row>
         <v-col>
           <v-card-title
             >攻击类型:
@@ -225,7 +216,7 @@
       <v-data-table
         :headers="headers"
         :items="card"
-        :items-per-page="10"
+        :items-per-page="20"
         :search="search"
         @click:row="handleClick"
         class="elevation-1"
