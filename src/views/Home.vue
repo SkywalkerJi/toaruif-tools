@@ -8,6 +8,22 @@
       <v-row>
         <v-col>
           <v-card-title
+            >卡种:
+            <v-btn-toggle
+              v-model="cardSearch.class"
+              tile
+              @change="searchData"
+              color="deep-purple accent-3"
+              group
+            >
+              <v-btn value="BATTLE"> BATTLE </v-btn>
+
+              <v-btn value="ASSIST"> ASSIST </v-btn>
+            </v-btn-toggle>
+          </v-card-title></v-col
+        >
+        <!-- <v-col>
+          <v-card-title
             >入手途径:
             <v-select
               v-model="cardSearch.obtain"
@@ -19,7 +35,7 @@
               disabled
               @change="searchData"
             ></v-select> </v-card-title
-        ></v-col>
+        ></v-col> -->
         <v-col>
           <v-card-title
             >阵营:
@@ -81,7 +97,6 @@
               group
             >
               <v-btn value="异能攻击"> 异能攻击 </v-btn>
-
               <v-btn value="物理攻击"> 物理攻击 </v-btn>
             </v-btn-toggle>
           </v-card-title></v-col
@@ -109,24 +124,6 @@
       <v-row>
         <v-col>
           <v-card-title
-            >卡种:
-            <v-btn-toggle
-              v-model="cardSearch.class"
-              tile
-              @change="searchData"
-              color="deep-purple accent-3"
-              group
-            >
-              <v-btn value="BATTLE"> BATTLE </v-btn>
-
-              <v-btn value="ASSIST"> ASSIST </v-btn>
-            </v-btn-toggle>
-          </v-card-title></v-col
-        >
-      </v-row>
-      <v-row>
-        <v-col>
-          <v-card-title
             >特殊状态效果:
             <v-chip-group
               v-model="effect.key1"
@@ -134,32 +131,14 @@
               multiple
               @change="searchData"
             >
-              <v-chip filter>护盾</v-chip>
-              <v-chip filter>贯穿</v-chip>
-              <v-chip filter>不屈</v-chip>
-              <v-chip filter>HP恢复妨碍</v-chip>
-              <v-chip filter>强化解除耐性</v-chip>
-              <v-chip filter>弱化状态耐性</v-chip>
-              <v-chip filter>弱化解除耐性</v-chip>
-              <v-chip filter>技能封印</v-chip>
-              <v-chip filter>必杀技封印</v-chip>
-              <v-chip filter>必杀技封印耐性</v-chip>
-              <v-chip filter>辅助封印</v-chip>
-              <v-chip filter>辅助封印耐性</v-chip>
-              <v-chip filter>强化妨碍</v-chip>
-              <v-chip filter>攻击力提升妨碍</v-chip>
-              <v-chip filter>移动不能</v-chip>
-              <v-chip filter>气绝</v-chip>
-              <v-chip filter>感电</v-chip>
-              <v-chip filter>天罚</v-chip>
-              <v-chip filter>集中状态</v-chip>
-              <v-chip filter>持续被害</v-chip>
-              <v-chip filter>出血</v-chip>
-              <v-chip filter>制御不能</v-chip>
-              <v-chip filter>矢量操作</v-chip>
-              <v-chip filter>强制咏唱待机</v-chip>
-              <v-chip filter>外部供奉</v-chip>
-              <v-chip filter>攻击方向</v-chip>
+              <v-chip
+                filter
+                v-for="(tag, index) in specialState"
+                :key="index"
+                :value="tag"
+              >
+                {{ tag }}
+              </v-chip>
             </v-chip-group>
           </v-card-title>
         </v-col>
@@ -168,18 +147,20 @@
         <v-col>
           <v-card-title
             >数值变化效果:
-            <v-chip-group v-model="effect.key2" column multiple>
-              <v-chip filter>暴击必中</v-chip>
-              <v-chip filter>物理攻击力</v-chip>
-              <v-chip filter>异能攻击力</v-chip>
-              <v-chip filter>物理防御力</v-chip>
-              <v-chip filter>异能防御力</v-chip>
-              <v-chip filter>暴击发生率</v-chip>
-              <v-chip filter>暴击回避率</v-chip>
-              <v-chip filter>暴击威力</v-chip>
-              <v-chip filter>威力上升</v-chip>
-              <v-chip filter>伤害减轻</v-chip>
-              <v-chip filter>属性伤害耐性</v-chip>
+            <v-chip-group
+              v-model="effect.key2"
+              column
+              multiple
+              @change="searchData"
+            >
+              <v-chip
+                filter
+                v-for="(tag, index) in numChange"
+                :key="index"
+                :value="tag"
+              >
+                {{ tag }}
+              </v-chip>
             </v-chip-group>
           </v-card-title>
         </v-col>
@@ -188,22 +169,20 @@
         <v-col>
           <v-card-title
             >其他技能效果:
-            <v-chip-group v-model="effect.key3" column multiple>
-              <v-chip filter>强化状态解除</v-chip>
-              <v-chip filter>强化buff解除</v-chip>
-              <v-chip filter>防御力解除</v-chip>
-              <v-chip filter>特殊状态解除</v-chip>
-              <v-chip filter>弱体化状态解除</v-chip>
-              <v-chip filter>攻击下降状态解除</v-chip>
-              <v-chip filter>造成伤害无效化的特殊状态无视</v-chip>
-              <v-chip filter>sp获得量</v-chip>
-              <v-chip filter>sp</v-chip>
-              <v-chip filter>这次攻击更容易发生暴击</v-chip>
-              <v-chip filter>这次攻击必定发生暴击</v-chip>
-              <v-chip filter>必杀技冷却时间</v-chip>
-              <v-chip filter>技能冷却时间</v-chip>
-              <v-chip filter>hp</v-chip>
-              <v-chip filter>物理防御力当做物理攻击力</v-chip>
+            <v-chip-group
+              v-model="effect.key3"
+              column
+              multiple
+              @change="searchData"
+            >
+              <v-chip
+                filter
+                v-for="(tag, index) in otherEffects"
+                :key="index"
+                :value="tag"
+              >
+                {{ tag }}
+              </v-chip>
             </v-chip-group>
           </v-card-title>
         </v-col>
@@ -212,37 +191,20 @@
         <v-col>
           <v-card-title
             >潜能:
-            <v-chip-group v-model="effect.key4" column multiple>
-              <v-chip filter>与该角色同色全体队友能力向上</v-chip>
-              <v-chip filter>与该角色同色全体队友物理能力向上</v-chip>
-              <v-chip filter>与该角色同色全体队友异能能力向上</v-chip>
-              <v-chip filter
-                >与该角色同色全体队友对克制属性角色物理防御力向上</v-chip
+            <v-chip-group
+              v-model="effect.key4"
+              column
+              multiple
+              @change="searchData"
+            >
+              <v-chip
+                filter
+                v-for="(tag, index) in potentialTags"
+                :key="index"
+                :value="tag"
               >
-              <v-chip filter
-                >与该角色同色全体队友对克制属性角色异能防御力向上</v-chip
-              >
-              <v-chip filter
-                >与该角色同色全体队友对克制属性角色物理攻击力向上</v-chip
-              >
-              <v-chip filter
-                >与该角色同色全体队友对克制属性角色异能攻击力向上</v-chip
-              >
-              <v-chip filter>物攻向上</v-chip>
-              <v-chip filter>物防向上</v-chip>
-              <v-chip filter>异攻向上</v-chip>
-              <v-chip filter>异防向上</v-chip>
-              <v-chip filter>器用向上</v-chip>
-              <v-chip filter>方向攻击强化</v-chip>
-              <v-chip filter>集中力向上</v-chip>
-              <v-chip filter>判断力向上</v-chip>
-              <v-chip filter>sp获得量向上</v-chip>
-              <v-chip filter>魔术连携力向上</v-chip>
-              <v-chip filter>科学连携力向上</v-chip>
-              <v-chip filter>术式解析</v-chip>
-              <v-chip filter>构造解析</v-chip>
-              <v-chip filter>科学支援</v-chip>
-              <v-chip filter>魔术支援</v-chip>
+                {{ tag }}
+              </v-chip>
             </v-chip-group>
           </v-card-title>
         </v-col>
@@ -283,7 +245,7 @@
 
 <script>
 // import card from "../assets/card";
-import card from "../assets/data2.json";
+import card from "../assets/data.json";
 import infoDialog from "./infoDialog";
 export default {
   name: "Home",
@@ -309,15 +271,98 @@ export default {
         key3: [],
         key4: [],
       },
+      specialState: [
+        "护盾",
+        "贯穿",
+        "不屈",
+        "HP恢复妨碍",
+        "强化解除耐性",
+        "弱化状态耐性",
+        "弱化解除耐性",
+        "技能封印",
+        "必杀技封印",
+        "必杀技封印耐性",
+        "辅助封印",
+        "辅助封印耐性",
+        "强化妨碍",
+        "攻击力提升妨碍",
+        "移动不能",
+        "气绝",
+        "感电",
+        "天罚",
+        "集中状态",
+        "持续被害",
+        "出血",
+        "制御不能",
+        "矢量操作",
+        "强制咏唱待机",
+        "外部供奉",
+        "攻击方向",
+      ],
+      numChange: [
+        "暴击必中",
+        "物理攻击力",
+        "异能攻击力",
+        "物理防御力",
+        "异能防御力",
+        "暴击发生率",
+        "暴击回避率",
+        "暴击威力",
+        "威力上升",
+        "伤害减轻",
+        "属性伤害耐性",
+      ],
+      otherEffects: [
+        "强化状态解除",
+        "强化buff解除",
+        "防御力解除",
+        "特殊状态解除",
+        "弱体化状态解除",
+        "弱体化状态回复",
+        "攻击下降状态解除",
+        "造成伤害无效化的特殊状态无视",
+        "sp获得量",
+        "sp",
+        "这次攻击更容易发生暴击",
+        "这次攻击必定发生暴击",
+        "必杀技冷却时间",
+        "技能冷却时间",
+        "hp",
+        "物理防御力当做物理攻击力",
+      ],
+      potentialTags: [
+        "与该角色同色全体队友能力向上",
+        "与该角色同色全体队友物理能力向上",
+        "与该角色同色全体队友异能能力向上",
+        "与该角色同色全体队友对克制属性角色物理防御力向上",
+        "与该角色同色全体队友对克制属性角色异能防御力向上",
+        "与该角色同色全体队友对克制属性角色物理攻击力向上",
+        "与该角色同色全体队友对克制属性角色异能攻击力向上",
+        "物攻向上",
+        "物防向上",
+        "异攻向上",
+        "异防向上",
+        "器用向上",
+        "方向攻击强化",
+        "集中力向上",
+        "判断力向上",
+        "sp获得量向上",
+        "魔术连携力向上",
+        "科学连携力向上",
+        "术式解析",
+        "构造解析",
+        "科学支援",
+        "魔术支援",
+      ],
       text: [],
       search: "",
       headers: [
-        {
-          text: "中文卡名",
-          align: "start",
-          sortable: false,
-          value: "nameCn",
-        },
+        // {
+        //   text: "中文卡名",
+        //   align: "start",
+        //   sortable: false,
+        //   value: "nameCn",
+        // },
         { text: "原名", value: "nameJp" },
         { text: "阵营", value: "Chinese.faction" },
         { text: "星级", value: "Chinese.initialrarity" },
@@ -325,13 +370,13 @@ export default {
         { text: "卡种", value: "Chinese.class" },
         { text: "类型", value: "Chinese.attackMethod" },
         { text: "方向", value: "Chinese.attackDirection" },
-        // { text: "HP", value: "hp" },
-        // { text: "器用", value: "dexterity" },
-        // { text: "异攻", value: "physicalAttack" },
-        // { text: "物攻", value: "powerAttack" },
-        // { text: "异防", value: "physicalDefense" },
-        // { text: "物防", value: "powerDefense" },
-        { text: "入手", value: "Chinese.obtain" },
+        { text: "HP", value: "Japanese.hp" },
+        { text: "器用", value: "Japanese.dexterity" },
+        { text: "异攻", value: "Japanese.physicalAttack" },
+        { text: "物攻", value: "Japanese.powerAttack" },
+        { text: "异防", value: "Japanese.physicalDefense" },
+        { text: "物防", value: "Japanese.powerDefense" },
+        // { text: "入手", value: "Chinese.obtain" },
         // { text: "技能", value: "Chinese.skill1Effect" },
         // { text: "大招", value: "Chinese.nirvanaEffect" },
         // { text: "潜在1", value: "Chinese.potentialAbility1Effect" },
@@ -355,28 +400,45 @@ export default {
       else return "gray";
     },
     // Check if array contains all elements of another array
-    checker (arr, target){
-      return(target.every(v => arr.includes(v)))
+    checker(arr, target) {
+      return target.every((v) => arr.includes(v));
     },
     // 查询函数(被查询数组,关键词数组)
+    // TODO
     searchKeysValues(lists, filters) {
-      let resArr = [];
-      // console.log(filters)
-      lists.filter((item) => {
-        let flag = 1;
-        for (let i in filters) {
-          if (item.Chinese[i]) {
-            if (!item.Chinese[i].includes(filters[i])) {
-              flag = 0;
-            }
-          }
-        }
-        if (flag === 1) {
-          resArr.push(item);
-        }
-      });
-      this.card = resArr;
+      let key = Object.keys(filters);
+      if (key.length == 0) {
+        return card;
+      }
+      let resArr = lists;
+      if(filters.effect){
+        resArr = this.searchSkillValues(resArr, "effect", filters.effect);
+      }
+      delete filters.effect;
+      key = Object.keys(filters);
+      if (key.length > 0) {
+        resArr = resArr.filter((item) =>
+          key.every((k) => item.Chinese[k] == filters[k])
+        );
+      }
+      console.log(resArr);
+      return resArr;
     },
+    // 查询效果(被查询数组,obj属性,关键词数组)
+    searchSkillValues(lists, key, valueArr) {
+      console.log(lists, key, valueArr);
+      let res = lists.filter((item) => {
+        item.Chinese[key] = item.Chinese.skill1Search.concat(
+          item.Chinese.skill2Search
+        );
+        let res1 = valueArr.every((x) => {
+          return item.Chinese[key].includes(x);
+        });
+        return res1;
+      });
+      return res;
+    },
+
     // 筛选非空关键词
     deleteEmptyKey(obj) {
       let keys = {};
@@ -393,14 +455,23 @@ export default {
     },
     // 搜索
     searchData() {
-      let keys = this.deleteEmptyKey(this.cardSearch);
-      if (this.cardSearch.attackDirection.length > 0) {
-        keys.attackDirection = "";
-        for (let i = 0; i < this.cardSearch.attackDirection.length; i++) {
-          keys.attackDirection += this.cardSearch.attackDirection[i];
-        }
-      }
-      this.searchKeysValues(card, keys);
+      let keys = {
+        attackDirection: this.cardSearch.attackDirection,
+        effect: [],
+        attributes: this.cardSearch.attributes,
+        class: this.cardSearch.class,
+        faction: this.cardSearch.faction,
+        attackMethod: this.cardSearch.attackMethod,
+        initialrarity: this.cardSearch.initialrarity,
+        obtain: this.cardSearch.obtain,
+      };
+      keys.effect = this.effect.key1
+        .concat(this.effect.key2)
+        .concat(this.effect.key3)
+        .concat(this.effect.key4);
+      keys = this.deleteEmptyKey(keys);
+      console.log(keys);
+      this.card = this.searchKeysValues(card, keys);
     },
   },
 };
