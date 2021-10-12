@@ -40,7 +40,7 @@
 
       <v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
 
-      <v-app-bar-title>卡片搜索
+      <v-app-bar-title>卡片筛选
       </v-app-bar-title>
 
       <v-spacer></v-spacer>

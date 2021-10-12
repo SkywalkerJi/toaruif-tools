@@ -124,9 +124,9 @@
       <v-row>
         <v-col>
           <v-card-title
-            >特殊状态效果:
+            >技能&大招效果:
             <v-chip-group
-              v-model="effect.key1"
+              v-model="effect.specialState"
               column
               multiple
               @change="searchData"
@@ -143,7 +143,7 @@
           </v-card-title>
         </v-col>
       </v-row>
-      <v-row>
+      <!-- <v-row>
         <v-col>
           <v-card-title
             >数值变化效果:
@@ -186,13 +186,13 @@
             </v-chip-group>
           </v-card-title>
         </v-col>
-      </v-row>
+      </v-row> -->
       <v-row>
         <v-col>
           <v-card-title
-            >潜能:
+            >潜能效果:
             <v-chip-group
-              v-model="effect.key4"
+              v-model="effect.potentialTags"
               column
               multiple
               @change="searchData"
@@ -266,10 +266,8 @@ export default {
       errors: [],
       select: [],
       effect: {
-        key1: [],
-        key2: [],
-        key3: [],
-        key4: [],
+        specialState: [],
+        potentialTags: [],
       },
       specialState: [
         "护盾",
@@ -278,7 +276,6 @@ export default {
         "HP恢复妨碍",
         "强化解除耐性",
         "弱化状态耐性",
-        "弱化解除耐性",
         "技能封印",
         "必杀技封印",
         "必杀技封印耐性",
@@ -289,6 +286,7 @@ export default {
         "移动不能",
         "气绝",
         "感电",
+        "感电耐性",
         "天罚",
         "集中状态",
         "持续被害",
@@ -297,39 +295,50 @@ export default {
         "矢量操作",
         "强制咏唱待机",
         "外部供奉",
-        "攻击方向",
-      ],
-      numChange: [
+        "攻击方向增加",
+        "攻击方向减少",
         "暴击必中",
-        "物理攻击力",
-        "异能攻击力",
-        "物理防御力",
-        "异能防御力",
-        "暴击发生率",
-        "暴击回避率",
-        "暴击威力",
-        "威力上升",
-        "伤害减轻",
-        "属性伤害耐性",
-      ],
-      otherEffects: [
+        "物攻增加",
+        "物攻降低",
+        "异攻增加",
+        "异攻降低",
+        "物防增加",
+        "物防降低",
+        "异防增加",
+        "异防降低",
+        "暴击发生率增加",
+        "暴击发生率降低",
+        "暴击回避率增加",
+        "暴击发生率降低",
+        "暴击威力增加",
+        "暴击威力降低",
+        "物理伤害减轻",
+        "异能伤害减轻",
+        "属性伤害减轻",
+        "属性耐性降低",
         "强化状态解除",
-        "强化buff解除",
-        "防御力解除",
+        "数值强化解除",
         "特殊状态解除",
-        "弱体化状态解除",
-        "弱体化状态回复",
-        "攻击下降状态解除",
-        "造成伤害无效化的特殊状态无视",
-        "sp获得量",
-        "sp",
-        "这次攻击更容易发生暴击",
-        "这次攻击必定发生暴击",
-        "必杀技冷却时间",
+        "攻击强化解除",
+        "防御强化解除",
+        "弱化状态解除",
+        "弱体化解除妨害",
+        "数值弱化解除",
+        "状态异常解除",
+        "攻击弱化解除",
+        "防御弱化解除",
+        "SP获得量增加",
+        "SP获得量降低",
+        "SP增加",
+        "SP减少",
         "技能冷却时间",
-        "hp",
-        "物理防御力当做物理攻击力",
+        "必杀技冷却时间",
+        "行动槽减少",
+        "HP回复",
+        "HP减少",
       ],
+      numChange: [],
+      otherEffects: [],
       potentialTags: [
         "与该角色同色全体队友能力向上",
         "与该角色同色全体队友物理能力向上",
@@ -342,11 +351,12 @@ export default {
         "物防向上",
         "异攻向上",
         "异防向上",
+        "HP向上",
         "器用向上",
         "方向攻击强化",
         "集中力向上",
         "判断力向上",
-        "sp获得量向上",
+        "SP获得量向上",
         "魔术连携力向上",
         "科学连携力向上",
         "术式解析",
@@ -357,12 +367,12 @@ export default {
       text: [],
       search: "",
       headers: [
-        // {
-        //   text: "中文卡名",
-        //   align: "start",
-        //   sortable: false,
-        //   value: "nameCn",
-        // },
+        {
+          text: "中文卡名",
+          align: "start",
+          sortable: false,
+          value: "nameCn",
+        },
         { text: "原名", value: "nameJp" },
         { text: "阵营", value: "Chinese.faction" },
         { text: "星级", value: "Chinese.initialrarity" },
@@ -411,32 +421,42 @@ export default {
         return card;
       }
       let resArr = lists;
-      if(filters.effect){
-        resArr = this.searchSkillValues(resArr, "effect", filters.effect);
+      if (filters.specialState) {
+        resArr = this.searchSkillValues(
+          resArr,
+          "specialState",
+          filters.specialState
+        );
       }
-      delete filters.effect;
+      if (filters.potentialTags) {
+        resArr = this.searchSkillValues(
+          resArr,
+          "potentialTags",
+          filters.potentialTags
+        );
+      }
+      delete filters.specialState;
+      delete filters.potentialTags;
       key = Object.keys(filters);
       if (key.length > 0) {
         resArr = resArr.filter((item) =>
           key.every((k) => item.Chinese[k] == filters[k])
         );
       }
-      console.log(resArr);
       return resArr;
     },
     // 查询效果(被查询数组,obj属性,关键词数组)
     searchSkillValues(lists, key, valueArr) {
-      console.log(lists, key, valueArr);
       let res = lists.filter((item) => {
-        item.Chinese[key] = item.Chinese.skill1Search.concat(
-          item.Chinese.skill2Search
-        ).concat(
-          item.Chinese.nirvanaSearch
-        ).concat(
-          item.Chinese.potentialSearch1
-        ).concat(
-          item.Chinese.potentialSearch2
-        );
+        if (key == "specialState") {
+          item.Chinese[key] = item.Chinese.skill1Search
+            .concat(item.Chinese.skill2Search)
+            .concat(item.Chinese.nirvanaSearch);
+        } else if (key == "potentialTags") {
+          item.Chinese[key] = item.Chinese.potentialSearch1.concat(
+            item.Chinese.potentialSearch2
+          );
+        }
         let res1 = valueArr.every((x) => {
           return item.Chinese[key].includes(x);
         });
@@ -470,13 +490,10 @@ export default {
         attackMethod: this.cardSearch.attackMethod,
         initialrarity: this.cardSearch.initialrarity,
         obtain: this.cardSearch.obtain,
+        specialState: this.effect.specialState,
+        potentialTags: this.effect.potentialTags,
       };
-      keys.effect = this.effect.key1
-        .concat(this.effect.key2)
-        .concat(this.effect.key3)
-        .concat(this.effect.key4);
       keys = this.deleteEmptyKey(keys);
-      console.log(keys);
       this.card = this.searchKeysValues(card, keys);
     },
   },
