@@ -113,7 +113,8 @@
             "potentialAbility2": "魔術連携力向上＋異攻向上",
             "potentialAbility2Effect": "魔術サイドを含む連携攻撃時の攻撃力アップ＋バトル開始時に自分の異能攻撃力を中アップさせる",
             "skill1Search": [
-                "異攻アップ"
+                "異攻アップ",
+                "SP上昇"
             ],
             "skill2Search": [],
             "nirvanaSearch": [],
@@ -159,7 +160,8 @@
             "potentialAbility2": "魔法连携力向上+异攻向上",
             "potentialAbility2Effect": "包含魔法侧角色连携攻击时攻击力增加+战斗开始时自己的异能攻击力中量增加。",
             "skill1Search": [
-                "异攻增加"
+                "异攻增加",
+                "SP增加"
             ],
             "skill2Search": [],
             "nirvanaSearch": [],
@@ -405,7 +407,8 @@
             "potentialAbility2": "科学連携力向上＋物攻向上",
             "potentialAbility2Effect": "科学サイドを含む連携攻撃時の攻撃力をアップ＋バトル開始時に自分の物理攻撃力を中アップさせる",
             "skill1Search": [
-                "物防アップ"
+                "物防アップ",
+                "SP上昇"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -454,7 +457,8 @@
             "potentialAbility2": "科学连携力向上+物攻向上",
             "potentialAbility2Effect": "包含科学侧角色连携攻击时攻击力增加，战斗开始时自己的物理攻击力中量增加。",
             "skill1Search": [
-                "物防增加"
+                "物防增加",
+                "SP增加"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -8753,6 +8757,7 @@
             "potentialAbility2": "HP向上（中）",
             "potentialAbility2Effect": "バトル開始時に自分の最大HPを中アップさせる",
             "skill1Search": [
+                "感電耐性",
                 "異防アップ"
             ],
             "skill2Search": [],
@@ -8798,6 +8803,7 @@
             "potentialAbility2": "HP向上（中）",
             "potentialAbility2Effect": "战斗开始时自己的最大HP中量增加。",
             "skill1Search": [
+                "感电耐性",
                 "异防增加"
             ],
             "skill2Search": [],
@@ -16721,7 +16727,8 @@
             "potentialAbility2": "構造解析（小）＋HP向上",
             "potentialAbility2Effect": "科学サイドへ攻撃した際の威力を小アップ＋バトル開始時に自分の最大HPを中アップさせる",
             "skill1Search": [
-                "異防アップ"
+                "異防アップ",
+                "SP上昇"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -16770,7 +16777,8 @@
             "potentialAbility2": "构造解析（小）+HP向上",
             "potentialAbility2Effect": "攻击科学侧敌人时威力少量增加，战斗开始时自己的最大HP中量增加。",
             "skill1Search": [
-                "异防增加"
+                "异防增加",
+                "SP增加"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -21104,7 +21112,8 @@
             "potentialAbility2Effect": "バトル開始時に自分のクリティカル回避率を小アップ＋最大HPを中アップさせる",
             "skill1Search": [
                 "物防アップ",
-                "異防アップ"
+                "異防アップ",
+                "SP上昇"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -21155,7 +21164,8 @@
             "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，最大HP中量增加。",
             "skill1Search": [
                 "物防增加",
-                "异防增加"
+                "异防增加",
+                "SP增加"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -24437,7 +24447,8 @@
             "potentialAbility2": "前方攻撃強化＋物攻向上",
             "potentialAbility2Effect": "自身の前方向への攻撃力をアップ＋バトル開始時に自分の物理攻撃力を中アップさせる",
             "skill1Search": [
-                "物防ダウン"
+                "物防ダウン",
+                "弱体化解除妨害"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -24486,7 +24497,8 @@
             "potentialAbility2": "前方攻击强化+物攻向上",
             "potentialAbility2Effect": "自己对前方向的攻击力增加，战斗开始时自己的物理攻击力中量增加。",
             "skill1Search": [
-                "物防降低"
+                "物防降低",
+                "弱体化解除妨害"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -30407,7 +30419,8 @@
             ],
             "skill2Search": [],
             "nirvanaSearch": [
-                "異攻ダウン"
+                "異攻ダウン",
+                "弱体化解除妨害"
             ],
             "potentialSearch1": [
                 "器用向上"
@@ -30445,7 +30458,8 @@
             ],
             "skill2Search": [],
             "nirvanaSearch": [
-                "异攻降低"
+                "异攻降低",
+                "弱体化解除妨害"
             ],
             "potentialSearch1": [
                 "器用向上"
@@ -30821,7 +30835,8 @@
             "potentialAbility2": "集中力向上＋HP向上",
             "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋最大HPを中アップさせる",
             "skill1Search": [
-                "異防ダウン"
+                "異防ダウン",
+                "弱体化解除妨害"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -30859,7 +30874,8 @@
         },
         "Chinese": {
             "skill1Search": [
-                "异防降低"
+                "异防降低",
+                "弱体化解除妨害"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -30890,6 +30906,7 @@
             "potentialAbility2": "紫バトル異能能力向上（大）＋紫バトル対黄異攻向上（大）",
             "potentialAbility2Effect": "バトル開始時に紫属性バトルキャラ全員の異能攻撃力、異能防御力を大アップさせ、更に黄属性への攻撃に対して異能攻撃力を大アップさせる",
             "skill1Search": [
+                "感電耐性",
                 "異攻アップ",
                 "物防アップ",
                 "異防アップ",
@@ -30932,6 +30949,7 @@
         },
         "Chinese": {
             "skill1Search": [
+                "感电耐性",
                 "异攻增加",
                 "物防增加",
                 "异防增加",
@@ -33488,7 +33506,8 @@
             "potentialAbility2Effect": "自身の右方向への攻撃力をアップ＋バトル開始時に自分の異能攻撃力を中アップさせる",
             "skill1Search": [
                 "クリティカル必中",
-                "異攻アップ"
+                "異攻アップ",
+                "SP上昇"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -33527,7 +33546,8 @@
         "Chinese": {
             "skill1Search": [
                 "暴击必中",
-                "异攻增加"
+                "异攻增加",
+                "SP增加"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
