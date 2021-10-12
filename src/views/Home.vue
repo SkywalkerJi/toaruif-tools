@@ -113,7 +113,7 @@
           ></v-select
         ></v-col>
       </v-row>
-      <v-card-title>技能&大招效果: </v-card-title>
+      <v-card-title>技能&必杀技效果: </v-card-title>
       <v-row>
         <v-col>
           <v-chip-group
@@ -133,50 +133,6 @@
           </v-chip-group>
         </v-col>
       </v-row>
-      <!-- <v-row>
-        <v-col>
-          <v-card-title
-            >数值变化效果:
-            <v-chip-group
-              v-model="effect.key2"
-              column
-              multiple
-              @change="searchData"
-            >
-              <v-chip
-                filter
-                v-for="(tag, index) in numChange"
-                :key="index"
-                :value="tag"
-              >
-                {{ tag }}
-              </v-chip>
-            </v-chip-group>
-          </v-card-title>
-        </v-col>
-      </v-row>
-      <v-row>
-        <v-col>
-          <v-card-title
-            >其他技能效果:
-            <v-chip-group
-              v-model="effect.key3"
-              column
-              multiple
-              @change="searchData"
-            >
-              <v-chip
-                filter
-                v-for="(tag, index) in otherEffects"
-                :key="index"
-                :value="tag"
-              >
-                {{ tag }}
-              </v-chip>
-            </v-chip-group>
-          </v-card-title>
-        </v-col>
-      </v-row> -->
       <v-card-title>潜能效果: </v-card-title>
       <v-row>
         <v-col>
@@ -232,7 +188,6 @@
 </template>
 
 <script>
-// import card from "../assets/card";
 import card from "../assets/data.json";
 import infoDialog from "./infoDialog";
 export default {
@@ -325,8 +280,6 @@ export default {
         "HP回复",
         "HP减少",
       ],
-      numChange: [],
-      otherEffects: [],
       potentialTags: [
         "与该角色同色全体队友能力向上",
         "与该角色同色全体队友物理能力向上",
@@ -376,7 +329,7 @@ export default {
         { text: "物防", value: "Japanese.powerDefense" },
         // { text: "入手", value: "Chinese.obtain" },
         // { text: "技能", value: "Chinese.skill1Effect" },
-        // { text: "大招", value: "Chinese.nirvanaEffect" },
+        // { text: "必杀技", value: "Chinese.nirvanaEffect" },
         // { text: "潜在1", value: "Chinese.potentialAbility1Effect" },
         // { text: "潜在2", value: "Chinese.potentialAbility2Effect" },
       ],
