@@ -5,133 +5,132 @@
       :inputCard="this.inputCard"
     ></infoDialog>
     <v-container>
+      <v-card-title>基础筛选: </v-card-title>
       <v-row>
         <v-col>
-          <v-card-title
-            >卡种:
-            <v-btn-toggle
-              v-model="cardSearch.class"
-              tile
-              @change="searchData"
-              color="deep-purple accent-3"
-              group
-            >
-              <v-btn value="BATTLE"> BATTLE </v-btn>
-
-              <v-btn value="ASSIST"> ASSIST </v-btn>
-            </v-btn-toggle>
-          </v-card-title></v-col
-        >
-        <!-- <v-col>
-          <v-card-title
-            >入手途径:
-            <v-select
-              v-model="cardSearch.obtain"
-              :items="obtain"
-              :error-messages="errors"
-              label="目前勿选，需要数据"
-              data-vv-name="select"
-              required
-              disabled
-              @change="searchData"
-            ></v-select> </v-card-title
-        ></v-col> -->
-        <v-col>
-            <v-select
-              v-model="cardSearch.faction"
-              :items="faction"
-              label="阵营"
-              filled
-              @change="searchData"
-            ></v-select></v-col>
-        <v-col>
-          <v-card-title
-            >初始星级:
-            <v-btn-toggle
-              v-model="cardSearch.initialrarity"
-              color="deep-purple accent-3"
-              tile
-              @change="searchData"
-              group
-            >
-              <v-btn value="☆1"> ☆ </v-btn>
-              <v-btn value="☆2"> ☆☆ </v-btn>
-              <v-btn value="☆3"> ☆☆☆ </v-btn>
-            </v-btn-toggle>
-          </v-card-title>
-        </v-col>
-        <v-col>
-          <v-card-title
-            >颜色:
-            <v-btn-toggle
-              v-model="cardSearch.attributes"
-              tile
-              group
-              @change="searchData"
-            >
-              <v-btn value="红" color="red"> 红 </v-btn>
-              <v-btn value="蓝" color="blue"> 蓝 </v-btn>
-              <v-btn value="绿" color="green"> 绿 </v-btn>
-              <v-btn value="黄" color="yellow"> 黄 </v-btn>
-              <v-btn value="紫" color="purple"> 紫 </v-btn>
-            </v-btn-toggle>
-          </v-card-title>
-        </v-col>
-        <v-col>
-          <v-card-title
-            >攻击类型:
-            <v-btn-toggle
-              v-model="cardSearch.attackMethod"
-              tile
-              @change="searchData"
-              color="deep-purple accent-3"
-              group
-            >
-              <v-btn value="异能攻击"> 异能攻击 </v-btn>
-              <v-btn value="物理攻击"> 物理攻击 </v-btn>
-            </v-btn-toggle>
-          </v-card-title></v-col
+          <v-btn-toggle
+            v-model="cardSearch.class"
+            tile
+            @change="searchData"
+            color="deep-purple accent-3"
+            group
+          >
+            <v-btn value="BATTLE" color="red" class="red--text"> BATTLE </v-btn>
+            <v-btn value="ASSIST" color="blue" class="blue--text">
+              ASSIST
+            </v-btn>
+          </v-btn-toggle></v-col
         >
         <v-col>
-          <v-card-title
-            >攻击方向:
-            <v-btn-toggle
-              v-model="cardSearch.attackDirection"
-              tile
-              color="deep-purple accent-3"
-              group
-              @change="searchData"
-              multiple
-            >
-              <v-btn value="1"> ← </v-btn>
-
-              <v-btn value="2"> ↑ </v-btn>
-
-              <v-btn value="3"> → </v-btn>
-            </v-btn-toggle>
-          </v-card-title>
+          <v-select
+            v-model="cardSearch.faction"
+            :items="faction"
+            label="阵营"
+            filled
+            @change="searchData"
+          ></v-select
+        ></v-col>
+        <v-col>
+          <v-btn-toggle
+            v-model="cardSearch.initialrarity"
+            color="deep-purple accent-3"
+            tile
+            @change="searchData"
+            group
+          >
+            <v-btn value="☆1" color="amber">
+              <v-icon> mdi-star-outline </v-icon>
+            </v-btn>
+            <v-btn value="☆2" color="amber">
+              <v-icon> mdi-star-outline </v-icon>
+              <v-icon> mdi-star-outline </v-icon>
+            </v-btn>
+            <v-btn value="☆3" color="amber">
+              <v-icon> mdi-star-outline </v-icon
+              ><v-icon> mdi-star-outline </v-icon
+              ><v-icon> mdi-star-outline </v-icon>
+            </v-btn>
+          </v-btn-toggle>
         </v-col>
+        <v-col>
+          <v-btn-toggle
+            v-model="cardSearch.attributes"
+            tile
+            group
+            @change="searchData"
+          >
+            <v-btn value="红" color="red" class="red--text"> 红 </v-btn>
+            <v-btn value="蓝" color="blue" class="blue--text"> 蓝 </v-btn>
+            <v-btn value="绿" color="green" class="green--text"> 绿 </v-btn>
+            <v-btn value="黄" color="yellow" class="yellow--text"> 黄 </v-btn>
+            <v-btn value="紫" color="purple" class="purple--text"> 紫 </v-btn>
+          </v-btn-toggle>
+        </v-col>
+        <v-col>
+          <v-btn-toggle
+            v-model="cardSearch.attackMethod"
+            tile
+            @change="searchData"
+            color="deep-purple accent-3"
+            group
+          >
+            <v-btn value="异能攻击" color="red" class="red--text">
+              <v-icon> mdi-book-open-variant </v-icon>异能攻击
+            </v-btn>
+            <v-btn value="物理攻击" color="blue" class="blue--text">
+              <v-icon> mdi-fencing </v-icon> 物理攻击
+            </v-btn>
+          </v-btn-toggle>
+        </v-col>
+        <v-col>
+          <v-btn-toggle
+            v-model="cardSearch.attackDirection"
+            tile
+            color="deep-purple accent-3"
+            group
+            @change="searchData"
+            multiple
+          >
+            <v-btn value="1" color="grey">
+              <v-icon> mdi-arrow-top-left </v-icon>
+            </v-btn>
+            <v-btn value="2" color="grey">
+              <v-icon> mdi-arrow-up </v-icon>
+            </v-btn>
+            <v-btn value="3" color="grey">
+              <v-icon> mdi-arrow-top-right</v-icon>
+            </v-btn>
+          </v-btn-toggle>
+        </v-col>
+        <v-col>
+          <v-select
+            v-model="cardSearch.obtain"
+            :items="obtain"
+            label="入手途径"
+            filled
+            disabled
+            @change="searchData"
+          ></v-select
+        ></v-col>
       </v-row>
+      <v-card-title>技能&大招效果: </v-card-title>
       <v-row>
         <v-col>
-          <v-card-title
-            >技能&大招效果:
-            <v-chip-group
-              v-model="effect.specialState"
-              column
-              multiple
-              @change="searchData"
+          <v-chip-group
+            v-model="effect.specialState"
+            column
+            multiple
+            @change="searchData"
+          >
+            <v-chip
+              filter
+              v-for="(tag, index) in specialState"
+              :key="index"
+              :value="tag"
             >
-              <v-chip
-                filter
-                v-for="(tag, index) in specialState"
-                :key="index"
-                :value="tag"
-              >
-                {{ tag }}
-              </v-chip>
-            </v-chip-group>
-          </v-card-title>
+              {{ tag }}
+            </v-chip>
+          </v-chip-group>
         </v-col>
       </v-row>
       <!-- <v-row>
@@ -178,26 +177,24 @@
           </v-card-title>
         </v-col>
       </v-row> -->
+      <v-card-title>潜能效果: </v-card-title>
       <v-row>
         <v-col>
-          <v-card-title
-            >潜能效果:
-            <v-chip-group
-              v-model="effect.potentialTags"
-              column
-              multiple
-              @change="searchData"
+          <v-chip-group
+            v-model="effect.potentialTags"
+            column
+            multiple
+            @change="searchData"
+          >
+            <v-chip
+              filter
+              v-for="(tag, index) in potentialTags"
+              :key="index"
+              :value="tag"
             >
-              <v-chip
-                filter
-                v-for="(tag, index) in potentialTags"
-                :key="index"
-                :value="tag"
-              >
-                {{ tag }}
-              </v-chip>
-            </v-chip-group>
-          </v-card-title>
+              {{ tag }}
+            </v-chip>
+          </v-chip-group>
         </v-col>
       </v-row>
     </v-container>
@@ -405,7 +402,7 @@ export default {
       return target.every((v) => arr.includes(v));
     },
     // 查询函数(被查询数组,关键词数组)
-    // TODO
+
     searchKeysValues(lists, filters) {
       let key = Object.keys(filters);
       if (key.length == 0) {
