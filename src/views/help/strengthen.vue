@@ -11,10 +11,10 @@
 
 <script>
 import MarkdownItVueLight from 'markdown-it-vue/dist/markdown-it-vue-light.umd.min.js'
-import 强化状态 from "../../assets/强化状态";
-import 弱体化状态 from "../../assets/弱体化状态";
-import 技能必杀技的效果 from "../../assets/技能必杀技的效果";
-import 关于强化状态与弱体化状态的攻击方向 from "../../assets/关于强化状态与弱体化状态的攻击方向";
+import 强化状态 from "../../assets/article/强化状态";
+import 弱体化状态 from "../../assets/article/弱体化状态";
+import 技能必杀技的效果 from "../../assets/article/技能必杀技的效果";
+import 关于强化状态与弱体化状态的攻击方向 from "../../assets/article/关于强化状态与弱体化状态的攻击方向";
 
 export default {
   name: "strengthen",

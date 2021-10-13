@@ -174,14 +174,31 @@
         @click:row="handleClick"
         class="elevation-1"
       >
+        <template v-slot:item.img="{ item }">
+          <v-img
+            max-height="73"
+            max-width="73"
+            :src="require('@/assets/pic/s/' + item.img + '.jpg')"
+          >
+          </v-img>
+        </template>
         <template v-slot:item.Chinese.attributes="{ item }">
           <v-chip :color="getColor(item.Chinese.attributes)" dark>
             {{ item.Chinese.attributes }}
           </v-chip>
         </template>
-        <template v-slot:item.Chinese.obtain="{ item }">
-          {{ item.Chinese.limited }}{{ item.Chinese.obtain }}
+        <template v-slot:item.arrow="{ item }">
+          <v-img
+            max-height="20"
+            max-width="80"
+            :src="require('@/assets/pic/arrow/' + item.arrow + '.jpg')"
+            v-if="item.arrow"
+          >
+          </v-img>
         </template>
+        <!-- <template v-slot:item.Chinese.obtain="{ item }">
+          {{ item.Chinese.limited }}{{ item.Chinese.obtain }}
+        </template> -->
       </v-data-table>
     </v-container>
   </div>
@@ -309,18 +326,24 @@ export default {
       search: "",
       headers: [
         {
+          text: "头像",
+          align: "left",
+          sortable: false,
+          value: "img",
+        },
+        {
           text: "中文卡名",
           align: "start",
           sortable: false,
           value: "nameCn",
         },
-        { text: "原名", value: "nameJp" },
+        { text: "原名", value: "nameJp", sortable: false },
         { text: "阵营", value: "Chinese.faction" },
-        { text: "星级", value: "Chinese.initialrarity" },
+        { text: "星级", value: "Japanese.initialrarity" },
         { text: "颜色", value: "Chinese.attributes" },
-        { text: "卡种", value: "Chinese.class" },
+        // { text: "卡种", value: "Chinese.class" },
         { text: "类型", value: "Chinese.attackMethod" },
-        { text: "方向", value: "Chinese.attackDirection" },
+        { text: "方向", value: "arrow" },
         { text: "HP", value: "Japanese.hp" },
         { text: "器用", value: "Japanese.dexterity" },
         { text: "异攻", value: "Japanese.physicalAttack" },
