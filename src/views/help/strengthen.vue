@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <markdown-it-vue
+    <markdown-it-vue-light
       class="md-body"
       :content="content"
       :options="options"
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import MarkdownItVue from "markdown-it-vue";
+import MarkdownItVueLight from 'markdown-it-vue/dist/markdown-it-vue-light.umd.min.js'
 import 强化状态 from "../../assets/强化状态";
 import 弱体化状态 from "../../assets/弱体化状态";
 import 技能必杀技的效果 from "../../assets/技能必杀技的效果";
@@ -39,7 +39,7 @@ export default {
     };
   },
   components: {
-    MarkdownItVue,
+    MarkdownItVueLight,
   },
   methods: {
     hdlCmplete() {
