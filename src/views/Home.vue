@@ -153,6 +153,90 @@
           </v-chip-group>
         </v-col>
       </v-row>
+       <v-card-title>敌作用范围: </v-card-title>
+      <v-row>
+        <v-col>
+          <v-chip-group
+            v-model="effect.enemyRange"
+            column
+            multiple
+            @change="searchData"
+          >
+            <v-chip
+              disabled
+              filter
+              v-for="(tag, index) in enemyRange"
+              :key="index"
+              :value="tag"
+            >
+              {{ tag }}
+            </v-chip>
+          </v-chip-group>
+        </v-col>
+      </v-row>
+      <v-card-title>我方作用范围: </v-card-title>
+      <v-row>
+        <v-col>
+          <v-chip-group
+            v-model="effect.ourScope"
+            column
+            multiple
+            @change="searchData"
+          >
+            <v-chip
+              disabled
+              filter
+              v-for="(tag, index) in ourScope"
+              :key="index"
+              :value="tag"
+            >
+              {{ tag }}
+            </v-chip>
+          </v-chip-group>
+        </v-col>
+      </v-row>
+      <v-card-title>发生条件: </v-card-title>
+      <v-row>
+        <v-col>
+          <v-chip-group
+            v-model="effect.occurrenceCond"
+            column
+            multiple
+            @change="searchData"
+          >
+            <v-chip
+              disabled
+              filter
+              v-for="(tag, index) in occurrenceCond"
+              :key="index"
+              :value="tag"
+            >
+              {{ tag }}
+            </v-chip>
+          </v-chip-group>
+        </v-col>
+      </v-row>
+      <v-card-title>威力和特攻: </v-card-title>
+      <v-row>
+        <v-col>
+          <v-chip-group
+            v-model="effect.power"
+            column
+            multiple
+            @change="searchData"
+          >
+            <v-chip
+              disabled
+              filter
+              v-for="(tag, index) in power"
+              :key="index"
+              :value="tag"
+            >
+              {{ tag }}
+            </v-chip>
+          </v-chip-group>
+        </v-col>
+      </v-row>
     </v-container>
     <v-container>
       <v-card-title>
@@ -226,6 +310,76 @@ export default {
       },
       obtain: ["", "通常", "期间限定", "幻想盛典限定", "活动"],
       faction: ["", "科学侧", "魔法侧", "其他阵营", "魔法侧 科学侧"],
+      enemyRange: [
+        "全体敌人",
+        "正面的敌人",
+        "正面和左右的敌人",
+        "正面和左面的敌人",
+        "正面和右面的敌人",
+        "右面的敌人",
+        "左面的敌人",
+        "攻击范围内的敌人",
+        "属性敌人",
+        "魔术侧敌人",
+        "科学侧敌人",
+      ],
+      ourScope: [
+        "自身",
+        "自身和右临的角色",
+        "自身和左临的角色",
+        "自身和两临的角色",
+        "自身的右临的角色",
+        "自身的左临的角色",
+        "自身的两临的角色",
+        "我方全体",
+        "魔术侧的我方全体",
+        "科学侧的我方全体",
+        "某属性的我方全体",
+        "同属性的我方全体",
+        "配对角色以外的我方全体",
+        "自身以外的我方全体",
+      ],
+      occurrenceCond: [
+        "行动开始时",
+        "敌行动开始时",
+        "敌方技能使用后",
+        "敌方必杀技使用后",
+        "敌行动结束时配对角色的HP小于自身一半时",
+        "配对角色退场时",
+        "配对角色给予敌人暴击伤害时",
+        "配对角色对敌人造成伤害时",
+        "配对角色使用技能后",
+        "配对角色使用必杀技后",
+        "配对角色受到伤害时",
+        "配对角色使敌人退场时",
+        "配对角色以外的我方角色使用技能后",
+        "配对角色以外的我方角色使用必殺技后",
+        "包含配对角色我方使敌人退场时",
+        "包含配对角色我方使用技能后",
+        "包含配对角色我方使用必杀技后",
+        "配对角色从辅助角色以外受到的弱化状态时",
+        "场上魔术侧角色数",
+        "场上科学侧角色数",
+        "攻击范围内包含魔术侧敌人",
+        "攻击范围内包含科学侧敌人",
+      ],
+      power: [
+        "小威力",
+        "中威力",
+        "大威力",
+        "特大威力",
+        "必发生暴击",
+        "容易发生暴击",
+        "对魔术侧敌人威力上升",
+        "对科学侧敌人威力上升",
+        "当自己的HP值一半以下时，威力会上升",
+        "自身HP值越低伤害越高",
+        "对方HP值越高伤害越高",
+        "无视使伤害无效的特殊效果的攻击",
+        "当自己的HP值最大时，威力会上升",
+        "根据自身被赋予的强化状态的数量威力上升的攻击",
+        "将自身物理防御力作为物理攻击力来使用的攻击",
+      ],
       items: [],
       errors: [],
       select: [],
@@ -314,7 +468,7 @@ export default {
         "异攻向上",
         "异防向上",
         "HP向上",
-        "器用向上",
+        "灵巧向上",
         "方向攻击强化",
         "集中力向上",
         "判断力向上",
@@ -326,6 +480,7 @@ export default {
         "科学支援",
         "魔术支援",
       ],
+
       text: [],
       search: "",
       headers: [
@@ -349,7 +504,7 @@ export default {
         { text: "类型", value: "Chinese.attackMethod" },
         { text: "方向", value: "Japanese.attackDirection" },
         { text: "HP", value: "Japanese.hp" },
-        { text: "器用", value: "Japanese.dexterity" },
+        { text: "灵巧", value: "Japanese.dexterity" },
         { text: "异攻", value: "Japanese.physicalAttack" },
         { text: "物攻", value: "Japanese.powerAttack" },
         { text: "异防", value: "Japanese.physicalDefense" },
