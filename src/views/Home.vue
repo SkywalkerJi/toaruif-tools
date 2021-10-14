@@ -75,7 +75,7 @@
         </v-col>
         <v-col>
           <v-btn-toggle
-            v-model="cardSearch.attackDirection"
+            v-model="cardSearch.arrow"
             tile
             color="deep-purple accent-3"
             group
@@ -187,12 +187,16 @@
             {{ item.Chinese.attributes }}
           </v-chip>
         </template>
-        <template v-slot:item.arrow="{ item }">
+        <template v-slot:item.Japanese.attackDirection="{ item }">
           <v-img
             max-height="20"
             max-width="80"
-            :src="require('@/assets/pic/arrow/' + item.arrow + '.jpg')"
-            v-if="item.arrow"
+            :src="
+              require('@/assets/pic/arrow/' +
+                item.Japanese.attackDirection +
+                '.jpg')
+            "
+            v-if="item.Japanese.attackDirection"
           >
           </v-img>
         </template>
@@ -343,7 +347,7 @@ export default {
         { text: "颜色", value: "Chinese.attributes" },
         // { text: "卡种", value: "Chinese.class" },
         { text: "类型", value: "Chinese.attackMethod" },
-        { text: "方向", value: "arrow" },
+        { text: "方向", value: "Japanese.attackDirection" },
         { text: "HP", value: "Japanese.hp" },
         { text: "器用", value: "Japanese.dexterity" },
         { text: "异攻", value: "Japanese.physicalAttack" },
@@ -401,6 +405,10 @@ export default {
       }
       delete filters.specialState;
       delete filters.potentialTags;
+      if (filters.arrow) {
+        resArr = this.searchArrow(resArr, "arrow", filters.arrow);
+      }
+      delete filters.arrow;
       key = Object.keys(filters);
       if (key.length > 0) {
         resArr = resArr.filter((item) =>
@@ -408,6 +416,14 @@ export default {
         );
       }
       return resArr;
+    },
+    // 查询方向(被查询数组,obj属性,关键词数组)
+    searchArrow(lists, key, valueArr) {
+      let res = lists.filter((item) => {
+        if (item.arrow.toString() == valueArr.toString()) return true;
+        else return false;
+      });
+      return res;
     },
     // 查询效果(被查询数组,obj属性,关键词数组)
     searchSkillValues(lists, key, valueArr) {
@@ -445,8 +461,13 @@ export default {
     },
     // 搜索
     searchData() {
+      if (this.cardSearch.arrow) {
+        this.cardSearch.arrow.sort(function (a, b) {
+          return a - b;
+        });
+      }
       let keys = {
-        attackDirection: this.cardSearch.attackDirection,
+        arrow: this.cardSearch.arrow,
         effect: [],
         attributes: this.cardSearch.attributes,
         class: this.cardSearch.class,
