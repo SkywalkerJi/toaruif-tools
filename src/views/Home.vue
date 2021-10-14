@@ -295,6 +295,7 @@ export default {
   name: "Home",
   data() {
     return {
+      // publicPath:process.env.BASE_URL,
       inputCard: {},
       showInfoDialog: false,
       cardSearch: {
@@ -663,7 +664,8 @@ export default {
     handleClick(value) {
       this.showInfoDialog = true;
       this.inputCard = value;
-      this.inputCard.imgUrl = ["/origin/", "/L6/"];
+      // this.inputCard.imgUrl = [this.publicPath+"origin/", this.publicPath+"L6/"];
+      this.inputCard.imgUrl = ["./origin/", "./L6/"];
       this.inputCard.imgUrl[0] = this.inputCard.imgUrl[0] + value.img + ".jpg";
       this.inputCard.imgUrl[1] = this.inputCard.imgUrl[1] + value.img + ".jpg";
     },

@@ -32,11 +32,20 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col>
+              <v-col v-if='inputCard.nameCn'>
                 <v-text-field
                   dense
                   v-model="inputCard.nameCn"
-                  label="卡名"
+                  label="中文卡名"
+                  outlined
+                  readonly
+                ></v-text-field>
+              </v-col>
+              <v-col v-if='!inputCard.nameCn'>
+                <v-text-field
+                  dense
+                  v-model="inputCard.nameJp"
+                  label="日文卡名"
                   outlined
                   readonly
                 ></v-text-field>
@@ -52,11 +61,21 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col>
+              <v-col v-if='inputCard.Chinese.skill1Effect'>
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.skill1Effect"
                   label="技能"
+                  outlined
+                  readonly
+                  rows="2"
+                ></v-textarea>
+              </v-col>
+              <v-col v-if='!inputCard.Chinese.skill1Effect'>
+                <v-textarea
+                  dense
+                  v-model="inputCard.Japanese.skill1Effect"
+                  label="技能原文"
                   outlined
                   readonly
                   rows="2"
@@ -74,9 +93,19 @@
                   rows="2"
                 ></v-textarea>
               </v-col>
+              <v-col v-if="!inputCard.Chinese.skill2Effect&&inputCard.Japanese.skill2Effect">
+                <v-textarea
+                  dense
+                  v-model="inputCard.Japanese.skill2Effect"
+                  label="技能2 原文"
+                  outlined
+                  readonly
+                  rows="2"
+                ></v-textarea>
+              </v-col>
             </v-row>
             <v-row>
-              <v-col v-if="inputCard.Chinese.class == 'BATTLE'">
+              <v-col v-if="inputCard.Chinese.class == 'BATTLE'&&inputCard.Chinese.nirvanaEffect">
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.nirvanaEffect"
@@ -86,9 +115,19 @@
                   rows="2"
                 ></v-textarea>
               </v-col>
+              <v-col v-if="inputCard.Chinese.class == 'BATTLE'&&!inputCard.Chinese.nirvanaEffect">
+                <v-textarea
+                  dense
+                  v-model="inputCard.Japanese.nirvanaEffect"
+                  label="大招原文"
+                  outlined
+                  readonly
+                  rows="2"
+                ></v-textarea>
+              </v-col>
             </v-row>
             <v-row>
-              <v-col>
+              <v-col v-if="inputCard.Chinese.potentialAbility1Effect">
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.potentialAbility1Effect"
@@ -98,12 +137,32 @@
                   rows="2"
                 ></v-textarea>
               </v-col>
+              <v-col v-if="!inputCard.Chinese.potentialAbility1Effect">
+                <v-textarea
+                  dense
+                  v-model="inputCard.Japanese.potentialAbility1Effect"
+                  label="潜在能力1 原文"
+                  outlined
+                  readonly
+                  rows="2"
+                ></v-textarea>
+              </v-col>
             </v-row>
             <v-row>
-              <v-col>
+              <v-col v-if="inputCard.Chinese.potentialAbility2Effect">
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.potentialAbility2Effect"
+                  label="潜在能力2"
+                  outlined
+                  readonly
+                  rows="2"
+                ></v-textarea>
+              </v-col>
+                <v-col v-if="!inputCard.Chinese.potentialAbility2Effect&&inputCard.Japanese.potentialAbility2Effect">
+                <v-textarea
+                  dense
+                  v-model="inputCard.Japanese.potentialAbility2Effect"
                   label="潜在能力2"
                   outlined
                   readonly
@@ -155,7 +214,7 @@
               <v-col>
                 <v-text-field
                   dense
-                  v-model="inputCard.Chinese.initialrarity"
+                  v-model="inputCard.Japanese.initialrarity"
                   label="星级"
                   outlined
                   readonly
