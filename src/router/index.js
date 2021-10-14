@@ -32,6 +32,12 @@ const routes = [
     component: () =>
     import( "../views/Help.vue"),
   },
+  {
+    path: "/nopic",
+    name: "卡图征集",
+    component: () =>
+    import( "../views/nopic.vue"),
+  },
 ];
 
 const router = new VueRouter({
