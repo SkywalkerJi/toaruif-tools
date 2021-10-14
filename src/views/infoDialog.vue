@@ -1,10 +1,36 @@
   <template>
-  <v-dialog transition="dialog-top-transition" max-width="600" v-model="show">
+  <v-dialog transition="dialog-top-transition" max-width="700" v-model="show">
     <template v-slot:default="dialog">
       <v-card>
         <v-toolbar color="primary" dark>卡片详情</v-toolbar>
         <v-card-text>
           <v-container>
+            <v-row>
+              <v-col>
+              <v-carousel
+                v-model="model"
+                height="auto"
+                :show-arrows="true"
+                hide-delimiter-background
+                delimiter-icon="mdi-minus"
+                show-arrows-on-hover
+              >
+                <v-carousel-item v-for="(url, i) in inputCard.imgUrl" :key="i">
+                  <!-- <v-sheet :color="colors" height="100%" tile>
+                    <v-row class="fill-height" align="center" justify="center">
+                      <div class="text-h2">{{ i ==1?"6星":"初始" }} 卡图</div>
+                    </v-row>
+                  </v-sheet> -->
+                  <v-img
+                    max-height="300"
+                    :src="url"
+                    v-if="inputCard.img"
+                  >
+                  </v-img>
+                </v-carousel-item>
+              </v-carousel>
+              </v-col>
+            </v-row>
             <v-row>
               <v-col>
                 <v-text-field
@@ -50,7 +76,7 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col v-if="inputCard.Chinese.class=='BATTTLE'">
+              <v-col v-if="inputCard.Chinese.class == 'BATTTLE'">
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.nirvanaEffect"
@@ -86,7 +112,7 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col  v-if="inputCard.Chinese.class=='BATTTLE'">
+              <v-col v-if="inputCard.Chinese.class == 'BATTTLE'">
                 <v-text-field
                   dense
                   v-model="inputCard.Chinese.attackDirection"
@@ -163,7 +189,9 @@ export default {
     inputCard: {},
   },
   data() {
-    return {};
+    return {
+      model: 0,
+    };
   },
   computed: {
     show: {
@@ -175,7 +203,10 @@ export default {
       },
     },
   },
-  created() {},
-  methods: {},
+  mounted() {
+
+  },
+  methods: {
+  },
 };
 </script>
