@@ -76,7 +76,7 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col v-if="inputCard.Chinese.class == 'BATTTLE'">
+              <v-col v-if="inputCard.Chinese.class == 'BATTLE'">
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.nirvanaEffect"
@@ -112,10 +112,10 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col v-if="inputCard.Chinese.class == 'BATTTLE'">
+              <v-col v-if="inputCard.Chinese.class == 'BATTLE'">
                 <v-text-field
                   dense
-                  v-model="inputCard.Chinese.attackDirection"
+                  v-model="inputCard.arrow"
                   label="方向"
                   outlined
                   readonly

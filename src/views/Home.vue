@@ -163,7 +163,6 @@
             @change="searchData"
           >
             <v-chip
-              disabled
               filter
               v-for="(tag, index) in enemyRange"
               :key="index"
@@ -184,7 +183,6 @@
             @change="searchData"
           >
             <v-chip
-              disabled
               filter
               v-for="(tag, index) in ourScope"
               :key="index"
@@ -205,7 +203,6 @@
             @change="searchData"
           >
             <v-chip
-              disabled
               filter
               v-for="(tag, index) in occurrenceCond"
               :key="index"
@@ -226,7 +223,6 @@
             @change="searchData"
           >
             <v-chip
-              disabled
               filter
               v-for="(tag, index) in power"
               :key="index"
@@ -544,6 +540,7 @@ export default {
         return card;
       }
       let resArr = lists;
+
       if (filters.specialState) {
         resArr = this.searchSkillValues(
           resArr,
@@ -551,6 +548,18 @@ export default {
           filters.specialState
         );
       }
+      delete filters.specialState;
+      // const specialKey=[
+      //   "specialState",
+      //   "potentialTags",
+      //   "enemyRange",
+      //   "ourScope",
+      //   "occurrenceCond",
+      //   "power",
+      // ]
+      // for (let i in specialKey){
+      //   resArr=this.specialSearch(filters, i, resArr);
+      // }
       if (filters.potentialTags) {
         resArr = this.searchSkillValues(
           resArr,
@@ -558,8 +567,32 @@ export default {
           filters.potentialTags
         );
       }
-      delete filters.specialState;
       delete filters.potentialTags;
+
+      if (filters.enemyRange) {
+        resArr = this.searchSkillValues(
+          resArr,
+          "enemyRange",
+          filters.enemyRange
+        );
+      }
+      delete filters.enemyRange;
+      if (filters.ourScope) {
+        resArr = this.searchSkillValues(resArr, "ourScope", filters.ourScope);
+      }
+      delete filters.ourScope;
+      if (filters.occurrenceCond) {
+        resArr = this.searchSkillValues(
+          resArr,
+          "occurrenceCond",
+          filters.occurrenceCond
+        );
+      }
+      delete filters.occurrenceCond;
+      if (filters.power) {
+        resArr = this.searchSkillValues(resArr, "power", filters.power);
+      }
+      delete filters.power;
       if (filters.arrow) {
         resArr = this.searchArrow(resArr, "arrow", filters.arrow);
       }
@@ -572,6 +605,19 @@ export default {
       }
       return resArr;
     },
+    //特殊状态搜索
+    // specialSearch(filters, key, resArr){
+    //   let res;
+    //   if (filters.key) {
+    //    res = this.searchSkillValues(
+    //       resArr,
+    //       key,
+    //       filters.key
+    //     );
+    //   }
+    //   delete filters.key;
+    //   return res;
+    // },
     // 查询方向(被查询数组,obj属性,关键词数组)
     searchArrow(lists, key, valueArr) {
       let res = lists.filter((item) => {
@@ -591,6 +637,10 @@ export default {
           item.Chinese[key] = item.Chinese.potentialSearch1.concat(
             item.Chinese.potentialSearch2
           );
+        }else if(key =="enemyRange"||key =="ourScope"||key =="occurrenceCond"||key =="power"){
+            item.Chinese[key] = item.Chinese.skill1SearchS
+            .concat(item.Chinese.skill2SearchS)
+            .concat(item.Chinese.nirvanaSearchS);
         }
         let res1 = valueArr.every((x) => {
           return item.Chinese[key].includes(x);
@@ -635,6 +685,10 @@ export default {
         obtain: this.cardSearch.obtain,
         specialState: this.effect.specialState,
         potentialTags: this.effect.potentialTags,
+        enemyRange: this.effect.enemyRange,
+        ourScope: this.effect.ourScope,
+        occurrenceCond: this.effect.occurrenceCond,
+        power: this.effect.power,
       };
       keys = this.deleteEmptyKey(keys);
       this.card = this.searchKeysValues(card, keys);
