@@ -38673,7 +38673,6 @@
             "limited": "",
             "skill1SearchS": [
                 "ペアのキャラがダメージを受けた時",
-                "味方全体",
                 "同じ属性の味方全体"
             ],
             "skill2SearchS": [],
@@ -38698,7 +38697,6 @@
             "attributes": "绿",
             "skill1SearchS": [
                 "配对角色受到伤害时",
-                "我方全体",
                 "同属性的我方全体"
             ],
             "skill2SearchS": [],
