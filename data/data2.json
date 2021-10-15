@@ -19890,7 +19890,8 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "味方全体"
+                "味方全体",
+                "属性の味方全体"
             ]
         },
         "Chinese": {
@@ -19943,7 +19944,8 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "我方全体"
+                "我方全体",
+                "某属性的我方全体"
             ]
         },
         "img": "178",
@@ -21592,7 +21594,8 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "味方全体"
+                "味方全体",
+                "属性の味方全体"
             ]
         },
         "Chinese": {
@@ -21643,7 +21646,8 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "我方全体"
+                "我方全体",
+                "某属性的我方全体"
             ]
         },
         "img": "193",
@@ -35022,7 +35026,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラがスキルを使用した後"
+                "ペアのキャラがスキルを使用した後",
+                "同じ属性の味方全体"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -35068,7 +35073,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色使用技能后"
+                "配对角色使用技能后",
+                "同属性的我方全体"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -35231,7 +35237,9 @@
             "skill2Code": "",
             "nirvanaCode": "",
             "limited": "",
-            "skill1SearchS": [],
+            "skill1SearchS": [
+                "属性の味方全体"
+            ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "攻撃範囲内の敵",
@@ -35279,7 +35287,9 @@
             "skill2Code": "",
             "nirvanaCode": "",
             "limited": "",
-            "skill1SearchS": [],
+            "skill1SearchS": [
+                "某属性的我方全体"
+            ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "攻击范围内的敌人",
@@ -38663,7 +38673,8 @@
             "limited": "",
             "skill1SearchS": [
                 "ペアのキャラがダメージを受けた時",
-                "味方全体"
+                "味方全体",
+                "同じ属性の味方全体"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -38687,7 +38698,8 @@
             "attributes": "绿",
             "skill1SearchS": [
                 "配对角色受到伤害时",
-                "我方全体"
+                "我方全体",
+                "同属性的我方全体"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
