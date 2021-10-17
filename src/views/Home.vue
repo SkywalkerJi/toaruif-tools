@@ -153,7 +153,7 @@
           </v-chip-group>
         </v-col>
       </v-row>
-       <v-card-title>敌作用范围: </v-card-title>
+      <v-card-title>敌作用范围: </v-card-title>
       <v-row>
         <v-col>
           <v-chip-group
@@ -163,7 +163,6 @@
             @change="searchData"
           >
             <v-chip
-              disabled
               filter
               v-for="(tag, index) in enemyRange"
               :key="index"
@@ -184,7 +183,6 @@
             @change="searchData"
           >
             <v-chip
-              disabled
               filter
               v-for="(tag, index) in ourScope"
               :key="index"
@@ -205,7 +203,6 @@
             @change="searchData"
           >
             <v-chip
-              disabled
               filter
               v-for="(tag, index) in occurrenceCond"
               :key="index"
@@ -226,7 +223,6 @@
             @change="searchData"
           >
             <v-chip
-              disabled
               filter
               v-for="(tag, index) in power"
               :key="index"
@@ -250,45 +246,45 @@
           hide-details
         ></v-text-field>
       </v-card-title>
-      <v-data-table
-        :headers="headers"
-        :items="card"
-        :items-per-page="20"
-        :search="search"
-        @click:row="handleClick"
-        class="elevation-1"
-      >
-        <template v-slot:item.img="{ item }">
-          <v-img
-            max-height="73"
-            max-width="73"
-            :src="require('@/assets/pic/s/' + item.img + '.jpg')"
-          >
-          </v-img>
-        </template>
-        <template v-slot:item.Chinese.attributes="{ item }">
-          <v-chip :color="getColor(item.Chinese.attributes)" dark>
-            {{ item.Chinese.attributes }}
-          </v-chip>
-        </template>
-        <template v-slot:item.Japanese.attackDirection="{ item }">
-          <v-img
-            max-height="20"
-            max-width="80"
-            :src="
-              require('@/assets/pic/arrow/' +
-                item.Japanese.attackDirection +
-                '.jpg')
-            "
-            v-if="item.Japanese.attackDirection"
-          >
-          </v-img>
-        </template>
-        <!-- <template v-slot:item.Chinese.obtain="{ item }">
-          {{ item.Chinese.limited }}{{ item.Chinese.obtain }}
-        </template> -->
-      </v-data-table>
     </v-container>
+    <v-data-table
+      :headers="headers"
+      :items="card"
+      :items-per-page="20"
+      :search="search"
+      @click:row="handleClick"
+      class="elevation-1"
+    >
+      <template v-slot:item.img="{ item }">
+        <v-img
+          max-height="73"
+          max-width="73"
+          :src="require('@/assets/pic/s/' + item.img + '.jpg')"
+        >
+        </v-img>
+      </template>
+      <template v-slot:item.Chinese.attributes="{ item }">
+        <v-chip :color="getColor(item.Chinese.attributes)" dark>
+          {{ item.Chinese.attributes }}
+        </v-chip>
+      </template>
+      <template v-slot:item.Japanese.attackDirection="{ item }">
+        <v-img
+          max-height="20"
+          max-width="80"
+          :src="
+            require('@/assets/pic/arrow/' +
+              item.Japanese.attackDirection +
+              '.jpg')
+          "
+          v-if="item.Japanese.attackDirection"
+        >
+        </v-img>
+      </template>
+      <template v-slot:item.Japanese.obtain="{ item }">
+        {{ item.Japanese.limited }}{{ item.Japanese.obtain }}
+      </template>
+    </v-data-table>
   </div>
 </template>
 
@@ -299,6 +295,7 @@ export default {
   name: "Home",
   data() {
     return {
+      // publicPath:process.env.BASE_URL,
       inputCard: {},
       showInfoDialog: false,
       cardSearch: {
@@ -497,19 +494,19 @@ export default {
           value: "nameCn",
         },
         { text: "原名", value: "nameJp", sortable: false },
-        { text: "阵营", value: "Chinese.faction" },
-        { text: "星级", value: "Japanese.initialrarity" },
-        { text: "颜色", value: "Chinese.attributes" },
+        { text: "阵营", value: "Chinese.faction", width: "90px" },
+        { text: "星级", value: "Japanese.initialrarity", width: "80px" },
+        { text: "颜色", value: "Chinese.attributes", width: "80px" },
         // { text: "卡种", value: "Chinese.class" },
-        { text: "类型", value: "Chinese.attackMethod" },
-        { text: "方向", value: "Japanese.attackDirection" },
-        { text: "HP", value: "Japanese.hp" },
-        { text: "灵巧", value: "Japanese.dexterity" },
-        { text: "异攻", value: "Japanese.physicalAttack" },
-        { text: "物攻", value: "Japanese.powerAttack" },
-        { text: "异防", value: "Japanese.physicalDefense" },
-        { text: "物防", value: "Japanese.powerDefense" },
-        // { text: "入手", value: "Chinese.obtain" },
+        { text: "类型", value: "Chinese.attackMethod", width: "80px" },
+        { text: "方向", value: "Japanese.attackDirection", width: "80px" },
+        { text: "HP", value: "Japanese.hp", width: "40px" },
+        { text: "灵巧", value: "Japanese.dexterity", width: "80px" },
+        { text: "物攻", value: "Japanese.physicalAttack", width: "80px" },
+        { text: "异攻", value: "Japanese.powerAttack", width: "80px" },
+        { text: "物防", value: "Japanese.physicalDefense", width: "80px" },
+        { text: "异防", value: "Japanese.powerDefense", width: "80px" },
+        { text: "入手", value: "Japanese.obtain" },
         // { text: "技能", value: "Chinese.skill1Effect" },
         // { text: "必杀技", value: "Chinese.nirvanaEffect" },
         // { text: "潜在1", value: "Chinese.potentialAbility1Effect" },
@@ -544,6 +541,7 @@ export default {
         return card;
       }
       let resArr = lists;
+
       if (filters.specialState) {
         resArr = this.searchSkillValues(
           resArr,
@@ -551,6 +549,18 @@ export default {
           filters.specialState
         );
       }
+      delete filters.specialState;
+      // const specialKey=[
+      //   "specialState",
+      //   "potentialTags",
+      //   "enemyRange",
+      //   "ourScope",
+      //   "occurrenceCond",
+      //   "power",
+      // ]
+      // for (let i in specialKey){
+      //   resArr=this.specialSearch(filters, i, resArr);
+      // }
       if (filters.potentialTags) {
         resArr = this.searchSkillValues(
           resArr,
@@ -558,8 +568,32 @@ export default {
           filters.potentialTags
         );
       }
-      delete filters.specialState;
       delete filters.potentialTags;
+
+      if (filters.enemyRange) {
+        resArr = this.searchSkillValues(
+          resArr,
+          "enemyRange",
+          filters.enemyRange
+        );
+      }
+      delete filters.enemyRange;
+      if (filters.ourScope) {
+        resArr = this.searchSkillValues(resArr, "ourScope", filters.ourScope);
+      }
+      delete filters.ourScope;
+      if (filters.occurrenceCond) {
+        resArr = this.searchSkillValues(
+          resArr,
+          "occurrenceCond",
+          filters.occurrenceCond
+        );
+      }
+      delete filters.occurrenceCond;
+      if (filters.power) {
+        resArr = this.searchSkillValues(resArr, "power", filters.power);
+      }
+      delete filters.power;
       if (filters.arrow) {
         resArr = this.searchArrow(resArr, "arrow", filters.arrow);
       }
@@ -572,6 +606,19 @@ export default {
       }
       return resArr;
     },
+    //特殊状态搜索
+    // specialSearch(filters, key, resArr){
+    //   let res;
+    //   if (filters.key) {
+    //    res = this.searchSkillValues(
+    //       resArr,
+    //       key,
+    //       filters.key
+    //     );
+    //   }
+    //   delete filters.key;
+    //   return res;
+    // },
     // 查询方向(被查询数组,obj属性,关键词数组)
     searchArrow(lists, key, valueArr) {
       let res = lists.filter((item) => {
@@ -591,6 +638,10 @@ export default {
           item.Chinese[key] = item.Chinese.potentialSearch1.concat(
             item.Chinese.potentialSearch2
           );
+        }else if(key =="enemyRange"||key =="ourScope"||key =="occurrenceCond"||key =="power"){
+            item.Chinese[key] = item.Chinese.skill1SearchS
+            .concat(item.Chinese.skill2SearchS)
+            .concat(item.Chinese.nirvanaSearchS);
         }
         let res1 = valueArr.every((x) => {
           return item.Chinese[key].includes(x);
@@ -613,6 +664,10 @@ export default {
     handleClick(value) {
       this.showInfoDialog = true;
       this.inputCard = value;
+      // this.inputCard.imgUrl = [this.publicPath+"origin/", this.publicPath+"L6/"];
+      this.inputCard.imgUrl = ["./origin/", "./L6/"];
+      this.inputCard.imgUrl[0] = this.inputCard.imgUrl[0] + value.img + ".jpg";
+      this.inputCard.imgUrl[1] = this.inputCard.imgUrl[1] + value.img + ".jpg";
     },
     // 搜索
     searchData() {
@@ -632,6 +687,10 @@ export default {
         obtain: this.cardSearch.obtain,
         specialState: this.effect.specialState,
         potentialTags: this.effect.potentialTags,
+        enemyRange: this.effect.enemyRange,
+        ourScope: this.effect.ourScope,
+        occurrenceCond: this.effect.occurrenceCond,
+        power: this.effect.power,
       };
       keys = this.deleteEmptyKey(keys);
       this.card = this.searchKeysValues(card, keys);

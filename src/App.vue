@@ -71,6 +71,7 @@ export default {
     items: [
       { title: "卡片筛选", icon: "mdi-card-search-outline", to: "/" },
       { title: "效果帮助", icon: "mdi-help-box", to: "/help" },
+      { title: "卡图征集", icon: "mdi-clipboard-check-multiple-outline", to: "/nopic" },
       { title: "参与汉化", icon: "mdi-translate", to: "/paratranz" },
       { title: "关于", icon: "mdi-information-variant", to: "/about" },
     ],
