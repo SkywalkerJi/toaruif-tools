@@ -5081,7 +5081,6 @@
             "limited": "",
             "skill1SearchS": [
                 "行動開始時",
-                "敵全体",
                 "属性の敵"
             ],
             "skill2SearchS": [],
@@ -5128,7 +5127,6 @@
             "limited": "",
             "skill1SearchS": [
                 "行动开始时",
-                "全体敌人",
                 "属性敌人"
             ],
             "skill2SearchS": [],
@@ -5707,7 +5705,6 @@
             "limited": "",
             "skill1SearchS": [
                 "ペアのキャラが敵にダメージを与えた時",
-                "敵全体",
                 "属性の敵"
             ],
             "skill2SearchS": [],
@@ -5754,7 +5751,6 @@
             "limited": "",
             "skill1SearchS": [
                 "配对角色对敌人造成伤害时",
-                "全体敌人",
                 "属性敌人"
             ],
             "skill2SearchS": [],
@@ -13066,7 +13062,10 @@
             "skill2Code": "",
             "nirvanaCode": "",
             "limited": "",
-            "skill1SearchS": [],
+            "skill1SearchS": [
+                "ペアのキャラが敵にクリティカルでダメージを与えた時",
+                "その敵"
+            ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
         },
@@ -13109,7 +13108,10 @@
             "skill2Code": "",
             "nirvanaCode": "",
             "limited": "活动限定",
-            "skill1SearchS": [],
+            "skill1SearchS": [
+                "配对角色给予敌人暴击伤害时",
+                "该敌人"
+            ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
         },
@@ -16926,7 +16928,8 @@
             "limited": "",
             "skill1SearchS": [
                 "行動開始時",
-                "敵全体"
+                "敵全体",
+                "ペアのキャラと同じ属性の敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -16973,7 +16976,8 @@
             "limited": "",
             "skill1SearchS": [
                 "行动开始时",
-                "全体敌人"
+                "全体敌人",
+                "与配对角色同属性的敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -17268,7 +17272,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラがダメージを受けた時"
+                "ペアのキャラがダメージを受けた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -17314,7 +17319,8 @@
             "nirvanaCode": "",
             "limited": "活动限定",
             "skill1SearchS": [
-                "配对角色受到伤害时"
+                "配对角色受到伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -17839,6 +17845,7 @@
             "limited": "",
             "skill1SearchS": [
                 "ペアのキャラがダメージを受けた時",
+                "その敵",
                 "自身"
             ],
             "skill2SearchS": [],
@@ -17886,6 +17893,7 @@
             "limited": "活动限定",
             "skill1SearchS": [
                 "配对角色受到伤害时",
+                "该敌人",
                 "自身"
             ],
             "skill2SearchS": [],
@@ -18965,7 +18973,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -19011,7 +19020,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -20563,7 +20573,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -20609,7 +20620,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -22938,6 +22950,8 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "右の敵",
+                "その敵",
+                "その敵とその敵の両隣のキャラ",
                 "大威力"
             ]
         },
@@ -22987,6 +23001,8 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "右面的敌人",
+                "该敌人",
+                "该敌人与该敌人两临的角色",
                 "大威力"
             ]
         },
@@ -23595,7 +23611,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -23642,7 +23659,8 @@
             "nirvanaCode": "",
             "limited": "活动限定",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -24390,7 +24408,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラがダメージを受けた時"
+                "ペアのキャラがダメージを受けた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -24436,7 +24455,8 @@
             "nirvanaCode": "",
             "limited": "联动限定",
             "skill1SearchS": [
-                "配对角色受到伤害时"
+                "配对角色受到伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -25718,7 +25738,8 @@
             "limited": "",
             "skill1SearchS": [
                 "行動開始時",
-                "敵全体"
+                "敵全体",
+                "ペアのキャラと同じ属性の敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -25766,7 +25787,8 @@
             "limited": "联动限定",
             "skill1SearchS": [
                 "行动开始时",
-                "全体敌人"
+                "全体敌人",
+                "与配对角色同属性的敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -26282,7 +26304,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -26328,7 +26351,8 @@
             "nirvanaCode": "",
             "limited": "FES限定",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -26641,7 +26665,8 @@
                 "味方全体"
             ],
             "skill2SearchS": [
-                "ペアのキャラが敵にクリティカルでダメージを与えた時"
+                "ペアのキャラが敵にクリティカルでダメージを与えた時",
+                "その敵"
             ],
             "nirvanaSearchS": []
         },
@@ -26693,7 +26718,8 @@
                 "我方全体"
             ],
             "skill2SearchS": [
-                "配对角色给予敌人暴击伤害时"
+                "配对角色给予敌人暴击伤害时",
+                "该敌人"
             ],
             "nirvanaSearchS": []
         },
@@ -27694,6 +27720,8 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "左の敵",
+                "その敵",
+                "その敵とその敵の両隣のキャラ",
                 "特大威力"
             ]
         },
@@ -27748,6 +27776,8 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "左面的敌人",
+                "该敌人",
+                "该敌人与该敌人两临的角色",
                 "特大威力"
             ]
         },
@@ -27915,6 +27945,7 @@
             "limited": "",
             "skill1SearchS": [
                 "ペアのキャラがダメージを受けた時",
+                "その敵",
                 "自身"
             ],
             "skill2SearchS": [],
@@ -27964,6 +27995,7 @@
             "limited": "活动限定",
             "skill1SearchS": [
                 "配对角色受到伤害时",
+                "该敌人",
                 "自身"
             ],
             "skill2SearchS": [],
@@ -33316,7 +33348,8 @@
                 "味方全体"
             ],
             "skill2SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "nirvanaSearchS": []
         },
@@ -33370,7 +33403,8 @@
                 "我方全体"
             ],
             "skill2SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "nirvanaSearchS": []
         },
@@ -33777,7 +33811,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -33823,7 +33858,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -34922,7 +34958,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -34968,7 +35005,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -35133,7 +35171,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラがダメージを受けた時"
+                "ペアのキャラがダメージを受けた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -35180,7 +35219,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色受到伤害时"
+                "配对角色受到伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -37086,7 +37126,6 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "敵全体",
                 "攻撃範囲内の敵",
                 "科学サイドの敵",
                 "特大威力",
@@ -37119,7 +37158,6 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "全体敌人",
                 "攻击范围内的敌人",
                 "科学侧敌人",
                 "特大威力",
@@ -37926,7 +37964,8 @@
             "limited": "",
             "skill1SearchS": [
                 "行動開始時",
-                "敵全体"
+                "敵全体",
+                "ペアのキャラと同じ属性の敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -37950,7 +37989,8 @@
             "attackMethod": "辅助角色",
             "skill1SearchS": [
                 "行动开始时",
-                "全体敌人"
+                "全体敌人",
+                "与配对角色同属性的敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -38012,6 +38052,8 @@
             "limited": "",
             "skill1SearchS": [
                 "正面の敵",
+                "その敵",
+                "その敵とその敵の両隣のキャラ",
                 "中威力"
             ],
             "skill2SearchS": [],
@@ -38043,6 +38085,8 @@
             "attackMethod": "异能攻击",
             "skill1SearchS": [
                 "正面的敌人",
+                "该敌人",
+                "该敌人与该敌人两临的角色",
                 "中威力"
             ],
             "skill2SearchS": [],
@@ -38309,7 +38353,7 @@
             "limited": "",
             "skill1SearchS": [
                 "行動開始時",
-                "攻撃範囲内の敵"
+                "ペアのキャラの攻撃範囲内の敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -38333,7 +38377,7 @@
             "attackMethod": "辅助角色",
             "skill1SearchS": [
                 "行动开始时",
-                "攻击范围内的敌人"
+                "配对角色攻击范围内的敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -39043,7 +39087,7 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "敵全体"
+                "ペアのキャラの属性が有利属性となる敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -39067,7 +39111,7 @@
             "faction": "魔法侧",
             "attackMethod": "辅助角色",
             "skill1SearchS": [
-                "全体敌人"
+                "与配对角色属性有利属性的敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -39801,6 +39845,7 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "正面の敵",
+                "その敵とその敵の両隣のキャラ",
                 "大威力"
             ]
         },
@@ -39833,6 +39878,7 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "正面的敌人",
+                "该敌人与该敌人两临的角色",
                 "大威力"
             ]
         },
@@ -40181,7 +40227,7 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "攻撃範囲内の敵"
+                "ペアのキャラの攻撃範囲内の敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -40205,7 +40251,7 @@
             "faction": "科学侧",
             "attackMethod": "辅助角色",
             "skill1SearchS": [
-                "攻击范围内的敌人"
+                "配对角色攻击范围内的敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -40273,7 +40319,6 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "敵全体",
                 "攻撃範囲内の敵",
                 "属性の敵",
                 "特大威力"
@@ -40307,7 +40352,6 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "全体敌人",
                 "攻击范围内的敌人",
                 "属性敌人",
                 "特大威力"
@@ -40489,7 +40533,6 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "敵全体",
                 "攻撃範囲内の敵",
                 "属性の敵",
                 "特大威力",
@@ -40524,7 +40567,6 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "全体敌人",
                 "攻击范围内的敌人",
                 "属性敌人",
                 "特大威力",
