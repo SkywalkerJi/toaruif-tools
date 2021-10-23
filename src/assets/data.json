@@ -41816,7 +41816,7 @@
     {
         "ID": 374,
         "nameJp": "【依頼遂行】心理定規",
-        "nameCn": "",
+        "nameCn": "【依赖遂行】心理定规",
         "Japanese": {
             "skill1": "グレネード弾",
             "skill1Effect": "攻撃範囲内の敵に小威力の物理攻撃をし、【強化妨害状態】と【持続被害（小）】を2ターン付与する",
@@ -41863,7 +41863,20 @@
             "attributes": "黄",
             "class": "BATTLE",
             "faction": "科学侧",
-            "attackMethod": "物理攻击"
+            "attackMethod": "物理攻击",
+            "role": "心理定规",
+            "voice": "井泽诗织",
+            "obtain": "新角色Pick UP池",
+            "skill1": "手榴弹",
+            "skill1Effect": "对攻击范围内的敌人释放小威力的物理攻击，并附加2回合【强化妨碍状态】与【持续被害（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "心理定规的活用法",
+            "nirvanaEffect": "对攻击范围内的敌人释放大威力的物理攻击，并对攻击范围内的紫属性敌人附加3回合【攻击方向减少-2】、【 弱体化解除妨害】与【移动不能】",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "科学支援：HP向上（大）",
+            "potentialAbility2Effect": "辅助角色是科学侧角色时，战斗开始时自己的最大HP大量增加。"
         },
         "img": "374",
         "arrow": [
@@ -41874,7 +41887,7 @@
     {
         "ID": 375,
         "nameJp": "【魂の不在】ドッペルゲンガー",
-        "nameCn": "",
+        "nameCn": "【魂的不在】分身",
         "Japanese": {
             "skill1": "自己増殖",
             "skill1Effect": "自身に2回分の【不屈（小）】と【異攻アップ（小）】を4ターン付与する",
@@ -41921,7 +41934,20 @@
             "attributes": "红",
             "class": "BATTLE",
             "faction": "科学侧",
-            "attackMethod": "异能攻击"
+            "attackMethod": "异能攻击",
+            "role": "分身",
+            "voice": "种崎敦美",
+            "obtain": "新角色！Pick UP扭蛋",
+            "skill1": "自我增殖",
+            "skill1Effect": "为自身附加4回合能够触发2次的【不屈（小）】与【异攻增加（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "“魂”的一击",
+            "nirvanaEffect": "对正面范围内的敌人释放对科学侧威力上升的特大威力的异能攻击",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "构造解析（小）+灵巧向上",
+            "potentialAbility2Effect": "攻击科学侧角色时威力少量增加，战斗开始时自己的灵巧中量增加。"
         },
         "img": "375",
         "arrow": [
