@@ -319,6 +319,11 @@ export default {
         "属性敌人",
         "魔术侧敌人",
         "科学侧敌人",
+        "该敌人",
+        "该敌人与该敌人两临的角色",
+        "配对角色攻击范围内的敌人",
+        "与配对角色同属性的敌人",
+        "与配对角色属性有利属性的敌人",
       ],
       ourScope: [
         "自身",
@@ -638,8 +643,13 @@ export default {
           item.Chinese[key] = item.Chinese.potentialSearch1.concat(
             item.Chinese.potentialSearch2
           );
-        }else if(key =="enemyRange"||key =="ourScope"||key =="occurrenceCond"||key =="power"){
-            item.Chinese[key] = item.Chinese.skill1SearchS
+        } else if (
+          key == "enemyRange" ||
+          key == "ourScope" ||
+          key == "occurrenceCond" ||
+          key == "power"
+        ) {
+          item.Chinese[key] = item.Chinese.skill1SearchS
             .concat(item.Chinese.skill2SearchS)
             .concat(item.Chinese.nirvanaSearchS);
         }

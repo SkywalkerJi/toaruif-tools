@@ -6,7 +6,7 @@
       <a href="https://t.me/KancolleRTA_bot">SkywalkerJi</a>
     </h4>
     <h4>
-      反馈Q群
+      开发反馈Q群
       <a href="https://jq.qq.com/?_wv=1027&k=1v2Y0f8y">1077682402</a>
     </h4>
     <h4>
@@ -14,7 +14,7 @@
       请查看卡图征集页面。
     </h4>
          <h4>
-      还有15张卡还在完成汉化
+      已汉化全部375张卡（10.23)。
       <a href="https://paratranz.cn/projects/1209/files">参与汉化</a>
     </h4>
   </div>

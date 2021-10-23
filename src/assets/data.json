@@ -41485,14 +41485,31 @@
             "potentialAbility1Effect": "バトル開始時に自分の器用を中アップする",
             "potentialAbility2": "SP獲得量向上＋異能攻撃向上",
             "potentialAbility2Effect": "バトル開始時に自分のSP獲得量を小アップ＋異能攻撃力を中アップさせる",
-            "skill1Search": [],
+            "skill1Search": [
+                "ガード",
+                "弱体化状態耐性",
+                "異攻アップ"
+            ],
             "skill2Search": [],
-            "nirvanaSearch": [],
-            "potentialSearch1": [],
-            "potentialSearch2": [],
-            "skill1SearchS": [],
+            "nirvanaSearch": [
+                "持続被害"
+            ],
+            "potentialSearch1": [
+                "器用向上"
+            ],
+            "potentialSearch2": [
+                "SP獲得量向上"
+            ],
+            "skill1SearchS": [
+                "自身"
+            ],
             "skill2SearchS": [],
-            "nirvanaSearchS": [],
+            "nirvanaSearchS": [
+                "敵全体",
+                "正面と左右の敵",
+                "右の敵",
+                "大威力"
+            ],
             "role": "リムル＝テンペスト",
             "hp": "13253",
             "dexterity": "2620",
@@ -41533,7 +41550,32 @@
             "potentialAbility1": "灵巧向上（中）",
             "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
             "potentialAbility2": "SP获取量向上+异能攻击向上",
-            "potentialAbility2Effect": "战斗开始时自己的SP获得量少量增加，异能攻击力中量增加。"
+            "potentialAbility2Effect": "战斗开始时自己的SP获得量少量增加，异能攻击力中量增加。",
+            "skill1Search": [
+                "护盾",
+                "弱化状态耐性",
+                "异攻增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "持续被害"
+            ],
+            "potentialSearch1": [
+                "灵巧向上"
+            ],
+            "potentialSearch2": [
+                "SP获得量向上"
+            ],
+            "skill1SearchS": [
+                "自身"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "全体敌人",
+                "正面和左右的敌人",
+                "右面的敌人",
+                "大威力"
+            ]
         },
         "img": "369",
         "arrow": [
@@ -41556,14 +41598,31 @@
             "potentialAbility1Effect": "バトル開始時に自分の最大HPを中アップさせる",
             "potentialAbility2": "左方向攻撃強化＋物防向上",
             "potentialAbility2Effect": "自身の左方向への攻撃力をアップ＋バトル開始時に自分の物理防御力を中アップさせる",
-            "skill1Search": [],
+            "skill1Search": [
+                "攻撃力アップ妨害",
+                "強化状態を解除"
+            ],
             "skill2Search": [],
-            "nirvanaSearch": [],
-            "potentialSearch1": [],
-            "potentialSearch2": [],
-            "skill1SearchS": [],
+            "nirvanaSearch": [
+                "防御力アップ状態を解除",
+                "SP獲得量アップ"
+            ],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "物防向上",
+                "方向攻撃強化"
+            ],
+            "skill1SearchS": [
+                "小威力"
+            ],
             "skill2SearchS": [],
-            "nirvanaSearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "自身",
+                "特大威力"
+            ],
             "role": "ミリム・ナーヴァ",
             "hp": "11706",
             "dexterity": "1231",
@@ -41604,7 +41663,32 @@
             "potentialAbility1": "HP向上（中）",
             "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
             "potentialAbility2": "左方攻击强化+物攻向上",
-            "potentialAbility2Effect": "自己对左方向的攻击力增加+战斗开始时自己的物理防御力中量增加。"
+            "potentialAbility2Effect": "自己对左方向的攻击力增加+战斗开始时自己的物理防御力中量增加。",
+            "skill1Search": [
+                "攻击力提升妨碍",
+                "强化状态解除"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "防御强化解除",
+                "SP获得量增加"
+            ],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "物防向上",
+                "方向攻击强化"
+            ],
+            "skill1SearchS": [
+                "小威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "自身",
+                "特大威力"
+            ]
         },
         "img": "370",
         "arrow": [
@@ -41627,12 +41711,21 @@
             "potentialAbility1Effect": "バトル開始時に自分の異能防御力を中アップさせる",
             "potentialAbility2": "器用向上（中）",
             "potentialAbility2Effect": "バトル開始時に自分の器用を中アップする",
-            "skill1Search": [],
+            "skill1Search": [
+                "持続被害",
+                "異防ダウン"
+            ],
             "skill2Search": [],
             "nirvanaSearch": [],
-            "potentialSearch1": [],
-            "potentialSearch2": [],
-            "skill1SearchS": [],
+            "potentialSearch1": [
+                "異防向上"
+            ],
+            "potentialSearch2": [
+                "器用向上"
+            ],
+            "skill1SearchS": [
+                "敵全体"
+            ],
             "skill2SearchS": [],
             "nirvanaSearchS": [],
             "role": "シズ",
@@ -41675,7 +41768,24 @@
             "potentialAbility1": "异防向上（中）",
             "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
             "potentialAbility2": "灵巧向上（中）",
-            "potentialAbility2Effect": "战斗开始时自己的灵巧中量增加。"
+            "potentialAbility2Effect": "战斗开始时自己的灵巧中量增加。",
+            "skill1Search": [
+                "持续被害",
+                "异防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异防向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上"
+            ],
+            "skill1SearchS": [
+                "全体敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
         },
         "img": "371"
     },
@@ -41694,12 +41804,23 @@
             "potentialAbility1Effect": "バトル開始時に自分の異能防御力を中アップさせる",
             "potentialAbility2": "HP向上（中）",
             "potentialAbility2Effect": "バトル開始時に自分の最大HPを中アップさせる",
-            "skill1Search": [],
+            "skill1Search": [
+                "物攻アップ",
+                "SP上昇",
+                "SP減少"
+            ],
             "skill2Search": [],
             "nirvanaSearch": [],
-            "potentialSearch1": [],
-            "potentialSearch2": [],
-            "skill1SearchS": [],
+            "potentialSearch1": [
+                "異防向上"
+            ],
+            "potentialSearch2": [
+                "HP向上"
+            ],
+            "skill1SearchS": [
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
+            ],
             "skill2SearchS": [],
             "nirvanaSearchS": [],
             "role": "シオン",
@@ -41742,7 +41863,26 @@
             "potentialAbility1": "异防向上（中）",
             "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
             "potentialAbility2": "HP向上（中）",
-            "potentialAbility2Effect": "战斗开始时自己的最大HP中量增加。"
+            "potentialAbility2Effect": "战斗开始时自己的最大HP中量增加。",
+            "skill1Search": [
+                "物攻增加",
+                "SP增加",
+                "SP减少"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异防向上"
+            ],
+            "potentialSearch2": [
+                "HP向上"
+            ],
+            "skill1SearchS": [
+                "配对角色对敌人造成伤害时",
+                "该敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
         },
         "img": "372"
     },
@@ -41761,12 +41901,21 @@
             "potentialAbility1Effect": "バトル開始時に自分の物理防御力を中アップさせる",
             "potentialAbility2": "集中力向上＋物攻向上",
             "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋物理攻撃力を中アップさせる",
-            "skill1Search": [],
+            "skill1Search": [
+                "クリティカル威力アップ"
+            ],
             "skill2Search": [],
             "nirvanaSearch": [],
-            "potentialSearch1": [],
-            "potentialSearch2": [],
-            "skill1SearchS": [],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "属性の味方全体"
+            ],
             "skill2SearchS": [],
             "nirvanaSearchS": [],
             "role": "ヴェルドラ＝テンペスト",
@@ -41809,7 +41958,24 @@
             "potentialAbility1": "物防向上（中）",
             "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
             "potentialAbility2": "集中力向上+物攻向上",
-            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，物理攻击力中量增加。"
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，物理攻击力中量增加。",
+            "skill1Search": [
+                "暴击威力增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "某属性的我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
         },
         "img": "373"
     },
@@ -41828,14 +41994,32 @@
             "potentialAbility1Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
             "potentialAbility2": "科学支援：HP向上（大）",
             "potentialAbility2Effect": "科学サイドをアシストキャラにした場合のみ、バトル開始時に自分の最大HPを大アップさせる",
-            "skill1Search": [],
+            "skill1Search": [
+                "强化妨害状态",
+                "持続被害"
+            ],
             "skill2Search": [],
-            "nirvanaSearch": [],
-            "potentialSearch1": [],
-            "potentialSearch2": [],
-            "skill1SearchS": [],
+            "nirvanaSearch": [
+                "移動不能",
+                "攻撃方向減少",
+                "弱体化解除妨害"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "科学支援"
+            ],
+            "skill1SearchS": [
+                "攻撃範囲内の敵",
+                "小威力"
+            ],
             "skill2SearchS": [],
-            "nirvanaSearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "属性の敵",
+                "大威力"
+            ],
             "role": "心理定規",
             "hp": "12222",
             "dexterity": "2452",
@@ -41876,7 +42060,33 @@
             "potentialAbility1": "物攻向上（中）",
             "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
             "potentialAbility2": "科学支援：HP向上（大）",
-            "potentialAbility2Effect": "辅助角色是科学侧角色时，战斗开始时自己的最大HP大量增加。"
+            "potentialAbility2Effect": "辅助角色是科学侧角色时，战斗开始时自己的最大HP大量增加。",
+            "skill1Search": [
+                "强化妨碍",
+                "持续被害"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "移动不能",
+                "攻击方向减少",
+                "弱体化解除妨害"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "科学支援"
+            ],
+            "skill1SearchS": [
+                "攻击范围内的敌人",
+                "小威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "属性敌人",
+                "大威力"
+            ]
         },
         "img": "374",
         "arrow": [
@@ -41899,14 +42109,28 @@
             "potentialAbility1Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
             "potentialAbility2": "構造解析（小）＋器用向上",
             "potentialAbility2Effect": "科学サイドへ攻撃した際の威力を小アップ＋バトル開始時に自分の器用を中アップさせる",
-            "skill1Search": [],
+            "skill1Search": [
+                "不屈",
+                "異攻アップ"
+            ],
             "skill2Search": [],
             "nirvanaSearch": [],
-            "potentialSearch1": [],
-            "potentialSearch2": [],
-            "skill1SearchS": [],
+            "potentialSearch1": [
+                "異攻向上"
+            ],
+            "potentialSearch2": [
+                "器用向上",
+                "構造解析"
+            ],
+            "skill1SearchS": [
+                "自身"
+            ],
             "skill2SearchS": [],
-            "nirvanaSearchS": [],
+            "nirvanaSearchS": [
+                "正面の敵",
+                "特大威力",
+                "［科学サイド］の敵に対して威力が上昇"
+            ],
             "role": "ドッペルゲンガー",
             "hp": "11706",
             "dexterity": "1925",
@@ -41947,7 +42171,29 @@
             "potentialAbility1": "异攻向上（中）",
             "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
             "potentialAbility2": "构造解析（小）+灵巧向上",
-            "potentialAbility2Effect": "攻击科学侧角色时威力少量增加，战斗开始时自己的灵巧中量增加。"
+            "potentialAbility2Effect": "攻击科学侧角色时威力少量增加，战斗开始时自己的灵巧中量增加。",
+            "skill1Search": [
+                "不屈",
+                "异攻增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异攻向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上",
+                "构造解析"
+            ],
+            "skill1SearchS": [
+                "自身"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "正面的敌人",
+                "特大威力",
+                "对科学侧敌人威力上升"
+            ]
         },
         "img": "375",
         "arrow": [
