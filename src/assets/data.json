@@ -5081,7 +5081,6 @@
             "limited": "",
             "skill1SearchS": [
                 "行動開始時",
-                "敵全体",
                 "属性の敵"
             ],
             "skill2SearchS": [],
@@ -5128,7 +5127,6 @@
             "limited": "",
             "skill1SearchS": [
                 "行动开始时",
-                "全体敌人",
                 "属性敌人"
             ],
             "skill2SearchS": [],
@@ -5707,7 +5705,6 @@
             "limited": "",
             "skill1SearchS": [
                 "ペアのキャラが敵にダメージを与えた時",
-                "敵全体",
                 "属性の敵"
             ],
             "skill2SearchS": [],
@@ -5754,7 +5751,6 @@
             "limited": "",
             "skill1SearchS": [
                 "配对角色对敌人造成伤害时",
-                "全体敌人",
                 "属性敌人"
             ],
             "skill2SearchS": [],
@@ -13066,7 +13062,10 @@
             "skill2Code": "",
             "nirvanaCode": "",
             "limited": "",
-            "skill1SearchS": [],
+            "skill1SearchS": [
+                "ペアのキャラが敵にクリティカルでダメージを与えた時",
+                "その敵"
+            ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
         },
@@ -13109,7 +13108,10 @@
             "skill2Code": "",
             "nirvanaCode": "",
             "limited": "活动限定",
-            "skill1SearchS": [],
+            "skill1SearchS": [
+                "配对角色给予敌人暴击伤害时",
+                "该敌人"
+            ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
         },
@@ -16926,7 +16928,8 @@
             "limited": "",
             "skill1SearchS": [
                 "行動開始時",
-                "敵全体"
+                "敵全体",
+                "ペアのキャラと同じ属性の敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -16973,7 +16976,8 @@
             "limited": "",
             "skill1SearchS": [
                 "行动开始时",
-                "全体敌人"
+                "全体敌人",
+                "与配对角色同属性的敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -17268,7 +17272,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラがダメージを受けた時"
+                "ペアのキャラがダメージを受けた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -17314,7 +17319,8 @@
             "nirvanaCode": "",
             "limited": "活动限定",
             "skill1SearchS": [
-                "配对角色受到伤害时"
+                "配对角色受到伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -17839,6 +17845,7 @@
             "limited": "",
             "skill1SearchS": [
                 "ペアのキャラがダメージを受けた時",
+                "その敵",
                 "自身"
             ],
             "skill2SearchS": [],
@@ -17886,6 +17893,7 @@
             "limited": "活动限定",
             "skill1SearchS": [
                 "配对角色受到伤害时",
+                "该敌人",
                 "自身"
             ],
             "skill2SearchS": [],
@@ -18965,7 +18973,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -19011,7 +19020,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -19890,7 +19900,8 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "味方全体"
+                "味方全体",
+                "属性の味方全体"
             ]
         },
         "Chinese": {
@@ -19943,7 +19954,8 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "我方全体"
+                "我方全体",
+                "某属性的我方全体"
             ]
         },
         "img": "178",
@@ -20561,7 +20573,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -20607,7 +20620,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -21592,7 +21606,8 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "味方全体"
+                "味方全体",
+                "属性の味方全体"
             ]
         },
         "Chinese": {
@@ -21643,7 +21658,8 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "我方全体"
+                "我方全体",
+                "某属性的我方全体"
             ]
         },
         "img": "193",
@@ -22934,6 +22950,8 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "右の敵",
+                "その敵",
+                "その敵とその敵の両隣のキャラ",
                 "大威力"
             ]
         },
@@ -22983,6 +23001,8 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "右面的敌人",
+                "该敌人",
+                "该敌人与该敌人两临的角色",
                 "大威力"
             ]
         },
@@ -23591,7 +23611,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -23638,7 +23659,8 @@
             "nirvanaCode": "",
             "limited": "活动限定",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -24386,7 +24408,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラがダメージを受けた時"
+                "ペアのキャラがダメージを受けた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -24432,7 +24455,8 @@
             "nirvanaCode": "",
             "limited": "联动限定",
             "skill1SearchS": [
-                "配对角色受到伤害时"
+                "配对角色受到伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -25714,7 +25738,8 @@
             "limited": "",
             "skill1SearchS": [
                 "行動開始時",
-                "敵全体"
+                "敵全体",
+                "ペアのキャラと同じ属性の敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -25762,7 +25787,8 @@
             "limited": "联动限定",
             "skill1SearchS": [
                 "行动开始时",
-                "全体敌人"
+                "全体敌人",
+                "与配对角色同属性的敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -26278,7 +26304,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -26324,7 +26351,8 @@
             "nirvanaCode": "",
             "limited": "FES限定",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -26637,7 +26665,8 @@
                 "味方全体"
             ],
             "skill2SearchS": [
-                "ペアのキャラが敵にクリティカルでダメージを与えた時"
+                "ペアのキャラが敵にクリティカルでダメージを与えた時",
+                "その敵"
             ],
             "nirvanaSearchS": []
         },
@@ -26689,7 +26718,8 @@
                 "我方全体"
             ],
             "skill2SearchS": [
-                "配对角色给予敌人暴击伤害时"
+                "配对角色给予敌人暴击伤害时",
+                "该敌人"
             ],
             "nirvanaSearchS": []
         },
@@ -27690,6 +27720,8 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "左の敵",
+                "その敵",
+                "その敵とその敵の両隣のキャラ",
                 "特大威力"
             ]
         },
@@ -27744,6 +27776,8 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "左面的敌人",
+                "该敌人",
+                "该敌人与该敌人两临的角色",
                 "特大威力"
             ]
         },
@@ -27911,6 +27945,7 @@
             "limited": "",
             "skill1SearchS": [
                 "ペアのキャラがダメージを受けた時",
+                "その敵",
                 "自身"
             ],
             "skill2SearchS": [],
@@ -27960,6 +27995,7 @@
             "limited": "活动限定",
             "skill1SearchS": [
                 "配对角色受到伤害时",
+                "该敌人",
                 "自身"
             ],
             "skill2SearchS": [],
@@ -33312,7 +33348,8 @@
                 "味方全体"
             ],
             "skill2SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "nirvanaSearchS": []
         },
@@ -33366,7 +33403,8 @@
                 "我方全体"
             ],
             "skill2SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "nirvanaSearchS": []
         },
@@ -33773,7 +33811,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -33819,7 +33858,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -34918,7 +34958,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラが敵にダメージを与えた時"
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -34964,7 +35005,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色对敌人造成伤害时"
+                "配对角色对敌人造成伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -35022,7 +35064,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラがスキルを使用した後"
+                "ペアのキャラがスキルを使用した後",
+                "同じ属性の味方全体"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -35068,7 +35111,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色使用技能后"
+                "配对角色使用技能后",
+                "同属性的我方全体"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -35127,7 +35171,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "ペアのキャラがダメージを受けた時"
+                "ペアのキャラがダメージを受けた時",
+                "その敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -35174,7 +35219,8 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "配对角色受到伤害时"
+                "配对角色受到伤害时",
+                "该敌人"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -35231,7 +35277,9 @@
             "skill2Code": "",
             "nirvanaCode": "",
             "limited": "",
-            "skill1SearchS": [],
+            "skill1SearchS": [
+                "属性の味方全体"
+            ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "攻撃範囲内の敵",
@@ -35279,7 +35327,9 @@
             "skill2Code": "",
             "nirvanaCode": "",
             "limited": "",
-            "skill1SearchS": [],
+            "skill1SearchS": [
+                "某属性的我方全体"
+            ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "攻击范围内的敌人",
@@ -36238,7 +36288,7 @@
     {
         "ID": 321,
         "nameJp": "【大太刀の花嫁】神裂火織",
-        "nameCn": "",
+        "nameCn": "【大太刀的花嫁】神裂火织",
         "Japanese": {
             "skill1": "花嫁の恥じらい",
             "skill1Effect": "攻撃範囲内の敵に中威力の物理攻撃をし、自身のHPを回復(小)し、SPを10上昇する",
@@ -36329,7 +36379,20 @@
                 "攻击范围内的敌人",
                 "特大威力",
                 "对魔术侧敌人威力上升"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "花嫁的娇羞",
+            "skill1Effect": "对攻击范围内的敌人释放中威力的物理攻击，自身的HP回复（小），SP上升10点。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "七天七刀·誓",
+            "nirvanaEffect": "对攻击范围内的敌人释放对[魔法侧]角色威力上升的特大威力的物理攻击，并对攻击范围内的敌人附加3回合【异攻降低（中）】与【负面状态解除妨碍】。",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "判断力向上+物攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，物理攻击力中量增加。"
         },
         "img": "321",
         "arrow": [
@@ -36340,7 +36403,7 @@
     {
         "ID": 322,
         "nameJp": "【渚のブライド】五和",
-        "nameCn": "",
+        "nameCn": "【海滨的新娘】五和",
         "Japanese": {
             "skill1": "純白の衝撃",
             "skill1Effect": "正面の敵に中威力の異能攻撃をし、正面の[魔術サイド]の敵に【感電】と【異防ダウン（大）】を1ターン付与する",
@@ -36433,7 +36496,20 @@
                 "右面的敌人",
                 "自身",
                 "大威力"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "纯白的冲击",
+            "skill1Effect": "对正面范围内的敌人释放中威力的异能攻击，并对正面的[魔法侧]的敌人附加1回合【感电】与【异防降低（大）】。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "婚礼之枪",
+            "nirvanaEffect": "对右侧的敌人释放大威力的异能攻击，并为自己附加2回合可以抵挡1次伤害的【护盾】与【目标集中状态】。",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "右方向攻击强化+异攻向上",
+            "potentialAbility2Effect": "自己对右方向的攻击力增加，战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "322",
         "arrow": [
@@ -36443,7 +36519,7 @@
     {
         "ID": 323,
         "nameJp": "【抱擁の花嫁】オルソラ＝アクィナス",
-        "nameCn": "",
+        "nameCn": "【拥抱的花嫁】奥索拉·阿奎纳",
         "Japanese": {
             "skill1": "花嫁の暗号",
             "skill1Effect": "敵行動終了時にペアのキャラのHPが半分以下の時、HPを回復(大)し、【異攻アップ（大）】を2ターン付与する（2回のみ）",
@@ -36514,7 +36590,20 @@
                 "敌行动结束时配对角色的HP小于自身一半时"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "花嫁的暗号",
+            "skill1Effect": "敌人行动结束时，若组合角色的HP在一半以下，回复全体己方角色的HP（大），并附加2回合【异攻增加（大）】（仅2次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "异攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "323",
         "arrow": ""
@@ -36522,7 +36611,7 @@
     {
         "ID": 324,
         "nameJp": "【彩光の花嫁】アニェーゼ＝サンクティス",
-        "nameCn": "",
+        "nameCn": "【彩光的花嫁】雅妮丝·桑提斯",
         "Japanese": {
             "skill1": "祝福の門出",
             "skill1Effect": "行動開始時ペアのキャラと同じ属性の味方全体に【物攻アップ（小）】と【異防アップ（中）】を1ターン付与する（3回のみ）",
@@ -36599,7 +36688,20 @@
                 "同属性的我方全体"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "祝福的开始",
+            "skill1Effect": "行动开始时为与组合角色同属性的全体己方角色附加1回合【物攻降低（小）】与【异防降低（中）】（仅3次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "集中力向上+HP向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，最大HP中量增加。"
         },
         "img": "324",
         "arrow": ""
@@ -36607,7 +36709,7 @@
     {
         "ID": 325,
         "nameJp": "【死体職人】ショチトル",
-        "nameCn": "",
+        "nameCn": "【尸体职人】索绮特",
         "Japanese": {
             "skill1": "自殺術式",
             "skill1Effect": "敵全体に【物攻ダウン（小）】と【スキル封印】と【持続被害（小）】を2ターン付与する",
@@ -36698,7 +36800,20 @@
                 "攻击范围内的敌人",
                 "自身",
                 "大威力"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "自杀术式",
+            "skill1Effect": "为全体敌人附加2回合【物攻降低（小）】、【技能封印】与【持续被害（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "马克胡特",
+            "nirvanaEffect": "对攻击范围内的敌人附加1回合【辅助封印】与【SP获得量降低（大）】，释放大威力的物理攻击，自身SP上升20点",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
+            "potentialAbility2": "集中力向上+物攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，物理攻击力中量增加。"
         },
         "img": "325",
         "arrow": [
@@ -36709,7 +36824,7 @@
     {
         "ID": 326,
         "nameJp": "【『原典』の力】エツァリ",
-        "nameCn": "",
+        "nameCn": "【原典之力】艾札力",
         "Japanese": {
             "skill1": "金星の光",
             "skill1Effect": "攻撃範囲内の敵に中威力の異能攻撃をし、青属性の敵に【異攻ダウン（小）】と【異防ダウン（中）】を2ターン付与する",
@@ -36802,7 +36917,20 @@
                 "我方全体",
                 "大威力",
                 "对魔术侧敌人威力上升"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "金星之光",
+            "skill1Effect": "对攻击范围内的敌人释放中威力的异能攻击，并为蓝色属性的敌人附加2回合【异攻降低（小）】与【异防降低（中）】。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "“原典”",
+            "nirvanaEffect": "对攻击范围内的敌人释放对[魔法侧]威力上升的大威力的异能攻击，并为全体己方角色附加3回合【受到异能伤害降低（中）】。",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "术式解析（小）+异攻向上",
+            "potentialAbility2Effect": "攻击魔法侧角色时威力少量增加，战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "326",
         "arrow": [
@@ -36813,7 +36941,7 @@
     {
         "ID": 327,
         "nameJp": "【魔神】僧正",
-        "nameCn": "",
+        "nameCn": "【魔神】僧正",
         "Japanese": {
             "skill1": "泥の巨腕",
             "skill1Effect": "攻撃範囲内の敵に中威力の異能攻撃し、【異防ダウン（小）】と【弱体化解除妨害】を2ターン付与する",
@@ -36902,7 +37030,20 @@
                 "全体敌人",
                 "属性敌人",
                 "大威力"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "泥塑巨腕",
+            "skill1Effect": "对攻击范围内的敌人释放中威力的异能攻击，并附加2回合【异防降低（小）】与【负面状态解除妨碍】。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "阿洛海德彗星",
+            "nirvanaEffect": "对全部敌人释放大威力的异能攻击，并为黄色的敌人附加4回合【暴击率降低（中）】。",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "集中力向上+HP向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，最大HP中量增加。"
         },
         "img": "327",
         "arrow": [
@@ -36912,7 +37053,7 @@
     {
         "ID": 328,
         "nameJp": "【月夜の妖花】御坂美琴",
-        "nameCn": "",
+        "nameCn": "【月夜的妖花】御坂美琴",
         "Japanese": {
             "skill1": "宴に咲く華",
             "skill1Effect": "自身に【異攻アップ（小）】と【物防アップ（中）】と【異防アップ（中）】を4ターン付与し、味方全体に【黄属性ダメージカット（中）】と【感電耐性】を2ターン付与する",
@@ -37009,7 +37150,20 @@
                 "正面的敌人",
                 "自身",
                 "根据自身被赋予的强化状态的数量威力上升的攻击"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "花开盛宴",
+            "skill1Effect": "为自己附加4回合【异攻增加（小）】、【物防增加（中）】，与【异防增加（中）】，并为全体己方角色附加2回合【受到黄色伤害降低（中）】与【感电耐性】。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "电击大餐",
+            "nirvanaEffect": "解除正面的敌人的防御力增加状态，并释放特大威力的异能攻击，自己身上的强化状态越多（最多10）威力越大。",
+            "potentialAbility1": "紫战斗角色异能能力向上（中）+紫战斗角色对黄色异防向上（大）",
+            "potentialAbility1Effect": "战斗开始时紫属性战斗角色全员的异能攻击力、异能防御力中量增加，且对黄属性攻击的异能防御力大量增加。",
+            "potentialAbility2": "紫战斗角色异能能力向上（大）+紫战斗角色对黄色异攻向上（大）",
+            "potentialAbility2Effect": "战斗开始时紫属性战斗角色全员的异能攻击力、异能防御力大量增加，且对黄属性攻击时异能攻击力大量增加。"
         },
         "img": "328",
         "arrow": [
@@ -37021,7 +37175,7 @@
     {
         "ID": 329,
         "nameJp": "【蜂蜜色の少女】食蜂操祈",
-        "nameCn": "",
+        "nameCn": "【蜂蜜色的少女】食蜂操祈",
         "Japanese": {
             "skill1": "蠱惑の女王",
             "skill1Effect": "正面と左右の敵に小威力の異能攻撃し、【緑属性耐性ダウン（中）】と【アシスト封印】を3ターン付与する",
@@ -37076,7 +37230,6 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "敵全体",
                 "攻撃範囲内の敵",
                 "科学サイドの敵",
                 "特大威力",
@@ -37109,12 +37262,24 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "全体敌人",
                 "攻击范围内的敌人",
                 "科学侧敌人",
                 "特大威力",
                 "对科学侧敌人威力上升"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "蛊惑的女王",
+            "skill1Effect": "对正面和左右两侧的敌人释放小威力的异能攻击，并附加3轮【绿色耐性降低（中）】与【辅助封印】。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "暴走觉悟的心理掌握",
+            "nirvanaEffect": "对攻击范围内的敌人释放特大威力的异能攻击，此攻击对科学侧的敌人威力上升，并对科学侧敌人附加1回合【无法控制】的效果。",
+            "potentialAbility1": "绿战斗角色异能能力向上（中）+绿战斗角色对蓝色异防向上（大）",
+            "potentialAbility1Effect": "战斗开始时绿属性战斗角色全员的异能攻击力、异能防御力中量增加，且对蓝属性攻击时异能防御力大量增加。",
+            "potentialAbility2": "绿战斗角色异能能力向上（大）+绿战斗角色对蓝色异攻向上（大）",
+            "potentialAbility2Effect": "战斗开始时绿属性战斗角色全员的异能攻击力、异能防御力大量增加，且对蓝属性攻击时异能攻击力大量增加。"
         },
         "img": "329",
         "arrow": [
@@ -37125,7 +37290,7 @@
     {
         "ID": 330,
         "nameJp": "【淑やかティータイム】インデックス",
-        "nameCn": "",
+        "nameCn": "【端庄的茶会】茵蒂克丝",
         "Japanese": {
             "skill1": "アフタヌーンティー",
             "skill1Effect": "ペアのキャラがスキルを使用した後、ペアのキャラと同じ属性の味方全体に【異攻アップ（中）】を2ターン付与し、スキルのチャージターンを1短縮する（2回のみ）",
@@ -37214,7 +37379,20 @@
                 "敌行动结束时配对角色的HP小于自身一半时",
                 "我方全体"
             ],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "下午茶",
+            "skill1Effect": "组合角色使用技能后，为与组合角色相同属性的己方全员附加2回合【异攻增加（中）】，技能冷却时间缩短1（仅2次）。",
+            "skill2": "绝妙的红茶",
+            "skill2Effect": "敌人行动结束时，若组合角色的HP在一半以下，回复全体己方角色的HP（小），并为全体己方角色附加2轮【异攻增加（中）】与【受到紫色伤害降低（中）】（仅3次）",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "SP获取量向上+异攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的SP获得量少量增加，异能攻击力中量增加。"
         },
         "img": "330",
         "arrow": ""
@@ -37222,7 +37400,7 @@
     {
         "ID": 331,
         "nameJp": "【タキシードの少年】上条当麻",
-        "nameCn": "",
+        "nameCn": "【燕尾服少年】上条当麻",
         "Japanese": {
             "skill1": "右手の力",
             "skill1Effect": "ペアのキャラがアシストキャラ以外から弱体化状態を受けた時、 味方全体の弱体化状態を全て解除し、味方全体に【クリティカル発生率アップ（小）】と【物攻アップ（小）】を3ターン付与する（3回のみ）",
@@ -37299,7 +37477,20 @@
                 "我方全体"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "右手之力",
+            "skill1Effect": "组合角色接受到来自除辅助角色以外来源的弱体化状态时，清除全部友方角色弱体化状态，并为全体友方附加3回合【暴击率提升（小）】于【物攻提升（小）】（仅3次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的物理攻击力中量增加。"
         },
         "img": "331",
         "arrow": ""
@@ -37307,7 +37498,7 @@
     {
         "ID": 332,
         "nameJp": "【神秘の否定者】アレイスター＝クロウリー",
-        "nameCn": "",
+        "nameCn": "【否定神秘者】亚雷斯塔·克劳利",
         "Japanese": {
             "skill1": "力の使い方",
             "skill1Effect": "自身に【貫通】と【攻撃方向増加+2】と【クリティカル威力アッ プ（中）を3ターン付与する",
@@ -37388,7 +37579,20 @@
                 "攻击范围内的敌人",
                 "特大威力",
                 "必发生暴击"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "力量的使用方式",
+            "skill1Effect": "为自己赋予3回合【贯通】与【攻击方向增加＋2】与【暴击威力提升（中）】效果。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "传授必要知识之人",
+            "nirvanaEffect": "对攻击范围内的敌人释放特大威力的异能攻击，且必定暴击。",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "异攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "332",
         "arrow": [
@@ -37398,7 +37602,7 @@
     {
         "ID": 333,
         "nameJp": "【定位置】禁書目録たん",
-        "nameCn": "",
+        "nameCn": "【固定位置】禁术目录碳",
         "Japanese": {
             "skill1": "ヒロイン登場",
             "skill1Effect": "行動開始時に敵全体に【異防ダウン（小）】を1ターン付与する（3回のみ）",
@@ -37471,7 +37675,20 @@
                 "全体敌人"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "女主角登场",
+            "skill1Effect": "行动开始时为全体敌人附加1回合【异防降低（小）】（仅3次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "异防向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的异能防御力中量增加。"
         },
         "img": "333",
         "arrow": ""
@@ -37479,7 +37696,7 @@
     {
         "ID": 334,
         "nameJp": "【理想送り】上里翔流",
-        "nameCn": "",
+        "nameCn": "【理想放逐】上里翔流",
         "Japanese": {
             "skill1": "出し惜しみナシ",
             "skill1Effect": "黄属性の味方全体に【物攻アップ（中）】と【紫属性ダメージカット（中）】を3ターン付与する",
@@ -37570,7 +37787,20 @@
                 "攻击范围内的敌人",
                 "特大威力",
                 "对魔术侧敌人威力上升"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "毫不吝啬",
+            "skill1Effect": "为黄属性的己方全体角色附加3回合【物防增加（中）】与【受到紫色伤害降低（中）】。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "理想放逐",
+            "nirvanaEffect": "为攻击范围内的敌人附加3回合【SP获得量降低（大）】，并释放对魔法侧角色威力上升的特大威力的物理攻击，然后附加3轮【攻击方向-2】。",
+            "potentialAbility1": "黄战斗角色物理能力向上（中）+黄战斗角色对紫色物防向上（大）",
+            "potentialAbility1Effect": "战斗开始时黄属性战斗角色全员的物理攻击力、物理防御力中量增加，且面对紫属性时的物理防御力大量增加。",
+            "potentialAbility2": "黄战斗角色物理能力向上（大）+黄战斗角色对紫色物攻向上（大）",
+            "potentialAbility2Effect": "战斗开始时黄属性战斗角色全员的物理攻击力、物理防御力大量增加，且面对紫属性时的物理防御力大量增加。"
         },
         "img": "334",
         "arrow": [
@@ -37581,7 +37811,7 @@
     {
         "ID": 335,
         "nameJp": "【魔神】ネフテュス",
-        "nameCn": "",
+        "nameCn": "【魔神】奈芙蒂斯",
         "Japanese": {
             "skill1": "『伝播の涙』",
             "skill1Effect": "攻撃範囲内の敵に【制御不能】を1ターン付与し、中威力の異能攻撃をし、ステータスアップ状態を解除する",
@@ -37672,7 +37902,20 @@
                 "攻击范围内的敌人",
                 "特大威力",
                 "无视使伤害无效的特殊效果的攻击"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "“传播之泪”",
+            "skill1Effect": "为攻击范围内的敌人附加1轮【不能控制】，并释放中威力的异能攻击，然后解除其属性上升状态。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "水之刃",
+            "nirvanaEffect": "对攻击范围内的敌人释放特大威力的异能攻击，此攻击无视所有可以使伤害无效的特殊状态，然后附加3轮【红属性耐性降低（中）】。",
+            "potentialAbility1": "红战斗角色异能能力向上（中）+红战斗角色对绿色异防向上（大）",
+            "potentialAbility1Effect": "战斗开始时红属性战斗角色全员的异能攻击力、异能防御力中量增加，且对绿属性攻击时异能防御力大量增加。",
+            "potentialAbility2": "红战斗角色异能能力向上（大）+红战斗角色对绿色异攻向上（大）",
+            "potentialAbility2Effect": "战斗开始时红属性战斗角色全员的异能攻击力、异能防御力大量增加，且对绿属性攻击时异能攻击力大量增加。"
         },
         "img": "335",
         "arrow": [
@@ -37683,7 +37926,7 @@
     {
         "ID": 336,
         "nameJp": "【絶滅犯】去鳴",
-        "nameCn": "",
+        "nameCn": "【灭绝犯】去鸣",
         "Japanese": {
             "skill1": "『外的御供』",
             "skill1Effect": "自身にダメージ2回分の【外的御供】と【物防アップ（小）】を3ターン付与する",
@@ -37772,7 +38015,20 @@
                 "自身",
                 "特大威力",
                 "根据自身被赋予的强化状态的数量威力上升的攻击"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "“外部供奉”",
+            "skill1Effect": "为自己附加3轮可以抵挡2次伤害的【外的御供】与【物防增加（小）】。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "“连锁”的一击",
+            "nirvanaEffect": "对攻击范围内的敌人释放特大威力的物理攻击，自己身上的强化状态越多（最多10）威力越大，然后解除自身的强化状态。",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "构造解析（小）+物攻向上",
+            "potentialAbility2Effect": "灵巧向上（中）"
         },
         "img": "336",
         "arrow": [
@@ -37783,7 +38039,7 @@
     {
         "ID": 337,
         "nameJp": "【自称UFO少女】烏丸府蘭",
-        "nameCn": "",
+        "nameCn": "【自称UFO少女】乌丸府兰",
         "Japanese": {
             "skill1": "宇宙ステーション交信",
             "skill1Effect": "行動開始時に敵全体に【物防ダウン（中）】を1ターン付与し、ペアのキャラと同じ属性の味方全体に【クリティカル発生率アップ（中）】を1ターン付与する（2回のみ）",
@@ -37860,7 +38116,20 @@
                 "同属性的我方全体"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "空间站通信",
+            "skill1Effect": "行动开始时为全体敌人附加1轮【物防降低（中）】，并为与组合角色相同颜色的全体己方角色附加2轮【暴击率增加（中）】（仅2次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的物理攻击力中量增加。"
         },
         "img": "337",
         "arrow": ""
@@ -37868,7 +38137,7 @@
     {
         "ID": 338,
         "nameJp": "【リトルジーニアス】パトリシア＝バードウェイ",
-        "nameCn": "",
+        "nameCn": "【小小天才】派翠西亚·芭德薇",
         "Japanese": {
             "skill1": "立ち向かうための『力』",
             "skill1Effect": "敵の行動開始時に敵全体に【物攻ダウン（大）】1ターン付与し、ペアのキャラクターと同じ属性の敵全体に【攻撃力アップ妨害状態】1ターンを付与する（1回のみ）",
@@ -37916,7 +38185,8 @@
             "limited": "",
             "skill1SearchS": [
                 "行動開始時",
-                "敵全体"
+                "敵全体",
+                "ペアのキャラと同じ属性の敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -37940,10 +38210,24 @@
             "attackMethod": "辅助角色",
             "skill1SearchS": [
                 "行动开始时",
-                "全体敌人"
+                "全体敌人",
+                "与配对角色同属性的敌人"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "为了对抗的『力量』",
+            "skill1Effect": "敌人行动开始时，为全体敌人附加1轮【物攻降低（大）】，并为与组合角色相同颜色的全体敌人附加1轮【攻击力增加妨碍】（仅1次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "集中力向上+异攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，异能攻击力中量增加。"
         },
         "img": "338",
         "arrow": ""
@@ -37951,7 +38235,7 @@
     {
         "ID": 339,
         "nameJp": "【MAR付属研究所所長】テレスティーナ＝木原＝ライフライン",
-        "nameCn": "",
+        "nameCn": "【MAR附属研究所所长】泰瑞丝缇娜·木原·莱夫雷恩",
         "Japanese": {
             "skill1": "グレネード発射",
             "skill1Effect": "正面の敵に中威力の異能攻撃し、その敵とその敵の両隣のキャラに【攻撃方向減少-2】を2ターン付与する",
@@ -38002,6 +38286,8 @@
             "limited": "",
             "skill1SearchS": [
                 "正面の敵",
+                "その敵",
+                "その敵とその敵の両隣のキャラ",
                 "中威力"
             ],
             "skill2SearchS": [],
@@ -38033,6 +38319,8 @@
             "attackMethod": "异能攻击",
             "skill1SearchS": [
                 "正面的敌人",
+                "该敌人",
+                "该敌人与该敌人两临的角色",
                 "中威力"
             ],
             "skill2SearchS": [],
@@ -38040,7 +38328,20 @@
                 "正面的敌人",
                 "大威力",
                 "对科学侧敌人威力上升"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "手榴弹发射",
+            "skill1Effect": "对正面的敌人释放中威力的异能攻击，为该敌人以及该敌人两侧的敌人附加2回合【攻击方向减少-2】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "解析武装型超电磁炮",
+            "nirvanaEffect": "对正面范围内的敌人释放对科学侧威力上升的大威力的异能攻击，并附加1回合【感电】。",
+            "potentialAbility1": "科学连携力向上+异攻向上",
+            "potentialAbility1Effect": "包含科学侧的连携攻击时攻击力增加，战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "术式解析（小）+灵巧向上",
+            "potentialAbility2Effect": "攻击魔法侧角色时威力少量增加，战斗开始时自己的灵巧中量增加。"
         },
         "img": "339",
         "arrow": [
@@ -38050,7 +38351,7 @@
     {
         "ID": 340,
         "nameJp": "【チアリングシスター】インデックス",
-        "nameCn": "",
+        "nameCn": "【啦啦队修女】茵蒂克丝",
         "Japanese": {
             "skill1": "勝利への祈り",
             "skill1Effect": "自分以外の味方全体に【クリティカル威力アップ（中）】と【攻撃方向増加+2】を2ターン付与し、スキルチャージターンを2短縮する",
@@ -38137,7 +38438,20 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "我方全体"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "为胜利祈祷",
+            "skill1Effect": "为除自己以外的全体己方角色附加2回合【暴击威力提升（中）】与【攻击方向增加＋2】，技能冷却回合缩短2回合。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "真心啦啦队",
+            "nirvanaEffect": "清除全体己方角色的弱体化状态，回复HP（中），并附加2回合【护盾】与3回合【SP获得量增加（大）】。",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "魔法支援：HP向上（大）",
+            "potentialAbility2Effect": "辅助角色是魔法侧角色时，战斗开始时自己的最大HP大量增加。"
         },
         "img": "340",
         "arrow": [
@@ -38149,7 +38463,7 @@
     {
         "ID": 341,
         "nameJp": "【神の右席】左方のテッラ",
-        "nameCn": "",
+        "nameCn": "【神之右席】左方之地",
         "Japanese": {
             "skill1": "照準調整",
             "skill1Effect": "自身に【クリティカル必中】と【物攻アップ（中）】を2ターン付与する",
@@ -38240,7 +38554,20 @@
                 "自身",
                 "大威力",
                 "无视使伤害无效的特殊效果的攻击"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "调整准头",
+            "skill1Effect": "为自己附加2轮【暴击必中】与【物攻增加（中）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "光之处刑",
+            "nirvanaEffect": "对攻击范围内的敌人释放大威力的异能攻击，此攻击无视所有可以使伤害无效的特殊状态，并为自己附加1轮可以抵挡1次伤害的【护盾】与两轮【弱化状态耐性】",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "魔法连携力向上+灵巧向上",
+            "potentialAbility2Effect": "包含魔法侧的连携攻击时攻击力增加，战斗开始时自己的灵巧中量增加。"
         },
         "img": "341",
         "arrow": [
@@ -38251,7 +38578,7 @@
     {
         "ID": 342,
         "nameJp": "【『学習装置』の監修者】布束砥信",
-        "nameCn": "",
+        "nameCn": "【“学习装置”的监修者】布束砥信",
         "Japanese": {
             "skill1": "寿命中断",
             "skill1Effect": "行動開始時にペアのキャラの攻撃範囲内の敵に【異防ダウン（中）】と確率で【気絶】を1ターン付与する（1回のみ）",
@@ -38299,7 +38626,7 @@
             "limited": "",
             "skill1SearchS": [
                 "行動開始時",
-                "攻撃範囲内の敵"
+                "ペアのキャラの攻撃範囲内の敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -38323,10 +38650,23 @@
             "attackMethod": "辅助角色",
             "skill1SearchS": [
                 "行动开始时",
-                "攻击范围内的敌人"
+                "配对角色攻击范围内的敌人"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "寿命中断",
+            "skill1Effect": "行动开始时，对组合角色的攻击范围内的敌人附加1回合【异防下降（中）】和有概率附加【气绝】（仅1次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "异攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "342",
         "arrow": ""
@@ -38334,7 +38674,7 @@
     {
         "ID": 343,
         "nameJp": "【トワイライトメモリー】オリアナ＝トムソン",
-        "nameCn": "",
+        "nameCn": "【暮光回忆】欧莉安娜·汤姆森",
         "Japanese": {
             "skill1": "お姉さんのリード",
             "skill1Effect": "自身と、自身の両隣のキャラに【異攻アップ（小）】と【異能ダメージカット（大）】を2ターン付与する",
@@ -38419,7 +38759,20 @@
             "nirvanaSearchS": [
                 "属性敌人",
                 "大威力"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "大姐姐的引领",
+            "skill1Effect": "为自己和左右两侧的角色附加2轮【异攻增加（小）】与【受到异能伤害降低（大）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "夏季符号",
+            "nirvanaEffect": "对攻击范围内的敌人释放大威力的异能攻击，并为绿色的敌人附加3回合【异攻降低（中）】与【移动不能】",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
+            "potentialAbility2": "前方攻击强化+异攻向上",
+            "potentialAbility2Effect": "自己对前方向的攻击力增加，战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "343",
         "arrow": [
@@ -38430,7 +38783,7 @@
     {
         "ID": 344,
         "nameJp": "【せくしぃマーメイド】レッサー",
-        "nameCn": "",
+        "nameCn": "【性感人鱼】蕾莎",
         "Japanese": {
             "skill1": "夏の暑さにご用心",
             "skill1Effect": "攻撃範囲内の敵に小威力の物理攻撃し、攻撃範囲内の魔術サイドの敵に【アシスト封印】と【持続被害（小）】を3ターン付与する",
@@ -38519,7 +38872,20 @@
                 "攻击范围内的敌人",
                 "魔术侧敌人",
                 "特大威力"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "注意夏日炎热",
+            "skill1Effect": "对攻击范围内的敌人释放小威力的物理攻击，对攻击范围内的魔法侧敌人附加3回合【辅助封印】和【持续被害（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "飞溅冲浪",
+            "nirvanaEffect": "对攻击范围内的敌人释放特大威力的物理攻击，并对攻击范围内的魔法侧敌人附加3回合【物攻降低（大）】",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "前方向攻击强化+物攻向上",
+            "potentialAbility2Effect": "自己对前方向的攻击力增加，战斗开始时自己的物理攻击力中量增加。"
         },
         "img": "344",
         "arrow": [
@@ -38530,7 +38896,7 @@
     {
         "ID": 345,
         "nameJp": "【クルージングビーナス】オルソラ＝アクィナス",
-        "nameCn": "",
+        "nameCn": "【巡航维纳斯】奥索拉·阿奎纳",
         "Japanese": {
             "skill1": "恵みの海",
             "skill1Effect": "行動開始時に味方全体に【異攻アップ（小）】を2ターン付与し、自身のSPを10上昇する（2回のみ）",
@@ -38607,7 +38973,20 @@
                 "我方全体"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "恩惠之海",
+            "skill1Effect": "行动开始时，为全体己方角色附加2轮【异攻增加（小）】，并为自身SP增加10（仅2次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "异攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "345",
         "arrow": ""
@@ -38615,7 +38994,7 @@
     {
         "ID": 346,
         "nameJp": "【ひと夏の夢】五和",
-        "nameCn": "",
+        "nameCn": "【一个夏日的梦】五和",
         "Japanese": {
             "skill1": "夏は積極的に",
             "skill1Effect": "ペアのキャラがダメージを受けた時、ペアのキャラと同じ属性味方全体に【クリティカル威力アップ（中）】を3ターン付与する（2回のみ）",
@@ -38663,7 +39042,7 @@
             "limited": "",
             "skill1SearchS": [
                 "ペアのキャラがダメージを受けた時",
-                "味方全体"
+                "同じ属性の味方全体"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -38687,10 +39066,23 @@
             "attributes": "绿",
             "skill1SearchS": [
                 "配对角色受到伤害时",
-                "我方全体"
+                "同属性的我方全体"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "夏天要积极点",
+            "skill1Effect": "组合角色受到伤害时，为与组合角色相同属性的友方角色附加3轮【暴击威力增加（中）】（仅2次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "集中力向上+物防向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，物理防御力中量增加。"
         },
         "img": "346",
         "arrow": ""
@@ -38698,7 +39090,7 @@
     {
         "ID": 347,
         "nameJp": "【大海の守護者】後方のアックア",
-        "nameCn": "",
+        "nameCn": "【大海的守护者】后方之水",
         "Japanese": {
             "skill1": "海の洗礼",
             "skill1Effect": "攻撃範囲内の敵に【SP獲得量ダウン（中）】と【異防ダウン（中）】と【攻撃力アップ妨害】を3ターン付与する",
@@ -38787,7 +39179,20 @@
             "nirvanaSearchS": [
                 "全体敌人",
                 "中威力"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "海的洗礼",
+            "skill1Effect": "对攻击范围内的敌人附加3回合【SP获得量降低（中）】、【异防降低（中）】与【攻击力增强妨碍】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "冲浪的流派",
+            "nirvanaEffect": "解除全体敌人的特殊状态、对全体敌人释放中威力的异能攻击、附加3回合【必杀技封印】",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "判断力向上+异攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，异能攻击力中量增加。"
         },
         "img": "347",
         "arrow": [
@@ -38798,7 +39203,7 @@
     {
         "ID": 348,
         "nameJp": "【浜辺の太陽】キャーリサ",
-        "nameCn": "",
+        "nameCn": "【海边的太阳】凯丽莎",
         "Japanese": {
             "skill1": "爆ぜる渦潮",
             "skill1Effect": "攻撃範囲内の敵に中威力の物理攻撃をし、攻撃範囲内の青属性の敵に【異攻ダウン（中）】と【物防ダウン（小）】を2ターン付与する",
@@ -38891,7 +39296,20 @@
                 "攻击范围内的敌人",
                 "属性敌人",
                 "特大威力"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "汹涌的旋涡",
+            "skill1Effect": "对攻击范围内的敌人释放中威力的物理攻击，并为攻击范围内的蓝色属性敌人附加2回合【异攻降低（中）】与【物防降低（小）】。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "破浪",
+            "nirvanaEffect": "对攻击范围内的敌人释放特大威力的物理攻击，并对攻击范围内的蓝属性敌人附加2回合【持续被害（中）】与【绿属性耐性降低（中）】",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "魔法连携力向上+物攻向上",
+            "potentialAbility2Effect": "包含魔法侧的连携攻击时攻击力增加，战斗开始时自己的物理攻击力中量增加。"
         },
         "img": "348",
         "arrow": [
@@ -38902,7 +39320,7 @@
     {
         "ID": 349,
         "nameJp": "【エレガントバカンス】ローラ＝スチュアート",
-        "nameCn": "",
+        "nameCn": "【优雅假期】萝拉·斯图亚特",
         "Japanese": {
             "skill1": "快適リフレッシュ",
             "skill1Effect": "ペアのキャラ以外の味方が必殺技を使用した時、ペアのキャラのステータスダウン状態を解除し、【物攻アップ（大）】と【SP獲得量アップ（大）】を2ターン付与する（1回のみ）",
@@ -38977,7 +39395,20 @@
                 "配对角色以外的我方角色使用必殺技后"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "舒服地恢复精神",
+            "skill1Effect": "除组合角色的己方角色使用必杀技后，为组合角色解除弱化状态，并附加2回合【物攻增加（大）】和【SP获得量增加（大）】（仅1次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "异防向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的异能防御力中量增加。"
         },
         "img": "349",
         "arrow": ""
@@ -38985,7 +39416,7 @@
     {
         "ID": 350,
         "nameJp": "【輝く夕凪】ステイル＝マグヌス",
-        "nameCn": "",
+        "nameCn": "【闪亮晚风】史提尔·马格努斯",
         "Japanese": {
             "skill1": "黄昏のルーン",
             "skill1Effect": "行動開始した時にペアのキャラに【異攻アップ（小）】を1ターン付与し、ペアのキャラの属性が有利属性となる敵全体に【クリティカル回避率ダウン（中）】を1ターン付与する（3回のみ）",
@@ -39033,7 +39464,7 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "敵全体"
+                "ペアのキャラの属性が有利属性となる敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -39057,10 +39488,23 @@
             "faction": "魔法侧",
             "attackMethod": "辅助角色",
             "skill1SearchS": [
-                "全体敌人"
+                "与配对角色属性有利属性的敌人"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "黄昏的卢恩符文",
+            "skill1Effect": "行动开始时对组合角色附加1回合【异攻增加（小）】，对所有被组合角色的属性克制的敌人给予1回合【暴击回避率降低（中）】（仅3次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "判断力向上+灵巧向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，灵巧中量增加。"
         },
         "img": "350",
         "arrow": ""
@@ -39068,7 +39512,7 @@
     {
         "ID": 351,
         "nameJp": "【ヒューズ＝カザキリ】風斬氷華",
-        "nameCn": "",
+        "nameCn": "【保险丝·风斩】风斩冰华",
         "Japanese": {
             "skill1": "『友達』を守る力",
             "skill1Effect": "自身の弱体化状態を全て回復し、科学サイドの味方全体に【貫通】と【物攻アップ（中）】を3ターン付与する",
@@ -39165,7 +39609,20 @@
                 "魔术侧敌人",
                 "特大威力",
                 "对魔术侧敌人威力上升"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "保护“朋友们”的力量",
+            "skill1Effect": "解除自己的全部负面状态，并为己方全体科学侧角色附加3回合【贯通】与【物攻增加（中）】。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "紫电之剑",
+            "nirvanaEffect": "对正面与左侧的敌人释放对[魔法侧]角色威力上升的特大威力的物理攻击，并对正面与左侧的魔法侧敌人附加2回合【暴击威力降低（中）】与 【强化妨害】。",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "术式解析（小）+物攻向上",
+            "potentialAbility2Effect": "攻击魔法侧角色时威力少量增加，战斗开始时自己的物理攻击力中量增加。"
         },
         "img": "351",
         "arrow": [
@@ -39175,7 +39632,7 @@
     {
         "ID": 352,
         "nameJp": "【大天使】神の力",
-        "nameCn": "",
+        "nameCn": "【大天使】神之力",
         "Japanese": {
             "skill1": "光の洗礼",
             "skill1Effect": "攻撃範囲内の敵に科学サイドに対して威力が上昇する小威力の異能攻撃をし、攻撃範囲の科学サイドの敵に対して【物攻ダウン（中）】を3ターン付与する",
@@ -39268,7 +39725,20 @@
                 "科学侧敌人",
                 "大威力",
                 "对科学侧敌人威力上升"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "光的洗礼",
+            "skill1Effect": "对攻击范围内的敌人释放对科学侧角色威力上升的小威力的异能攻击，并对攻击范围内的科学侧敌人附加3回合【物攻降低（中）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "神戮",
+            "nirvanaEffect": "对正面与左右侧的敌人释放对科学侧角色威力上升的大威力的异能攻击，并对正面与左右侧的科学侧敌人附加5回合【持续被害（小）】",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "构造解析（小）+异攻向上",
+            "potentialAbility2Effect": "攻击科学侧角色时威力少量增加，战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "352",
         "arrow": [
@@ -39278,7 +39748,7 @@
     {
         "ID": 353,
         "nameJp": "【未完の少年】ベル・クラネル",
-        "nameCn": "",
+        "nameCn": "【未完的少年】贝尔·克朗尼",
         "Japanese": {
             "skill1": "ファイアボルト",
             "skill1Effect": "攻撃範囲内の敵に小威力の異能攻撃し、【異防ダウン（小）】と【持続被害（小）】を2ターン付与する",
@@ -39369,7 +39839,20 @@
                 "我方全体",
                 "特大威力",
                 "无视使伤害无效的特殊效果的攻击"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "火焰闪电",
+            "skill1Effect": "对攻击范围内的敌人释放小威力的异能攻击，并附加2回合【异防降低（小）】与【持续被害（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "英雄的一击",
+            "nirvanaEffect": "对攻击范围内的敌人释放无视所有使伤害无效的特殊状态的特大威力的异能攻击，恢复己方全体的HP（小），并为己方全体附加2回合【暴击发生率增加（中）】",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "前方攻击强化+异攻向上",
+            "potentialAbility2Effect": "自己对前方向的攻击力增加，战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "353",
         "arrow": [
@@ -39380,7 +39863,7 @@
     {
         "ID": 354,
         "nameJp": "【剣姫】アイズ・ヴァレンシュタイン",
-        "nameCn": "",
+        "nameCn": "【剑姬】艾丝·华伦斯坦",
         "Japanese": {
             "skill1": "エアリアル",
             "skill1Effect": "自身に【貫通】と【物攻アップ（小）】と【SP獲得量アップ（小）】と【クリティカル発生率アップ（小）】と【クリティカル威力アップ（小）】を3ターン付与する。",
@@ -39475,7 +39958,20 @@
                 "自身",
                 "特大威力",
                 "根据自身被赋予的强化状态的数量威力上升的攻击"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "风灵疾走",
+            "skill1Effect": "为自身附加3回合【贯穿】、【物攻增加（小）】、【SP获得量增加（小）】、【暴击发生率增加（小）】与【暴击威力增加（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "凝缩暴风",
+            "nirvanaEffect": "对攻击范围内的敌人释放根据自身被附加的强化状态数量（最大到10）进行威力上升的特大威力的物理攻击，并附加3回合【绿色属性耐性下降（中）】",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
+            "potentialAbility2": "集中力向上+物攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，物理攻击力中量增加。"
         },
         "img": "354",
         "arrow": [
@@ -39486,7 +39982,7 @@
     {
         "ID": 355,
         "nameJp": "【疾風】リュー・リオン",
-        "nameCn": "",
+        "nameCn": "【疾风】琉・里昂",
         "Japanese": {
             "skill1": "疾風迅雷の極意",
             "skill1Effect": "ペアのキャラがスキルを使用した時、ペアのキャラに【物攻アップ（中）】を3ターン付与し、スキルチャージターンを1短縮し、SPを15上昇する（2回のみ）",
@@ -39561,7 +40057,20 @@
                 "配对角色使用技能后"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "疾风迅雷的极意",
+            "skill1Effect": "当组合角色使用技能时，给予组合角色3轮【物攻增加（中）】与技能冷却时间缩短1，并SP+15（仅2次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的物理攻击力中量增加。"
         },
         "img": "355",
         "arrow": ""
@@ -39569,7 +40078,7 @@
     {
         "ID": 356,
         "nameJp": "【艶やかなる妖術師】サンジョウノ・春姫",
-        "nameCn": "",
+        "nameCn": "【妖艳的妖术师】三条乃・春姫",
         "Japanese": {
             "skill1": "ウチデノコヅチ",
             "skill1Effect": "行動開始した時にペアのキャラに【物攻アップ（中）】と【異攻アップ（中）】と【物防アップ（中）】と【異防アップ（中）】と【クリティカル発生率アップ（中）】を3ターン付与する（1回のみ）",
@@ -39644,7 +40153,20 @@
             "attackMethod": "辅助角色",
             "skill1SearchS": [],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "万宝槌",
+            "skill1Effect": "行动开始时，给予组合角色3回合【物攻增加（中）】与【异攻增加（中）】与【物防增加（中）】与【异防增加（中）】与【暴击率增加（中）】（仅1次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "灵巧向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的灵巧中量增加。"
         },
         "img": "356",
         "arrow": ""
@@ -39652,7 +40174,7 @@
     {
         "ID": 357,
         "nameJp": "【幼貌の女神】ヘスティア",
-        "nameCn": "",
+        "nameCn": "【幼貌的女神】赫斯缇雅",
         "Japanese": {
             "skill1": "女神の祈り",
             "skill1Effect": "敵が行動開始した時にペアのキャラに【物理ダメージカット（中）】と【異能ダメージカット（中）】と【SP獲得量アップ（小）】を2ターン付与する（3回のみ）",
@@ -39725,7 +40247,20 @@
             "attackMethod": "辅助角色",
             "skill1SearchS": [],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "女神的祈祷",
+            "skill1Effect": "敌人行动开始时为组合角色附加2回合【受到物理伤害降低（中）】、【受到异能伤害降低（中）】与【SP获得量增加（小）】（仅3次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "SP获取量向上+灵巧向上",
+            "potentialAbility2Effect": "战斗开始时自己的SP获得量少量增加，灵巧中量增加。"
         },
         "img": "357",
         "arrow": ""
@@ -39733,7 +40268,7 @@
     {
         "ID": 358,
         "nameJp": "【女神姿の売り子】佐天涙子",
-        "nameCn": "",
+        "nameCn": "【天使装扮的店员】佐天泪子",
         "Japanese": {
             "skill1": "ジャガ丸くんアピール",
             "skill1Effect": "自身に【物理ダメージカット（大）】と【異能ダメージカット（大）】を3ターン付与し、自身とその両隣のキャラに【物攻アップ（中）】と【異攻アップ（中）】を3ターン付与する",
@@ -39791,6 +40326,7 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "正面の敵",
+                "その敵とその敵の両隣のキャラ",
                 "大威力"
             ]
         },
@@ -39823,8 +40359,22 @@
             "skill2SearchS": [],
             "nirvanaSearchS": [
                 "正面的敌人",
+                "该敌人与该敌人两临的角色",
                 "大威力"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "宣传炸土豆丸君",
+            "skill1Effect": "为自身附加3回合【受到物理伤害降低（大）】与【受到异能伤害降低（大）】，并为自身与相邻的角色附加3回合【物攻增加（中）】与【异攻增加（中）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "自暴自弃地踢球",
+            "nirvanaEffect": "对正面的敌人释放大威力的物理攻击，为该敌人以及该敌人两侧的敌人附加2回合【物防下降（中）】、【异防下降（中）】与【移动不能】",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
+            "potentialAbility2": "HP向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的最大HP中量增加。"
         },
         "img": "358",
         "arrow": [
@@ -39835,7 +40385,7 @@
     {
         "ID": 359,
         "nameJp": "【艶浴衣】麦野沈利",
-        "nameCn": "",
+        "nameCn": "【香艳浴衣】麦野沉利",
         "Japanese": {
             "skill1": "暑気払い",
             "skill1Effect": "攻撃範囲内の敵に中威力の異能攻撃をし、攻撃範囲内に科学サイドの敵が含まれる時、自身に【異攻アップ（中）】を3ターン付与する",
@@ -39932,7 +40482,20 @@
                 "自身",
                 "特大威力",
                 "当自己的HP值最大时，威力会上升"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "祛暑",
+            "skill1Effect": "对攻击范围内的敌人释放中威力的异能攻击，并且攻击范围内有科学侧的敌人时，给予自身3回合【异攻增加（中）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "荧光",
+            "nirvanaEffect": "对攻击范围内的敌人进行一次当自身的HP最大时威力会上升的特大威力的异能攻击，并给予攻击范围内的科学侧敌人3回合【异防降低（中）】",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "构造解析（小）+异攻向上",
+            "potentialAbility2Effect": "攻击科学侧角色时威力少量增加，战斗开始时自己的最大HP中量增加。"
         },
         "img": "359",
         "arrow": [
@@ -39943,7 +40506,7 @@
     {
         "ID": 360,
         "nameJp": "【湯涼み】絹旗最愛",
-        "nameCn": "",
+        "nameCn": "【浴后微冷】绢旗最爱",
         "Japanese": {
             "skill1": "効能成果",
             "skill1Effect": "自身と両隣のキャラに【物防アップ（大）】と【物理ダメージカット（中）】を3ターン付与する",
@@ -40030,7 +40593,20 @@
                 "自身",
                 "特大威力",
                 "将自身物理防御力作为物理攻击力来使用的攻击"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "效能成果",
+            "skill1Effect": "为自己和自己左右两侧的角色附加3回合【物防增加（大）】和【受到物理伤害降低（中）】。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "给予愚者铁拳制裁",
+            "nirvanaEffect": "对正面的敌人造成一次将自身物理防御力来作为物理攻击力的特大威力的物理攻击，并给予2轮【暴击威力降低（中）】",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "前方攻击强化+物攻向上",
+            "potentialAbility2Effect": "自己对前方向的攻击力增加，战斗开始时自己的物理防御力中量增加。"
         },
         "img": "360",
         "arrow": [
@@ -40042,7 +40618,7 @@
     {
         "ID": 361,
         "nameJp": "【湯けむりトラップ】フレンダ＝セイヴェルン",
-        "nameCn": "",
+        "nameCn": "【蒸汽陷阱】芙兰达·塞维伦",
         "Japanese": {
             "skill1": "気分上々",
             "skill1Effect": "ペアのキャラを含む味方がスキルを使用した時、ペアのキャラに【物攻アップ（中）】を2ターン付与し、SPを10上昇する（2回のみ）",
@@ -40115,7 +40691,20 @@
                 "包含配对角色我方使用技能后"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "心情舒畅",
+            "skill1Effect": "包含组合角色的己方角色使用技能时，为组合角色附加2轮【物攻增加（中）】，并SP+10（仅2次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
+            "potentialAbility2": "HP向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的最大HP中量增加。"
         },
         "img": "361",
         "arrow": ""
@@ -40123,7 +40712,7 @@
     {
         "ID": 362,
         "nameJp": "【露天リラックス】滝壺理后",
-        "nameCn": "",
+        "nameCn": "【露天放松】泷壶理后",
         "Japanese": {
             "skill1": "温泉マナー",
             "skill1Effect": "行動開始した時にペアのキャラの攻撃範囲内の敵に【異防ダウン（小）】と【紫属性耐性ダウン（小）】を1ターン付与する（2回のみ）",
@@ -40171,7 +40760,7 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "攻撃範囲内の敵"
+                "ペアのキャラの攻撃範囲内の敵"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -40195,10 +40784,23 @@
             "faction": "科学侧",
             "attackMethod": "辅助角色",
             "skill1SearchS": [
-                "攻击范围内的敌人"
+                "配对角色攻击范围内的敌人"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "温泉礼仪",
+            "skill1Effect": "行动开始时，对组合角色的攻击范围内的敌人给予1回合【异防下降（小）】和【紫属性耐性下降（小）】（仅2次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "集中力向上+HP向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，最大HP中量增加。"
         },
         "img": "362",
         "arrow": ""
@@ -40206,7 +40808,7 @@
     {
         "ID": 363,
         "nameJp": "【双翼の大天使】ミーシャ＝クロイツェフ",
-        "nameCn": "",
+        "nameCn": "【双翼的大天使】米夏·克洛伊洁芙",
         "Japanese": {
             "skill1": "世界を終わらせる力",
             "skill1Effect": "自身の弱体化状態を全て回復し、味方全体に【異攻アップ（中）】と【SP獲得量アップ（小）】と【弱体化状態耐性】を2ターン付与する",
@@ -40263,7 +40865,6 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "敵全体",
                 "攻撃範囲内の敵",
                 "属性の敵",
                 "特大威力"
@@ -40297,11 +40898,23 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "全体敌人",
                 "攻击范围内的敌人",
                 "属性敌人",
                 "特大威力"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "让世界终结的力量",
+            "skill1Effect": "解除自己的全部负面状态，并为己方全体角色附加2回合【异攻增加（中）】、【SP获得量增加（小）】与【弱体化状态耐性】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "水翼",
+            "nirvanaEffect": "对攻击范围内的敌人释放特大威力的异能攻击，并为绿色属性的全体敌人附加1回合【气绝】",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "左方向攻击强化+异攻向上",
+            "potentialAbility2Effect": "自己对左方向的攻击力增加，战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "363",
         "arrow": [
@@ -40311,7 +40924,7 @@
     {
         "ID": 364,
         "nameJp": "【暗号解読の専門家】オルソラ＝アクィナス",
-        "nameCn": "",
+        "nameCn": "【暗号解读的专家】奥索拉·阿奎纳",
         "Japanese": {
             "skill1": "シスターの絆",
             "skill1Effect": "攻撃範囲内の敵に【異防ダウン（中）】と【移動不能】を2ターン付与し、攻撃範囲内に魔術サイドの敵が含まれる場合、味方全体のHPを回復（小）する",
@@ -40410,7 +41023,20 @@
                 "全体敌人",
                 "魔术侧敌人",
                 "中威力"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "修女的牵绊",
+            "skill1Effect": "为攻击范围内的敌人附加两回合【异防下降（中）】与【移动不能】，若攻击范围内有魔法侧时，恢复己方全体HP（小）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "莲之杖修女",
+            "nirvanaEffect": "对全体敌人释放中威力的异能攻击，并附加3回合【物攻下降（中）】与【异攻下降（中）】，为全体魔法侧的敌人附加3回合【攻击力增加妨碍】",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "判断力向上+HP向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，最大HP中量增加。"
         },
         "img": "364",
         "arrow": [
@@ -40422,7 +41048,7 @@
     {
         "ID": 365,
         "nameJp": "【サディスティックメイド】レイヴィニア＝バードウェイ",
-        "nameCn": "",
+        "nameCn": "【残酷女仆】雷维尼亚·芭德薇",
         "Japanese": {
             "skill1": "イチコロご奉仕",
             "skill1Effect": "魔術サイドの味方全体に【異攻アップ（中）】を2ターン付与し、黄属性の味方全体に【クリティカル必中】を1ターン付与し、フィールドの魔術サイドのキャラ数に応じてSPを大きく上昇する",
@@ -40479,7 +41105,6 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "敵全体",
                 "攻撃範囲内の敵",
                 "属性の敵",
                 "特大威力",
@@ -40514,12 +41139,24 @@
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": [
-                "全体敌人",
                 "攻击范围内的敌人",
                 "属性敌人",
                 "特大威力",
                 "对魔术侧敌人威力上升"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "全心全意地服侍",
+            "skill1Effect": "对己方魔法侧全体角色附加2回合【异攻增加（中）】，为黄属性的己方全体角色附加回合【暴击必中】，依据场上的魔法侧的角色数使SP大幅上升",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "什锦刀",
+            "nirvanaEffect": "对攻击范围内的敌人进行对[魔术侧]威力上升的特大威力的异能攻击，为全体紫属性的敌人附加3个回合【移动不能】",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "右方向攻击强化+异攻向上",
+            "potentialAbility2Effect": "自己对右方向的攻击力增加，战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "365",
         "arrow": [
@@ -40529,7 +41166,7 @@
     {
         "ID": 366,
         "nameJp": "【凛々華麗】神裂火織",
-        "nameCn": "",
+        "nameCn": "【凛然华丽】神裂火织",
         "Japanese": {
             "skill1": "七閃・陰陽",
             "skill1Effect": "攻撃範囲内の敵にダメージを無効にする特殊状態を無視して中威力の物理攻撃をし、攻撃範囲内の科学サイドの敵に【物防ダウン（小）】を3ターン付与する",
@@ -40622,7 +41259,20 @@
                 "攻击范围内的敌人",
                 "自身",
                 "大威力"
-            ]
+            ],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "七闪·阴阳",
+            "skill1Effect": "对攻击范围内的敌人释放无视所有使伤害无效的特殊状态的中威力的物理攻击，为攻击范围内的科学侧敌人附加3回合【物防降低（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "拳脚乱舞",
+            "nirvanaEffect": "对攻击范围内的敌人附加1回合【辅助封印】，释放大威力的物理攻击，并为自身附加3回合可以触发一次的【不屈（中）】",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "构造解析（小）+物攻向上",
+            "potentialAbility2Effect": "攻击科学侧角色时威力少量增加，战斗开始时自己的物理攻击力中量增加。"
         },
         "img": "366",
         "arrow": [
@@ -40633,7 +41283,7 @@
     {
         "ID": 367,
         "nameJp": "【ナーシングシスター】インデックス",
-        "nameCn": "",
+        "nameCn": "【护士修女】茵蒂克丝",
         "Japanese": {
             "skill1": "癒しの気配り",
             "skill1Effect": "ペアのキャラを含む味方が敵を退場させた時、その味方にダメージ2回分の【ガード】と【異攻アップ（中）】を3ターン付与する（2回のみ）",
@@ -40706,7 +41356,20 @@
                 "包含配对角色我方使敌人退场时"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "疗养的关怀",
+            "skill1Effect": "包含组合角色的友方角色使敌人退场时，为那个友方角色附加3回合能抵挡2次伤害的【护盾】与【异攻增加（中）】（仅2次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "异攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的异能攻击力中量增加。"
         },
         "img": "367",
         "arrow": ""
@@ -40714,7 +41377,7 @@
     {
         "ID": 368,
         "nameJp": "【バトラー】上条当麻",
-        "nameCn": "",
+        "nameCn": "【执事】上条当麻",
         "Japanese": {
             "skill1": "粋なもてなし",
             "skill1Effect": "ペアのキャラを含む味方がスキルを使用した時、その味方の弱体化状態を全て回復し、その味方に【物攻アップ（中）】を3ターン付与する（3回のみ）",
@@ -40789,9 +41452,482 @@
                 "包含配对角色我方使用技能后"
             ],
             "skill2SearchS": [],
-            "nirvanaSearchS": []
+            "nirvanaSearchS": [],
+            "role": "",
+            "voice": "",
+            "obtain": "",
+            "skill1": "潇洒的招待",
+            "skill1Effect": "包含组合角色的己方角色使用技能后，为该角色解除弱化状态，并附加3回合【物攻增加（中）】（仅3次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "集中力向上+HP向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，最大HP中量增加。"
         },
         "img": "368",
         "arrow": ""
+    },
+    {
+        "ID": 369,
+        "nameJp": "【魔物を統べる者】リムル＝テンペスト",
+        "nameCn": "【魔物统帅】利姆鲁·特恩佩斯特",
+        "Japanese": {
+            "skill1": "魔法闘気",
+            "skill1Effect": "自身に【異攻アップ（小）】と【弱体化状態耐性】とダメージ2回分の【ガード】を4ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "黒炎",
+            "nirvanaEffect": "正面と左右の敵に大威力の異能攻撃をし、敵全体に【持続被害（中）】を3ターン付与",
+            "potentialAbility1": "器用向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の器用を中アップする",
+            "potentialAbility2": "SP獲得量向上＋異能攻撃向上",
+            "potentialAbility2Effect": "バトル開始時に自分のSP獲得量を小アップ＋異能攻撃力を中アップさせる",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [],
+            "potentialSearch2": [],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "リムル＝テンペスト",
+            "hp": "13253",
+            "dexterity": "2620",
+            "physicalAttack": "3635",
+            "powerAttack": "6810",
+            "physicalDefense": "6760",
+            "powerDefense": "3585",
+            "voice": "岡咲美保",
+            "class": "バトルキャラ",
+            "attributes": "青",
+            "faction": "その他サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "異能攻撃",
+            "attackDirection": "012",
+            "obtain": "とある魔物の日本転移ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "7",
+            "nirvanaCT": "4",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "BATTLE",
+            "faction": "其他阵营",
+            "attackMethod": "异能攻击",
+            "role": "利姆鲁·特恩佩斯特",
+            "voice": "冈咲美保",
+            "obtain": "某魔物的日本转移扭蛋",
+            "skill1": "魔法斗气",
+            "skill1Effect": "为自身附加4回合【异攻增加（小）】、【弱体化状态耐性】与可以抵挡2次伤害的【护盾】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "黑炎",
+            "nirvanaEffect": "对正面与左右侧的敌人释放大威力的异能攻击，并为全体敌人附加3回合【持续被害（中）】",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "SP获取量向上+异能攻击向上",
+            "potentialAbility2Effect": "战斗开始时自己的SP获得量少量增加，异能攻击力中量增加。"
+        },
+        "img": "369",
+        "arrow": [
+            "2",
+            "3"
+        ]
+    },
+    {
+        "ID": 370,
+        "nameJp": "【破壊の暴君】ミリム・ナーヴァ",
+        "nameCn": "【破坏暴君】米莉姆·纳瓦",
+        "Japanese": {
+            "skill1": "ミリムパンチ",
+            "skill1Effect": "攻撃範囲内の強化状態を全て解除し、小威力の異能攻撃をし、【攻撃力アップ妨害】を2ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "竜星拡散爆",
+            "nirvanaEffect": "攻撃範囲内の敵の防御力アップ状態を解除し、特大威力の異能攻撃をし、自身に【SP獲得量アップ（中）】を2ターン付与する",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の最大HPを中アップさせる",
+            "potentialAbility2": "左方向攻撃強化＋物防向上",
+            "potentialAbility2Effect": "自身の左方向への攻撃力をアップ＋バトル開始時に自分の物理防御力を中アップさせる",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [],
+            "potentialSearch2": [],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "ミリム・ナーヴァ",
+            "hp": "11706",
+            "dexterity": "1231",
+            "physicalAttack": "7209",
+            "powerAttack": "8074",
+            "physicalDefense": "5468",
+            "powerDefense": "4849",
+            "voice": "日高里菜",
+            "class": "バトルキャラ",
+            "attributes": "赤",
+            "faction": "その他サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "異能攻撃",
+            "attackDirection": "004",
+            "obtain": "とある魔物の日本転移ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "6",
+            "nirvanaCT": "4",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "BATTLE",
+            "faction": "其他阵营",
+            "attackMethod": "异能攻击",
+            "role": "米莉姆·纳瓦",
+            "voice": "日高里菜",
+            "obtain": "某魔物的日本转移扭蛋",
+            "skill1": "米莉姆拳",
+            "skill1Effect": "解除攻击范围内的敌人的强化状态，释放小威力的异能攻击，并附加2回合【攻击力增加妨碍】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "龙星扩散爆",
+            "nirvanaEffect": "解除攻击范围内的敌人的防御力增加状态，并释放特大威力的异能攻击，为自身附加2回合【SP获得量增加（中）】",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "左方攻击强化+物攻向上",
+            "potentialAbility2Effect": "自己对左方向的攻击力增加+战斗开始时自己的物理防御力中量增加。"
+        },
+        "img": "370",
+        "arrow": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "ID": 371,
+        "nameJp": "【爆炎の支配者】シズ",
+        "nameCn": "【爆炎支配者】静",
+        "Japanese": {
+            "skill1": "炎熱操作",
+            "skill1Effect": "行動開始した時に敵全体に【異防ダウン（小）】と【持続被害（中）】を3ターン付与（1回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "異防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能防御力を中アップさせる",
+            "potentialAbility2": "器用向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の器用を中アップする",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [],
+            "potentialSearch2": [],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "シズ",
+            "hp": "8716",
+            "dexterity": "2539",
+            "physicalAttack": "4024",
+            "powerAttack": "7396",
+            "physicalDefense": "1683",
+            "powerDefense": "2041",
+            "voice": "花守ゆみり",
+            "class": "アシストキャラ",
+            "attributes": "青",
+            "faction": "その他サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある魔物の日本転移ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "ASSIST",
+            "faction": "其他阵营",
+            "attackMethod": "辅助角色",
+            "role": "静",
+            "voice": "花守由美里",
+            "obtain": "某魔物的日本转移扭蛋",
+            "skill1": "炎热操作",
+            "skill1Effect": "行动开始时，为全体敌人3回合【异防下降（小）】与【持续被害（中）】（仅1次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "灵巧向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的灵巧中量增加。"
+        },
+        "img": "371"
+    },
+    {
+        "ID": 372,
+        "nameJp": "【リムルの筆頭秘書】シオン",
+        "nameCn": "【利姆露的首席秘书】紫苑",
+        "Japanese": {
+            "skill1": "武士の闘気",
+            "skill1Effect": "ペアのキャラが敵にダメージを与えた時、その敵のSPを15減少させ、ペアのキャラに【物攻アップ（小）】を2ターン付与しSPを15上昇する（2回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "異防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能防御力を中アップさせる",
+            "potentialAbility2": "HP向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の最大HPを中アップさせる",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [],
+            "potentialSearch2": [],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "シオン",
+            "hp": "9790",
+            "dexterity": "1677",
+            "physicalAttack": "6372",
+            "powerAttack": "2919",
+            "physicalDefense": "5410",
+            "powerDefense": "3782",
+            "voice": "M・A・O",
+            "class": "アシストキャラ",
+            "attributes": "黄",
+            "faction": "その他サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある魔物の日本転移ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "ASSIST",
+            "faction": "其他阵营",
+            "attackMethod": "辅助角色",
+            "role": "紫苑",
+            "voice": "M・A・O",
+            "obtain": "某魔物的日本转移扭蛋",
+            "skill1": "武士的斗志",
+            "skill1Effect": "组合角色对敌人造成伤害时，为该敌人SP减少15，并为组合角色附加2回合【物防增加（小）】与SP增加15（仅2次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "HP向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的最大HP中量增加。"
+        },
+        "img": "372"
+    },
+    {
+        "ID": 373,
+        "nameJp": "【暴風竜】ヴェルドラ＝テンペスト",
+        "nameCn": "【暴风龙】维鲁德拉·特恩佩斯特",
+        "Japanese": {
+            "skill1": "暴風竜の威光",
+            "skill1Effect": "行動開始した時に赤属性の味方全体に【クリティカル威力アップ（小）】を5ターン付与する（1回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理防御力を中アップさせる",
+            "potentialAbility2": "集中力向上＋物攻向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋物理攻撃力を中アップさせる",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [],
+            "potentialSearch2": [],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "ヴェルドラ＝テンペスト",
+            "hp": "10502",
+            "dexterity": "1943",
+            "physicalAttack": "4784",
+            "powerAttack": "2083",
+            "physicalDefense": "4337",
+            "powerDefense": "2231",
+            "voice": "前野智昭",
+            "class": "アシストキャラ",
+            "attributes": "赤",
+            "faction": "その他サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある魔物の日本転移",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "ASSIST",
+            "faction": "其他阵营",
+            "attackMethod": "辅助角色",
+            "role": "维鲁德拉·特恩佩斯特",
+            "voice": "前野智昭",
+            "obtain": "某魔物的日本转移",
+            "skill1": "风暴龙的威压",
+            "skill1Effect": "行动开始时为己方全体红属性角色附加5回合【暴击威力增加（小）】（仅1次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
+            "potentialAbility2": "集中力向上+物攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，物理攻击力中量增加。"
+        },
+        "img": "373"
+    },
+    {
+        "ID": 374,
+        "nameJp": "【依頼遂行】心理定規",
+        "nameCn": "",
+        "Japanese": {
+            "skill1": "グレネード弾",
+            "skill1Effect": "攻撃範囲内の敵に小威力の物理攻撃をし、【強化妨害状態】と【持続被害（小）】を2ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "心理定規の活用法",
+            "nirvanaEffect": "攻撃範囲内の敵に大威力の物理攻撃をし、攻撃範囲内の紫属性の敵に【攻撃方向減少-2】と【弱体化解除妨害】と【移動不能】を3ターン付与する",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "potentialAbility2": "科学支援：HP向上（大）",
+            "potentialAbility2Effect": "科学サイドをアシストキャラにした場合のみ、バトル開始時に自分の最大HPを大アップさせる",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [],
+            "potentialSearch2": [],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "心理定規",
+            "hp": "12222",
+            "dexterity": "2452",
+            "physicalAttack": "6315",
+            "powerAttack": "4377",
+            "physicalDefense": "6265",
+            "powerDefense": "4821",
+            "voice": "井澤詩織",
+            "class": "バトルキャラ",
+            "attributes": "黄",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "027",
+            "obtain": "新キャラ！ピックアップガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "6",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "物理攻击"
+        },
+        "img": "374",
+        "arrow": [
+            "1",
+            "3"
+        ]
+    },
+    {
+        "ID": 375,
+        "nameJp": "【魂の不在】ドッペルゲンガー",
+        "nameCn": "",
+        "Japanese": {
+            "skill1": "自己増殖",
+            "skill1Effect": "自身に2回分の【不屈（小）】と【異攻アップ（小）】を4ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "『魂』の一撃",
+            "nirvanaEffect": "正面の敵に科学サイドに対してとても威力が上昇する特大威力の異能攻撃をする",
+            "potentialAbility1": "異攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
+            "potentialAbility2": "構造解析（小）＋器用向上",
+            "potentialAbility2Effect": "科学サイドへ攻撃した際の威力を小アップ＋バトル開始時に自分の器用を中アップさせる",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [],
+            "potentialSearch2": [],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "ドッペルゲンガー",
+            "hp": "11706",
+            "dexterity": "1925",
+            "physicalAttack": "7209",
+            "powerAttack": "8198",
+            "physicalDefense": "4574",
+            "powerDefense": "3585",
+            "voice": "種﨑敦美",
+            "class": "バトルキャラ",
+            "attributes": "赤",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "異能攻撃",
+            "attackDirection": "007",
+            "obtain": "新キャラ！ピックアップガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "6",
+            "nirvanaCT": "4",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "异能攻击"
+        },
+        "img": "375",
+        "arrow": [
+            "1",
+            "2",
+            "3"
+        ]
     }
 ]
