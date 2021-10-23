@@ -25512,7 +25512,7 @@
     {
         "ID": 228,
         "nameJp": "【『万条の仕手』】ヴィルヘルミナ・カルメル",
-        "nameCn": "",
+        "nameCn": "【万条巧手】威尔艾米娜·卡梅尔",
         "Japanese": {
             "skill1": "変幻自在な絡め手",
             "skill1Effect": "攻撃範囲内の敵に中威力の異能攻撃し、【移動不能】を2ターン付与する",
@@ -25571,6 +25571,16 @@
             ]
         },
         "Chinese": {
+            "skill1": "变幻无常的缠手",
+            "skill1Effect": "对攻击范围内的敌人释放中威力的异能攻击，并附加2回合【移动封印】。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "战技无双的舞姬",
+            "nirvanaEffect": "对攻击范围内的敌人释放大威力的异能攻击，并附加5回合【技能封印】。",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "判断力向上+HP向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，最大HP中量增加。",
             "skill1Search": [
                 "移动不能"
             ],
@@ -25608,7 +25618,7 @@
     {
         "ID": 229,
         "nameJp": "【『弔詞の詠み手』】マージョリー・ドー",
-        "nameCn": "",
+        "nameCn": "【悼词咏唱者】玛琼琳·朵",
         "Japanese": {
             "skill1": "塵殺の即興詩",
             "skill1Effect": "ペアのキャラが敵を退場させた時、ペアのキャラに【異能ダメージカット（大）】を2ターン付与し、スキルのチャージターンを1短縮する（3回のみ）",
@@ -25661,6 +25671,16 @@
             "nirvanaSearchS": []
         },
         "Chinese": {
+            "skill1": "屠杀即兴诗",
+            "skill1Effect": "组合角色击败敌方角色时，为组合角色附加2回合【受到异能伤害降低（大）】，必杀技冷却时间-1（仅3次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "HP提升(中)",
+            "potentialAbility2Effect": "战斗开始时自己的最大HP中量增加。",
             "skill1Search": [
                 "异能伤害减轻",
                 "技能冷却时间"
