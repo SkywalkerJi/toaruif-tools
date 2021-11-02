@@ -42221,5 +42221,613 @@
             "2",
             "3"
         ]
+    },
+    {
+        "ID": 376,
+        "nameJp": "【確かな絆】白井黒子",
+        "nameCn": "【确实的羁绊】白井黑子",
+        "Japanese": {
+            "skill1": "絶対に曲げない信念",
+            "skill1Effect": "自身のHPを回復（小）し、赤属性の味方全体に【クリティカル威力アップ（中）】と【物攻アップ（中）】を3ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "黄金タッグ",
+            "nirvanaEffect": "攻撃範囲内の敵に自身のHPが多いほど威力が上昇する特大威力の物理攻撃をし、自身のスキルチャージターンを2短縮する",
+            "potentialAbility1": "赤バトル物理能力向上（中）＋赤バトル対緑物防向上（大）",
+            "potentialAbility1Effect": "バトル開始時に赤属性バトルキャラ全員の物理攻撃力、物理防御力を中アップさせ、更に緑属性からの攻撃に対して物理防御力を大アップさせる",
+            "potentialAbility2": "赤バトル物理能力向上（大）＋赤バトル対緑物攻向上（大）",
+            "potentialAbility2Effect": "バトル開始時に赤属性バトルキャラ全員の物理攻撃力、物理防御力を大アップさせ、更に緑属性への攻撃に対して物理攻撃力を大アップさせる",
+            "skill1Search": [
+                "物攻アップ",
+                "クリティカル威力アップ",
+                "HPを回復"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "スキルのチャージターン"
+            ],
+            "potentialSearch1": [
+                "バトル物理能力向上",
+                "バトル物防向上"
+            ],
+            "potentialSearch2": [
+                "バトル物理能力向上",
+                "バトル物攻向上"
+            ],
+            "skill1SearchS": [
+                "自身",
+                "属性の味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "自身",
+                "特大威力"
+            ],
+            "role": "白井黒子",
+            "hp": "11191",
+            "dexterity": "2536",
+            "physicalAttack": "7058",
+            "powerAttack": "3635",
+            "physicalDefense": "7503",
+            "powerDefense": "3832",
+            "voice": "新井里美",
+            "class": "バトルキャラ",
+            "attributes": "赤",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "005",
+            "obtain": "幻想祭宴ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "7",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "物理攻击",
+            "role": "白井黑子",
+            "voice": "新井里美",
+            "obtain": "幻想祭宴扭蛋",
+            "skill1": "坚定不移的信念",
+            "skill1Effect": "恢复自己HP（小），并为红属性己方角色附加3回合【暴击威力增加（中）】与【物攻增加（中）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "黄金搭档",
+            "nirvanaEffect": "对攻击范围内的敌人进行一次自身的HP越多威力越大的特大威力的物理攻击，自身的技能冷却回合缩短2回合",
+            "potentialAbility1": "红战斗角色物理能力向上（中）+红战斗角色对绿色物防向上（大）",
+            "potentialAbility1Effect": "战斗开始时红属性战斗角色全员的物理攻击力、物理防御力中量增加，且面对绿属性时的物理防御力大量增加",
+            "potentialAbility2": "红战斗角色物理能力向上（大）+红战斗角色对绿色物攻向上（大）",
+            "potentialAbility2Effect": "战斗开始时红属性战斗角色全员的物理攻击力、物理防御力中量增加，且对绿属性攻击时物理攻击大量增加",
+            "skill1Search": [
+                "物攻增加",
+                "暴击威力增加",
+                "HP回复"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "技能冷却时间"
+            ],
+            "potentialSearch1": [
+                "与该角色同色全体队友物理能力向上",
+                "与该角色同色全体队友对克制属性角色物理防御力向上"
+            ],
+            "potentialSearch2": [
+                "与该角色同色全体队友物理能力向上",
+                "与该角色同色全体队友对克制属性角色物理攻击力向上"
+            ],
+            "skill1SearchS": [
+                "自身",
+                "某属性的我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "自身",
+                "特大威力"
+            ]
+        },
+        "img": "376"
+    },
+    {
+        "ID": 377,
+        "nameJp": "【超電磁砲】佐天涙子",
+        "nameCn": "【超电磁炮】佐天泪子",
+        "Japanese": {
+            "skill1": "佐天の親友",
+            "skill1Effect": "攻撃範囲内の敵に【物防ダウン（中）】を3ターン付与し、攻撃範囲内の黄属性の敵に【物防ダウン（中）】を3ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "友情・超電磁砲",
+            "nirvanaEffect": "攻撃範囲内の敵に大威力の物理攻撃をし、【感電】を2ターン付与する",
+            "potentialAbility1": "紫バトル物理能力向上（中）＋紫バトル対黄物防向上（大）",
+            "potentialAbility1Effect": "バトル開始時に紫属性バトルキャラ全員の物理攻撃力、物理防御力を中アップさせ、更に黄属性からの攻撃に対して物理防御力を大アップさせる",
+            "potentialAbility2": "紫バトル物理能力向上（大）＋紫バトル対黄物攻向上（大）",
+            "potentialAbility2Effect": "バトル開始時に紫属性バトルキャラ全員の物理攻撃力、物理防御力を大アップさせ、更に黄属性への攻撃に対して物理攻撃力を大アップさせる",
+            "skill1Search": [
+                "物防ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "感電"
+            ],
+            "potentialSearch1": [
+                "バトル物理能力向上",
+                "バトル物防向上"
+            ],
+            "potentialSearch2": [
+                "バトル物理能力向上",
+                "バトル物攻向上"
+            ],
+            "skill1SearchS": [
+                "攻撃範囲内の敵",
+                "属性の敵"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "大威力"
+            ],
+            "role": "佐天涙子",
+            "hp": "13565",
+            "dexterity": "1315",
+            "physicalAttack": "7474",
+            "powerAttack": "6789",
+            "physicalDefense": "4953",
+            "powerDefense": "5241",
+            "voice": "伊藤かな恵",
+            "class": "バトルキャラ",
+            "attributes": "紫",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "032",
+            "obtain": "幻想祭宴ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "7",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "紫",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "物理攻击",
+            "role": "佐天泪子",
+            "voice": "伊藤加奈惠",
+            "obtain": "幻想祭宴扭蛋",
+            "skill1": "佐天的亲友",
+            "skill1Effect": "为攻击范围内的敌人附加3回合【物防降低（中）】，并为攻击范围内的黄色属性敌人附加3回合【物防降低（中）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "友情・超电磁炮",
+            "nirvanaEffect": "对攻击范围内的敌人释放大威力的物理攻击，并附加2回合【感电】",
+            "potentialAbility1": "紫战斗角色物理能力向上（中）+紫战斗角色对黄色物防向上（大）",
+            "potentialAbility1Effect": "战斗开始时紫属性战斗角色全员的物理攻击力、物理防御力中量增加，且面对黄属性时的物理防御力大量增加",
+            "potentialAbility2": "紫战斗角色物理能力向上（大）+紫战斗角色对黄色物攻向上（大）",
+            "potentialAbility2Effect": "战斗开始时紫属性战斗角色全员的物理攻击力、物理防御力大量增加，且对黄属性攻击时物理攻击大量增加",
+            "skill1Search": [
+                "物防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "感电"
+            ],
+            "potentialSearch1": [
+                "与该角色同色全体队友物理能力向上",
+                "与该角色同色全体队友对克制属性角色物理防御力向上"
+            ],
+            "potentialSearch2": [
+                "与该角色同色全体队友物理能力向上",
+                "与该角色同色全体队友对克制属性角色物理攻击力向上"
+            ],
+            "skill1SearchS": [
+                "攻击范围内的敌人",
+                "属性敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "大威力"
+            ]
+        },
+        "img": "377"
+    },
+    {
+        "ID": 378,
+        "nameJp": "【憧れのお嬢様】初春飾利",
+        "nameCn": "【憧憬的大小姐】初春饰利",
+        "Japanese": {
+            "skill1": "最高の相棒",
+            "skill1Effect": "ペアのキャラがスキルを使用した時、ペアのキャラと同じ属性の味方全体に【物攻アップ（小）】と【貫通】を3ターン付与する（1回のみ）",
+            "skill2": "ハッキング支援",
+            "skill2Effect": "ペアのキャラが退場した時、敵全体に【アシスト封印】と【赤属性耐性ダウン（中）】と【物攻ダウン（中）】を3ターン付与する（1回のみ）",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "器用向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の器用を中アップする",
+            "potentialAbility2": "SP獲得量向上＋物攻向上",
+            "potentialAbility2Effect": "バトル開始時に自分のSP獲得量を小アップ＋物理攻撃力を中アップさせる",
+            "skill1Search": [
+                "貫通",
+                "物攻アップ"
+            ],
+            "skill2Search": [
+                "アシスト封印",
+                "物攻ダウン",
+                "属性耐性ダウン"
+            ],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "器用向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "SP獲得量向上"
+            ],
+            "skill1SearchS": [
+                "ペアのキャラがスキルを使用した後",
+                "同じ属性の味方全体"
+            ],
+            "skill2SearchS": [
+                "敵全体"
+            ],
+            "nirvanaSearchS": [],
+            "role": "初春飾利",
+            "hp": "8965",
+            "dexterity": "2553",
+            "physicalAttack": "5832",
+            "powerAttack": "5482",
+            "physicalDefense": "2540",
+            "powerDefense": "2560",
+            "voice": "豊崎愛生",
+            "class": "アシストキャラ",
+            "attributes": "赤",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "幻想祭宴ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "初春饰利",
+            "voice": "丰崎爱生",
+            "obtain": "幻想祭宴扭蛋",
+            "skill1": "最好的伙伴",
+            "skill1Effect": "组合角色使用技能时，为与组合角色相同属性的己方全员附加3回合【物攻增加（小）】与【贯穿】（仅1次）。",
+            "skill2": "黑客支援",
+            "skill2Effect": "组合角色退场时，为敌方全体角色附加3回合【辅助封印】、【 红属性耐性降低（中）】与【物攻降低（中）】（仅1次）",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "SP获取量向上+物攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的SP获得量少量增加，物理攻击力中量增加。",
+            "skill1Search": [
+                "贯穿",
+                "物攻增加"
+            ],
+            "skill2Search": [
+                "辅助封印",
+                "物攻降低",
+                "属性耐性降低"
+            ],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "灵巧向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "SP获得量向上"
+            ],
+            "skill1SearchS": [
+                "配对角色使用技能后",
+                "同属性的我方全体"
+            ],
+            "skill2SearchS": [
+                "全体敌人"
+            ],
+            "nirvanaSearchS": []
+        },
+        "img": "378"
+    },
+    {
+        "ID": 379,
+        "nameJp": "【幸せな日常】御坂美琴",
+        "nameCn": "【幸福的日常】御坂美琴",
+        "Japanese": {
+            "skill1": "電撃サポート",
+            "skill1Effect": "ペアのキャラ以外の味方が必殺技を使用した時、ペアのキャラに【クリティカル必中】と【クリティカル威力アップ（小）】を1ターン付与する（2回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理防御力を中アップさせる",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "skill1Search": [
+                "クリティカル必中",
+                "クリティカル威力アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上"
+            ],
+            "skill1SearchS": [
+                "ペアのキャラ以外の味方が必殺技を使用した後"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "御坂美琴",
+            "hp": "10203",
+            "dexterity": "2560",
+            "physicalAttack": "5439",
+            "powerAttack": "5263",
+            "physicalDefense": "2540",
+            "powerDefense": "2560",
+            "voice": "佐藤利奈",
+            "class": "アシストキャラ",
+            "attributes": "紫",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "幻想祭宴ガチャ（期間限定キャラ）",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "紫",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "御坂美琴",
+            "voice": "佐藤利奈",
+            "obtain": "幻想祭宴扭蛋（期间限定角色）",
+            "skill1": "电击支持",
+            "skill1Effect": "除组合角色以外的己方角色使用必杀技时，为组合角色附加1回合【暴击必中】和【暴击威力增加（小）】（仅2次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "skill1Search": [
+                "暴击必中",
+                "暴击威力增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上"
+            ],
+            "skill1SearchS": [
+                "配对角色以外的我方角色使用必殺技后"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "379"
+    },
+    {
+        "ID": 380,
+        "nameJp": "【銭湯好き】固法美偉",
+        "nameCn": "【喜好公浴】固法美伟",
+        "Japanese": {
+            "skill1": "気分転換の休息",
+            "skill1Effect": "ペアのキャラ以外の味方が退場した時、ペアのキャラに【物攻アップ（大）】と【SP獲得量アップ（大）】とダメージ2回分の【ガード】を2ターン付与する（2回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理防御力を中アップさせる",
+            "potentialAbility2": "HP向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の最大HPを中アップさせる",
+            "skill1Search": [
+                "ガード",
+                "物攻アップ",
+                "SP獲得量アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "HP向上"
+            ],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "固法美偉",
+            "hp": "9790",
+            "dexterity": "1098",
+            "physicalAttack": "6175",
+            "powerAttack": "4349",
+            "physicalDefense": "6004",
+            "powerDefense": "3585",
+            "voice": "植田佳奈",
+            "class": "アシストキャラ",
+            "attributes": "青",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "幻想祭宴ガチャ（期間限定キャラ）",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "固法美伟",
+            "voice": "植田佳奈",
+            "obtain": "幻想祭宴扭蛋（期间限定角色）",
+            "skill1": "转换心情的休息",
+            "skill1Effect": "除组合角色以外的己方角色退场时，为组合角附加2回合【物攻增加（大）】、【SP获得量增加（大）】与可以抵挡2次伤害的【护盾】（仅2次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
+            "potentialAbility2": "HP向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的最大HP中量增加。",
+            "skill1Search": [
+                "护盾",
+                "物攻增加",
+                "SP获得量增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "HP向上"
+            ],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "380"
+    },
+    {
+        "ID": 381,
+        "nameJp": "【新入り風紀委員】牧上小牧",
+        "nameCn": "【新来的风纪委员】牧上小牧",
+        "Japanese": {
+            "skill1": "決して折れない心",
+            "skill1Effect": "敵がスキルを使用した時、味方全体に【クリティカル回避率アップ（大）】と【異攻アップ（小）】を3ターン付与する（3回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の最大HPを中アップさせる",
+            "potentialAbility2": "集中力向上＋異防向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋異能防御力を中アップさせる",
+            "skill1Search": [
+                "異攻アップ",
+                "クリティカル回避率アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "異防向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "牧上小牧",
+            "hp": "8954",
+            "dexterity": "1301",
+            "physicalAttack": "2479",
+            "powerAttack": "5691",
+            "physicalDefense": "3034",
+            "powerDefense": "4779",
+            "voice": "留冬藍名",
+            "class": "アシストキャラ",
+            "attributes": "赤",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある日常の風紀委員会",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "牧上小牧",
+            "voice": "留冬蓝名",
+            "obtain": "某日常的风纪委员会",
+            "skill1": "决不屈服的心",
+            "skill1Effect": "敌方使用技能时，为与我方全体角色附加3回合【暴击回避率增加（大）】与【异攻增加（小）】（仅3次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "集中力向上+异防向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，异能防御力中量增加。",
+            "skill1Search": [
+                "异攻增加",
+                "暴击回避率增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "异防向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "381"
     }
 ]

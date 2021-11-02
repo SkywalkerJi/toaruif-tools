@@ -498,7 +498,7 @@ export default {
           sortable: false,
           value: "nameCn",
         },
-        { text: "原名", value: "nameJp", sortable: false },
+        // { text: "原名", value: "nameJp", sortable: false },
         { text: "阵营", value: "Chinese.faction", width: "90px" },
         { text: "星级", value: "Japanese.initialrarity", width: "80px" },
         { text: "颜色", value: "Chinese.attributes", width: "80px" },
