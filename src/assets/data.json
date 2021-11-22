@@ -23505,7 +23505,8 @@
             "limited": "",
             "skill1SearchS": [
                 "行動開始時",
-                "味方全体"
+                "味方全体",
+                "ペアの両隣のキャラ"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -23552,7 +23553,8 @@
             "limited": "",
             "skill1SearchS": [
                 "行动开始时",
-                "我方全体"
+                "我方全体",
+                "配对角色两临的角色"
             ],
             "skill2SearchS": [],
             "nirvanaSearchS": []
@@ -42829,5 +42831,492 @@
             "nirvanaSearchS": []
         },
         "img": "381"
+    },
+    {
+        "ID": 382,
+        "nameJp": "【カジノディーラー】五和",
+        "nameCn": "【荷官】五和",
+        "Japanese": {
+            "skill1": "ノーモアベット",
+            "skill1Effect": "攻撃範囲内の敵に【物攻ダウン（大）】を2ターン付与し、攻撃範囲内の赤属性の敵に【物防ダウン（大）】を2ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "ロイヤルストレートフラッシュ",
+            "nirvanaEffect": "攻撃範囲内の敵に必ずクリティカルが発生する大威力の物理攻撃をし、攻撃範囲内の赤属性の敵に【気絶】を1ターン付与する",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "potentialAbility2": "構造解析（小）＋HP向上",
+            "potentialAbility2Effect": "科学サイドへ攻撃した際の威力を小アップ＋バトル開始時に自分の最大HPを中アップさせる",
+            "skill1Search": [
+                "物攻ダウン",
+                "物防ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "気絶"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "構造解析"
+            ],
+            "skill1SearchS": [
+                "攻撃範囲内の敵",
+                "属性の敵"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "属性の敵",
+                "大威力",
+                "必ずクリティカルが発生"
+            ],
+            "role": "五和",
+            "hp": "12995",
+            "dexterity": "1967",
+            "physicalAttack": "8198",
+            "powerAttack": "3510",
+            "physicalDefense": "6760",
+            "powerDefense": "4354",
+            "voice": "茅野愛衣",
+            "class": "バトルキャラ",
+            "attributes": "青",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "013",
+            "obtain": "とある賭場の捕縛作戦ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "8",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "BATTLE",
+            "faction": "魔法侧",
+            "attackMethod": "物理攻击",
+            "role": "五和",
+            "voice": "茅野爱衣",
+            "obtain": "某赌场的捕缚作战扭蛋",
+            "skill1": "买定离手",
+            "skill1Effect": "为攻击范围内的敌人附加2回合【物攻下降（大）】，并为攻击范围内的红属性敌人附加2回合【物防降低（大）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "皇家同花顺",
+            "nirvanaEffect": "对攻击范围内的敌人释放必发生暴击的大威力的物理攻击，为攻击范围内的红属性敌人附加1回合【气绝】",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "构造解析（小）+HP向上",
+            "potentialAbility2Effect": "攻击科学侧角色时威力少量增加，战斗开始时自己的最大HP中量增加。",
+            "skill1Search": [
+                "物攻降低",
+                "物防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "气绝"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "构造解析"
+            ],
+            "skill1SearchS": [
+                "攻击范围内的敌人",
+                "属性敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "属性敌人",
+                "大威力",
+                "必发生暴击"
+            ]
+        },
+        "img": "382"
+    },
+    {
+        "ID": 383,
+        "nameJp": "【奇術師】建宮斎字",
+        "nameCn": "【魔术师】建宫斋字",
+        "Japanese": {
+            "skill1": "水弾マジック",
+            "skill1Effect": "攻撃範囲内の敵に【HP回復妨害】を2ターン付与し、攻撃範囲内の敵に中威力の異能攻撃をする",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "トリプルイリュージョン",
+            "nirvanaEffect": "敵全体に魔術サイドに対して威力が上昇する中威力の異能攻撃をし、【紫属性耐性ダウン(小)】と【攻撃力アップ妨害】と【持続被害(小)】を3ターン付与する",
+            "potentialAbility1": "異攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
+            "potentialAbility2": "右方向攻撃強化＋HP向上",
+            "potentialAbility2Effect": "自身の右方向への攻撃力をアップ＋バトル開始時に自分の最大HPを中アップさせる",
+            "skill1Search": [
+                "HP回復妨害"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "攻撃力アップ妨害"
+            ],
+            "potentialSearch1": [
+                "異攻向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "方向攻撃強化"
+            ],
+            "skill1SearchS": [
+                "攻撃範囲内の敵",
+                "中威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "敵全体",
+                "中威力",
+                "［魔術サイド］の敵に対して威力が上昇"
+            ],
+            "role": "建宮斎字",
+            "hp": "12480",
+            "dexterity": "2493",
+            "physicalAttack": "3387",
+            "powerAttack": "7800",
+            "physicalDefense": "3585",
+            "powerDefense": "6760",
+            "voice": "鳥海浩輔",
+            "class": "バトルキャラ",
+            "attributes": "紫",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "異能攻撃",
+            "attackDirection": "033",
+            "obtain": "とある賭場の捕縛作戦ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "4",
+            "nirvanaCT": "6",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "紫",
+            "class": "BATTLE",
+            "faction": "魔法侧",
+            "attackMethod": "异能攻击",
+            "role": "建宫斋字",
+            "voice": "鸟海浩辅",
+            "obtain": "某赌场的捕缚作战扭蛋",
+            "skill1": "水弹魔术",
+            "skill1Effect": "为攻击范围内的敌人附加2回合【HP恢复妨碍】，并对攻击范围内的敌人释放中威力的异能攻击",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "三重幻影",
+            "nirvanaEffect": "对全体敌人释放对魔法侧威力上升的中威力的异能攻击，并附加3回合【紫属性耐性降低（小）】、【攻击力提升妨碍】与【持续被害（小）】",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "右方向攻击强化+HP向上",
+            "potentialAbility2Effect": "自己对右方向的攻击力增加+战斗开始时自己的最大HP中量增加",
+            "skill1Search": [
+                "HP恢复妨碍"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "攻击力提升妨碍"
+            ],
+            "potentialSearch1": [
+                "异攻向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "方向攻击强化"
+            ],
+            "skill1SearchS": [
+                "攻击范围内的敌人",
+                "中威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "全体敌人",
+                "中威力",
+                "对魔术侧敌人威力上升"
+            ]
+        },
+        "img": "383"
+    },
+    {
+        "ID": 384,
+        "nameJp": "【アシスタントバニー】オルソラ＝アクィナス",
+        "nameCn": "【兔女郎助手】奥索拉·阿奎纳",
+        "Japanese": {
+            "skill1": "アシストイリュージョン",
+            "skill1Effect": "ペアのキャラを含む味方がダメージを受けた時、味方全体のHPを回復(小)し、ペアのキャラに【物理ダメージカット(中)】を2ターン付与する（3回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "器用向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の器用を中アップする",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "器用向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上"
+            ],
+            "skill1SearchS": [
+                "味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "オルソラ＝アクィナス",
+            "hp": "11278",
+            "dexterity": "2114",
+            "physicalAttack": "5696",
+            "powerAttack": "2721",
+            "physicalDefense": "5053",
+            "powerDefense": "3068",
+            "voice": "遠藤綾",
+            "class": "アシストキャラ",
+            "attributes": "青",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある賭場の捕縛作戦ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "ASSIST",
+            "faction": "魔法侧",
+            "attackMethod": "辅助角色",
+            "role": "奥索拉·阿奎纳",
+            "voice": "远藤绫",
+            "obtain": "某赌场的捕缚作战扭蛋",
+            "skill1": "幻想辅助",
+            "skill1Effect": "包含组合角色的己方角色受到伤害后，回复全体己方角色的HP（小），并为组合角色附加2回合【物理伤害减轻（中）】（仅3次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "灵巧向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上"
+            ],
+            "skill1SearchS": [
+                "我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "384"
+    },
+    {
+        "ID": 385,
+        "nameJp": "【ギャンブラー】ステイル＝マグヌス",
+        "nameCn": "【赌徒】史提尔·马格努斯",
+        "Japanese": {
+            "skill1": "オールイン",
+            "skill1Effect": "行動開始した時にペアのキャラと同じ属性の味方全体に【異攻アップ(中)】と【SP獲得量アップ(小)】を1ターン付与する（3回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の最大HPを中アップさせる",
+            "potentialAbility2": "異攻向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "異攻向上"
+            ],
+            "skill1SearchS": [
+                "同じ属性の味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "ステイル＝マグヌス",
+            "hp": "9997",
+            "dexterity": "1571",
+            "physicalAttack": "2820",
+            "powerAttack": "6769",
+            "physicalDefense": "3485",
+            "powerDefense": "5607",
+            "voice": "谷山紀章",
+            "class": "アシストキャラ",
+            "attributes": "紫",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある賭場の捕縛作戦ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "紫",
+            "class": "ASSIST",
+            "faction": "魔法侧",
+            "attackMethod": "辅助角色",
+            "role": "史提尔·马格努斯",
+            "voice": "谷山纪章",
+            "obtain": "某赌场的捕缚作战扭蛋",
+            "skill1": "梭哈",
+            "skill1Effect": "行动开始时为与组合角色相同属性的己方角色附加1轮【异攻增加（中）】与【SP获得量增加（小）】（仅3次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "异攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "异攻向上"
+            ],
+            "skill1SearchS": [
+                "同属性的我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "385"
+    },
+    {
+        "ID": 386,
+        "nameJp": "【天草式十字凄教】対馬",
+        "nameCn": "【天草式十字凄教】对马",
+        "Japanese": {
+            "skill1": "一撃離脱戦法",
+            "skill1Effect": "ペアのキャラが敵にクリティカルでダメージを与えた時、味方全体に【物防アップ(中)】と【クリティカル回避率アップ(中)】を2ターン付与し、SPを15上昇する（3回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理防御力を中アップさせる",
+            "potentialAbility2": "集中力向上＋器用向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋器用を中アップさせる",
+            "skill1Search": [
+                "SP上昇"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "器用向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "ペアのキャラが敵にクリティカルでダメージを与えた時",
+                "味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "対馬",
+            "hp": "7160",
+            "dexterity": "1802",
+            "physicalAttack": "6298",
+            "powerAttack": "3684",
+            "physicalDefense": "2323",
+            "powerDefense": "1925",
+            "voice": "幸村恵理",
+            "class": "アシストキャラ",
+            "attributes": "紫",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある賭場の捕縛作戦",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "紫",
+            "class": "ASSIST",
+            "faction": "魔法侧",
+            "attackMethod": "辅助角色",
+            "role": "对马",
+            "voice": "幸村惠理",
+            "obtain": "某赌场的捕缚作战",
+            "skill1": "一击脱离战法",
+            "skill1Effect": "组合角色给予敌人暴击伤害时，为全体己方角色附加2回合【物防增加（中）】与【暴击回避率增加（中）】，并且SP增加15（仅3次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
+            "potentialAbility2": "集中力向上+灵巧向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，灵巧中量增加。",
+            "skill1Search": [
+                "SP增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "配对角色给予敌人暴击伤害时",
+                "我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "386"
     }
 ]
