@@ -29031,7 +29031,7 @@
             "nirvanaSearchS": [
                 "攻撃範囲内の敵",
                 "特大威力",
-                "対象のHPが多いほど威力が上昇"
+                "対象のHPが多ないほど威力が上昇"
             ]
         },
         "Chinese": {
@@ -36323,7 +36323,8 @@
             "potentialAbility2": "判断力向上＋物攻向上",
             "potentialAbility2Effect": "バトル開始時に自分のクリティカル回避率を小アップ＋物理攻撃力を中アップさせる",
             "skill1Search": [
-                "SP上昇"
+                "SP上昇",
+                "HPを回復"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -36373,7 +36374,8 @@
         },
         "Chinese": {
             "skill1Search": [
-                "SP增加"
+                "SP增加",
+                "HP回复"
             ],
             "skill2Search": [],
             "nirvanaSearch": [
@@ -36554,7 +36556,8 @@
             "potentialAbility2": "異攻向上（中）",
             "potentialAbility2Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
             "skill1Search": [
-                "異攻アップ"
+                "異攻アップ",
+                "HPを回復"
             ],
             "skill2Search": [],
             "nirvanaSearch": [],
@@ -36594,7 +36597,8 @@
         },
         "Chinese": {
             "skill1Search": [
-                "异攻增加"
+                "异攻增加",
+                "HP回复"
             ],
             "skill2Search": [],
             "nirvanaSearch": [],
@@ -42264,7 +42268,8 @@
             "nirvanaSearchS": [
                 "攻撃範囲内の敵",
                 "自身",
-                "特大威力"
+                "特大威力",
+                "自身のHPが多ないほど威力が上昇"
             ],
             "role": "白井黒子",
             "hp": "11191",
@@ -42332,7 +42337,8 @@
             "nirvanaSearchS": [
                 "攻击范围内的敌人",
                 "自身",
-                "特大威力"
+                "特大威力",
+                "自身HP值越高伤害越高"
             ]
         },
         "img": "376"
@@ -42963,7 +42969,9 @@
             ],
             "skill2Search": [],
             "nirvanaSearch": [
-                "攻撃力アップ妨害"
+                "攻撃力アップ妨害",
+                "持続被害",
+                "属性耐性ダウン"
             ],
             "potentialSearch1": [
                 "異攻向上"
@@ -43028,7 +43036,9 @@
             ],
             "skill2Search": [],
             "nirvanaSearch": [
-                "攻击力提升妨碍"
+                "攻击力提升妨碍",
+                "持续被害",
+                "属性耐性降低"
             ],
             "potentialSearch1": [
                 "异攻向上"
@@ -43065,7 +43075,10 @@
             "potentialAbility1Effect": "バトル開始時に自分の器用を中アップする",
             "potentialAbility2": "物攻向上（中）",
             "potentialAbility2Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
-            "skill1Search": [],
+            "skill1Search": [
+                "物理ダメージカット",
+                "HPを回復"
+            ],
             "skill2Search": [],
             "nirvanaSearch": [],
             "potentialSearch1": [
@@ -43120,7 +43133,10 @@
             "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
             "potentialAbility2": "物攻向上（中）",
             "potentialAbility2Effect": "战斗开始时自己的物理攻击力中量增加。",
-            "skill1Search": [],
+            "skill1Search": [
+                "物理伤害减轻",
+                "HP回复"
+            ],
             "skill2Search": [],
             "nirvanaSearch": [],
             "potentialSearch1": [
@@ -43152,7 +43168,10 @@
             "potentialAbility1Effect": "バトル開始時に自分の最大HPを中アップさせる",
             "potentialAbility2": "異攻向上（中）",
             "potentialAbility2Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
-            "skill1Search": [],
+            "skill1Search": [
+                "異攻アップ",
+                "SP獲得量アップ"
+            ],
             "skill2Search": [],
             "nirvanaSearch": [],
             "potentialSearch1": [
@@ -43207,7 +43226,10 @@
             "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
             "potentialAbility2": "异攻向上（中）",
             "potentialAbility2Effect": "战斗开始时自己的异能攻击力中量增加。",
-            "skill1Search": [],
+            "skill1Search": [
+                "异攻增加",
+                "SP获得量增加"
+            ],
             "skill2Search": [],
             "nirvanaSearch": [],
             "potentialSearch1": [
@@ -43240,6 +43262,8 @@
             "potentialAbility2": "集中力向上＋器用向上",
             "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋器用を中アップさせる",
             "skill1Search": [
+                "物防アップ",
+                "クリティカル回避率アップ",
                 "SP上昇"
             ],
             "skill2Search": [],
@@ -43299,6 +43323,8 @@
             "potentialAbility2": "集中力向上+灵巧向上",
             "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，灵巧中量增加。",
             "skill1Search": [
+                "物防增加",
+                "暴击回避率增加",
                 "SP增加"
             ],
             "skill2Search": [],
