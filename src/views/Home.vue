@@ -513,7 +513,6 @@ export default {
         { text: "物防", value: "Japanese.physicalDefense", width: "80px" },
         { text: "异防", value: "Japanese.powerDefense", width: "80px" },
         { text: "入手", value: "Japanese.obtain" },
-        { text: "ID", value: "ID" },
         // { text: "技能", value: "Chinese.skill1Effect" },
         // { text: "必杀技", value: "Chinese.nirvanaEffect" },
         // { text: "潜在1", value: "Chinese.potentialAbility1Effect" },
