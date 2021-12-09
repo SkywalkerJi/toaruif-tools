@@ -252,6 +252,8 @@
       :items="card"
       :items-per-page="20"
       :search="search"
+      :sort-by="['ID']"
+      :sort-desc="[true]"
       @click:row="handleClick"
       class="elevation-1"
     >
@@ -406,6 +408,7 @@ export default {
         "强化妨碍",
         "攻击力提升妨碍",
         "移动不能",
+        "移动不能耐性",
         "气绝",
         "感电",
         "感电耐性",

@@ -20014,7 +20014,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
                 "敵行動開始時",
                 "味方全体"
             ],
@@ -20062,7 +20061,6 @@
             "nirvanaCode": "",
             "limited": "期间限定",
             "skill1SearchS": [
-                "行动开始时",
                 "敌行动开始时",
                 "我方全体"
             ],
@@ -27143,7 +27141,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
                 "敵行動開始時"
             ],
             "skill2SearchS": [],
@@ -27190,7 +27187,6 @@
             "nirvanaCode": "",
             "limited": "期间限定",
             "skill1SearchS": [
-                "行动开始时",
                 "敌行动开始时"
             ],
             "skill2SearchS": [],
@@ -29520,7 +29516,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
                 "敵行動開始時",
                 "味方全体"
             ],
@@ -29570,7 +29565,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行动开始时",
                 "敌行动开始时",
                 "我方全体"
             ],
@@ -30837,7 +30831,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
                 "敵行動開始時",
                 "味方全体"
             ],
@@ -30885,7 +30878,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行动开始时",
                 "敌行动开始时",
                 "我方全体"
             ],
@@ -31316,7 +31308,7 @@
             "potentialAbility2": "异攻向上（中）",
             "potentialAbility2Effect": "战斗开始时自己的异能攻击力中量增加。",
             "skill1Search": [
-                "强化状态耐性",
+                "强化解除耐性",
                 "异攻增加",
                 "弱化状态解除"
             ],
@@ -33365,7 +33357,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
                 "敵行動開始時",
                 "味方全体"
             ],
@@ -33420,7 +33411,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行动开始时",
                 "敌行动开始时",
                 "我方全体"
             ],
@@ -38210,7 +38200,7 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
+                "敵行動開始時",
                 "敵全体",
                 "ペアのキャラと同じ属性の敵"
             ],
@@ -38235,7 +38225,7 @@
             "faction": "其他阵营",
             "attackMethod": "辅助角色",
             "skill1SearchS": [
-                "行动开始时",
+                "敌行动开始时",
                 "全体敌人",
                 "与配对角色同属性的敌人"
             ],
@@ -43568,5 +43558,425 @@
             "2",
             "3"
         ]
+    },
+    {
+        "ID": 389,
+        "nameJp": "【聖夜の計画】食蜂操祈",
+        "nameCn": "【圣诞夜的计划】食蜂操祈",
+        "Japanese": {
+            "skill1": "女王サンタの贈り物",
+            "skill1Effect": "科学サイドの味方全体に【異攻アップ(小)】を4ターン付与し、赤属性の味方全体に【クリティカル発生率アップ(大)】を2ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "重力子寄木坂クリスマスv",
+            "nirvanaEffect": "攻撃範囲内の敵のステータスアップ状態を解除し、大威力の異能攻撃をし、攻撃範囲内の敵に【クリティカル回避率ダウン(中)】と【赤属性耐性ダウン(小)】を3ターン付与する",
+            "potentialAbility1": "SP獲得量向上＋物防向上",
+            "potentialAbility1Effect": "バトル開始時に自分のSP獲得量を小アップ＋物理防御力を中アップさせる",
+            "potentialAbility2": "前方向攻撃強化＋異攻向上",
+            "potentialAbility2Effect": "自身の前方向への攻撃力をアップ＋バトル開始時に自分の異能攻撃力を中アップさせる",
+            "skill1Search": [
+                "異攻アップ",
+                "クリティカル発生率アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "クリティカル回避率ダウン",
+                "属性耐性ダウン",
+                "ステータスアップ状態を解除"
+            ],
+            "potentialSearch1": [
+                "物防向上",
+                "SP獲得量向上"
+            ],
+            "potentialSearch2": [
+                "異攻向上"
+            ],
+            "skill1SearchS": [
+                "科学サイドの味方全体",
+                "属性の味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "大威力"
+            ],
+            "role": "食蜂操祈",
+            "hp": "13665",
+            "dexterity": "1925",
+            "physicalAttack": "3387",
+            "powerAttack": "7753",
+            "physicalDefense": "7654",
+            "powerDefense": "3832",
+            "voice": "浅倉杏美",
+            "class": "バトルキャラ",
+            "attributes": "赤",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "異能攻撃",
+            "attackDirection": "007",
+            "obtain": "とある秘密の聖夜事情ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "6",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "异能攻击",
+            "role": "食蜂操祈",
+            "voice": "浅仓杏美",
+            "obtain": "某秘密的圣诞夜事件扭蛋",
+            "skill1": "圣诞女王的赠礼",
+            "skill1Effect": "对己方科学侧全体角色附加4回合【异攻增加（小）】，为红属性的己方全体角色附加2回合【暴击发生率增加（大）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "重力子寄木板圣诞老人v",
+            "nirvanaEffect": "对攻击范围内的敌人释放数值强化解除，释放大威力的异能攻击，并为攻击范围内的敌人附加3回合【暴击发生率降低（中）】与【红属性耐性降低（小）】",
+            "potentialAbility1": "SP获取量向上+物防向上",
+            "potentialAbility1Effect": "战斗开始时自己的SP获得量少量增加，物理防御力中量增加。",
+            "potentialAbility2": "前方攻击强化+异攻向上",
+            "potentialAbility2Effect": "对自己前方向的攻击力增加，战斗开始时自己的异能攻击力中量增加。",
+            "skill1Search": [
+                "异攻增加",
+                "暴击发生率增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "暴击发生率降低",
+                "属性耐性降低",
+                "数值强化解除"
+            ],
+            "potentialSearch1": [
+                "物防向上",
+                "SP获得量向上"
+            ],
+            "potentialSearch2": [
+                "异攻向上"
+            ],
+            "skill1SearchS": [
+                "科学侧的我方全体",
+                "某属性的我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "大威力"
+            ]
+        },
+        "img": "389"
+    },
+    {
+        "ID": 390,
+        "nameJp": "【根性サンタ】削板軍覇",
+        "nameCn": "【根性圣诞老人】削板军霸",
+        "Japanese": {
+            "skill1": "サンタの勇気",
+            "skill1Effect": "正面と左右の敵に中威力の物理攻撃をし、正面と左右の科学サイドの敵に【物防ダウン(小)】を3ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "超すごいプレゼント",
+            "nirvanaEffect": "正面と左右の敵に科学サイドに対して威力が上昇する特大威力の物理攻撃をし、正面と左右の敵に科学サイドの敵が含まれる時、味方全体に【クリティカル威力アップ(小)】を3ターン付与する",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "potentialAbility2": "前方向攻撃強化＋器用向上",
+            "potentialAbility2Effect": "自身の前方向への攻撃力をアップ＋バトル開始時に自分の器用を中アップさせる",
+            "skill1Search": [
+                "物防ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "クリティカル威力アップ"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "器用向上"
+            ],
+            "skill1SearchS": [
+                "正面と左右の敵",
+                "右の敵",
+                "科学サイドの敵",
+                "中威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内に科学サイドの敵が含まれる場合",
+                "正面と左右の敵",
+                "右の敵",
+                "科学サイドの敵",
+                "味方全体",
+                "特大威力",
+                "［科学サイド］の敵に対して威力が上昇"
+            ],
+            "role": "削板軍覇",
+            "hp": "14080",
+            "dexterity": "2493",
+            "physicalAttack": "7570",
+            "powerAttack": "6016",
+            "physicalDefense": "3693",
+            "powerDefense": "3474",
+            "voice": "河西健吾",
+            "class": "バトルキャラ",
+            "attributes": "黄",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "022",
+            "obtain": "とある秘密の聖夜事情ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "4",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "物理攻击",
+            "role": "削板军霸",
+            "voice": "河西健吾",
+            "obtain": "某秘密的圣诞夜事件扭蛋",
+            "skill1": "圣诞老人的勇气",
+            "skill1Effect": "对正面和左右的敌人释放中威力的物理攻击，并为正面与左右侧的科学侧敌人附加3回合【物防降低（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "超厉害礼物",
+            "nirvanaEffect": "对正面与左右侧的敌人释放对科学侧角色威力上升的特大威力的物理攻击，当正面和左右的敌人里有科学侧敌人时，为我方全体角色附加3回合【暴击威力增加（小）】",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "前方攻击强化+灵巧向上",
+            "potentialAbility2Effect": "对自己前方向的攻击力增加，战斗开始时自己的灵巧中量增加。",
+            "skill1Search": [
+                "物防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "暴击威力增加"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上"
+            ],
+            "skill1SearchS": [
+                "正面和左右的敌人",
+                "右面的敌人",
+                "科学侧敌人",
+                "中威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内包含科学侧敌人",
+                "正面和左右的敌人",
+                "右面的敌人",
+                "科学侧敌人",
+                "我方全体",
+                "特大威力",
+                "对科学侧敌人威力上升"
+            ]
+        },
+        "img": "390"
+    },
+    {
+        "ID": 391,
+        "nameJp": "【幸せなクリスマス】警策看取",
+        "nameCn": "【幸福的圣诞节】警策看取",
+        "Japanese": {
+            "skill1": "準備万端",
+            "skill1Effect": "敵が行動開始した時に味方全体に【感電耐性】と【移動不能耐性】を3ターン付与し、ペアのキャラに【物攻アップ(小)】を4ターン付与する（1回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の最大HPを中アップさせる",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "skill1Search": [
+                "移動不能",
+                "感電耐性",
+                "物攻アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上"
+            ],
+            "skill1SearchS": [
+                "味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "警策看取",
+            "hp": "11071",
+            "dexterity": "738",
+            "physicalAttack": "6030",
+            "powerAttack": "5581",
+            "physicalDefense": "4479",
+            "powerDefense": "4416",
+            "voice": "富田美憂",
+            "class": "アシストキャラ",
+            "attributes": "黄",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある秘密の聖夜事情ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "警策看取",
+            "voice": "富田美忧",
+            "obtain": "某秘密的圣诞夜事件扭蛋",
+            "skill1": "准备万全",
+            "skill1Effect": "在敌人开始行动时，为我方全体角色附加3回合【感电耐性】与【移动不能耐性】,并为组合角色附加4回合【物攻增加（小）】（仅1次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "skill1Search": [
+                "移动不能耐性",
+                "感电耐性",
+                "物攻增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上"
+            ],
+            "skill1SearchS": [
+                "我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "391"
+    },
+    {
+        "ID": 392,
+        "nameJp": "【０号】ドリー",
+        "nameCn": "【０号】多莉",
+        "Japanese": {
+            "skill1": "ずっといっしょに",
+            "skill1Effect": "ペアのキャラを含む味方がスキルを使用した時、その味方のHPを回復(小)し、【クリティカル発生率アップ(小)】と【異攻アップ(小)】を3ターン付与する（3回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "異防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能防御力を中アップさせる",
+            "potentialAbility2": "集中力向上＋HP向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋最大HPを中アップさせる",
+            "skill1Search": [
+                "異攻アップ",
+                "クリティカル発生率アップ",
+                "HPを回復"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "異防向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "ペアのキャラを含む味方がスキルを使用した後"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "ドリー",
+            "hp": "9243",
+            "dexterity": "1337",
+            "physicalAttack": "3684",
+            "powerAttack": "6594",
+            "physicalDefense": "2030",
+            "powerDefense": "2229",
+            "voice": "小原好美",
+            "class": "アシストキャラ",
+            "attributes": "赤",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある秘密の聖夜事情",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "多莉",
+            "voice": "小原好美",
+            "obtain": "某秘密的圣诞夜事件",
+            "skill1": "一直在一起",
+            "skill1Effect": "包含组合角色的己方角色使用技能后，为回复该角色HP（小），并附加3回合【暴击发生率增加（小）】与【异攻增加（小）】（仅3次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "集中力向上+HP向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，最大HP中量增加。",
+            "skill1Search": [
+                "异攻增加",
+                "暴击发生率增加",
+                "HP回复"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异防向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "包含配对角色我方使用技能后"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "392"
     }
 ]
