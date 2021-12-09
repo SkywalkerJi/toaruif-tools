@@ -20014,7 +20014,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
                 "敵行動開始時",
                 "味方全体"
             ],
@@ -20062,7 +20061,6 @@
             "nirvanaCode": "",
             "limited": "期间限定",
             "skill1SearchS": [
-                "行动开始时",
                 "敌行动开始时",
                 "我方全体"
             ],
@@ -27143,7 +27141,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
                 "敵行動開始時"
             ],
             "skill2SearchS": [],
@@ -27190,7 +27187,6 @@
             "nirvanaCode": "",
             "limited": "期间限定",
             "skill1SearchS": [
-                "行动开始时",
                 "敌行动开始时"
             ],
             "skill2SearchS": [],
@@ -29520,7 +29516,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
                 "敵行動開始時",
                 "味方全体"
             ],
@@ -29570,7 +29565,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行动开始时",
                 "敌行动开始时",
                 "我方全体"
             ],
@@ -30837,7 +30831,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
                 "敵行動開始時",
                 "味方全体"
             ],
@@ -30885,7 +30878,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行动开始时",
                 "敌行动开始时",
                 "我方全体"
             ],
@@ -33365,7 +33357,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
                 "敵行動開始時",
                 "味方全体"
             ],
@@ -33420,7 +33411,6 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行动开始时",
                 "敌行动开始时",
                 "我方全体"
             ],
@@ -38210,7 +38200,7 @@
             "nirvanaCode": "",
             "limited": "",
             "skill1SearchS": [
-                "行動開始時",
+                "敵行動開始時",
                 "敵全体",
                 "ペアのキャラと同じ属性の敵"
             ],
@@ -38235,7 +38225,7 @@
             "faction": "其他阵营",
             "attackMethod": "辅助角色",
             "skill1SearchS": [
-                "行动开始时",
+                "敌行动开始时",
                 "全体敌人",
                 "与配对角色同属性的敌人"
             ],
