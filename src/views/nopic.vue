@@ -4,7 +4,7 @@
       <v-img src="screenshots2.png" max-height="700"></v-img>
       <v-img src="screenshots1.jpg" max-height="700"></v-img>
       <v-card-title>
-        下列6星卡图用所列文件名发送至 toaru.wiki@gmail.com
+        请将下列6星卡图用所列文件名发送至 toaru.wiki@gmail.com
         <v-spacer></v-spacer>
         <v-text-field
           v-model="search"

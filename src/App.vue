@@ -3,8 +3,8 @@
     <v-navigation-drawer v-model="drawer" app>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="text-h6"> 幻想收束工具 </v-list-item-title>
-          <v-list-item-subtitle> <a href="https://twitter.com/Skywalker_Ji">@SkywalkerJi</a> </v-list-item-subtitle>
+          <v-list-item-title class="text-h6">とある魔術の禁書目録</v-list-item-title>
+          <v-list-item-title class="text-h6">幻想収束 辅助工具集</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
 

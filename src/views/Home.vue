@@ -5,7 +5,7 @@
       :inputCard="this.inputCard"
     ></infoDialog>
     <v-container>
-      <v-card-title>基础筛选: </v-card-title>
+      <v-card-title>基础筛选： </v-card-title>
       <v-row>
         <v-col>
           <v-btn-toggle
@@ -113,126 +113,157 @@
           ></v-select
         ></v-col>
       </v-row>
-      <v-card-title>技能&必杀技效果: </v-card-title>
-      <v-row>
-        <v-col>
-          <v-chip-group
-            v-model="effect.specialState"
-            column
-            multiple
-            @change="searchData"
+      <v-card-title>高级筛选：</v-card-title>
+      <v-combobox
+        v-model="effect.specialState"
+        :items="specialState"
+        chips
+        clearable
+        label="技能&必杀技效果"
+        multiple
+        prepend-icon="mdi-filter-variant"
+        solo
+        @change="searchData"
+      >
+        <template v-slot:selection="{ attrs, item, select, selected }">
+          <v-chip
+            v-bind="attrs"
+            :input-value="selected"
+            close
+            @click="select"
+            @click:close="remove(item, effect.specialState)"
           >
-            <v-chip
-              filter
-              v-for="(tag, index) in specialState"
-              :key="index"
-              :value="tag"
-            >
-              {{ tag }}
-            </v-chip>
-          </v-chip-group>
-        </v-col>
-      </v-row>
-      <v-card-title>潜能效果: </v-card-title>
-      <v-row>
-        <v-col>
-          <v-chip-group
-            v-model="effect.potentialTags"
-            column
-            multiple
-            @change="searchData"
+            <strong>{{ item }}</strong
+            >&nbsp;
+            <span>✔</span>
+          </v-chip>
+        </template>
+      </v-combobox>
+      <v-combobox
+        v-model="effect.potentialTags"
+        :items="potentialTags"
+        chips
+        clearable
+        label="潜能效果"
+        multiple
+        prepend-icon="mdi-filter-variant"
+        solo
+        @change="searchData"
+      >
+        <template v-slot:selection="{ attrs, item, select, selected }">
+          <v-chip
+            v-bind="attrs"
+            :input-value="selected"
+            close
+            @click="select"
+            @click:close="remove(item, effect.potentialTags)"
           >
-            <v-chip
-              filter
-              v-for="(tag, index) in potentialTags"
-              :key="index"
-              :value="tag"
-            >
-              {{ tag }}
-            </v-chip>
-          </v-chip-group>
-        </v-col>
-      </v-row>
-      <v-card-title>敌作用范围: </v-card-title>
-      <v-row>
-        <v-col>
-          <v-chip-group
-            v-model="effect.enemyRange"
-            column
-            multiple
-            @change="searchData"
+            <strong>{{ item }}</strong
+            >&nbsp;
+            <span>✔</span>
+          </v-chip>
+        </template>
+      </v-combobox>
+      <v-combobox
+        v-model="effect.enemyRange"
+        :items="enemyRange"
+        chips
+        clearable
+        label="敌作用范围"
+        multiple
+        prepend-icon="mdi-filter-variant"
+        solo
+        @change="searchData"
+      >
+        <template v-slot:selection="{ attrs, item, select, selected }">
+          <v-chip
+            v-bind="attrs"
+            :input-value="selected"
+            close
+            @click="select"
+            @click:close="remove(item, effect.enemyRange)"
           >
-            <v-chip
-              filter
-              v-for="(tag, index) in enemyRange"
-              :key="index"
-              :value="tag"
-            >
-              {{ tag }}
-            </v-chip>
-          </v-chip-group>
-        </v-col>
-      </v-row>
-      <v-card-title>我方作用范围: </v-card-title>
-      <v-row>
-        <v-col>
-          <v-chip-group
-            v-model="effect.ourScope"
-            column
-            multiple
-            @change="searchData"
+            <strong>{{ item }}</strong
+            >&nbsp;
+            <span>✔</span>
+          </v-chip>
+        </template>
+      </v-combobox>
+      <v-combobox
+        v-model="effect.ourScope"
+        :items="ourScope"
+        chips
+        clearable
+        label="我方作用范围"
+        multiple
+        prepend-icon="mdi-filter-variant"
+        solo
+        @change="searchData"
+      >
+        <template v-slot:selection="{ attrs, item, select, selected }">
+          <v-chip
+            v-bind="attrs"
+            :input-value="selected"
+            close
+            @click="select"
+            @click:close="remove(item, effect.ourScope)"
           >
-            <v-chip
-              filter
-              v-for="(tag, index) in ourScope"
-              :key="index"
-              :value="tag"
-            >
-              {{ tag }}
-            </v-chip>
-          </v-chip-group>
-        </v-col>
-      </v-row>
-      <v-card-title>发生条件: </v-card-title>
-      <v-row>
-        <v-col>
-          <v-chip-group
-            v-model="effect.occurrenceCond"
-            column
-            multiple
-            @change="searchData"
+            <strong>{{ item }}</strong
+            >&nbsp;
+            <span>✔</span>
+          </v-chip>
+        </template>
+      </v-combobox>
+      <v-combobox
+        v-model="effect.occurrenceCond"
+        :items="occurrenceCond"
+        chips
+        clearable
+        label="发生条件"
+        multiple
+        prepend-icon="mdi-filter-variant"
+        solo
+        @change="searchData"
+      >
+        <template v-slot:selection="{ attrs, item, select, selected }">
+          <v-chip
+            v-bind="attrs"
+            :input-value="selected"
+            close
+            @click="select"
+            @click:close="remove(item, effect.occurrenceCond)"
           >
-            <v-chip
-              filter
-              v-for="(tag, index) in occurrenceCond"
-              :key="index"
-              :value="tag"
-            >
-              {{ tag }}
-            </v-chip>
-          </v-chip-group>
-        </v-col>
-      </v-row>
-      <v-card-title>威力和特攻: </v-card-title>
-      <v-row>
-        <v-col>
-          <v-chip-group
-            v-model="effect.power"
-            column
-            multiple
-            @change="searchData"
+            <strong>{{ item }}</strong
+            >&nbsp;
+            <span>✔</span>
+          </v-chip>
+        </template>
+      </v-combobox>
+      <v-combobox
+        v-model="effect.power"
+        :items="power"
+        chips
+        clearable
+        label="威力和特攻"
+        multiple
+        prepend-icon="mdi-filter-variant"
+        solo
+        @change="searchData"
+      >
+        <template v-slot:selection="{ attrs, item, select, selected }">
+          <v-chip
+            v-bind="attrs"
+            :input-value="selected"
+            close
+            @click="select"
+            @click:close="remove(item, effect.power)"
           >
-            <v-chip
-              filter
-              v-for="(tag, index) in power"
-              :key="index"
-              :value="tag"
-            >
-              {{ tag }}
-            </v-chip>
-          </v-chip-group>
-        </v-col>
-      </v-row>
+            <strong>{{ item }}</strong
+            >&nbsp;
+            <span>✔</span>
+          </v-chip>
+        </template>
+      </v-combobox>
     </v-container>
     <v-container>
       <v-card-title>
@@ -256,6 +287,7 @@
       :sort-desc="[true]"
       @click:row="handleClick"
       class="elevation-1"
+      :footer-props="{ 'items-per-page-options': [15, 30, 50, 100, -1] }"
     >
       <template v-slot:item.img="{ item }">
         <v-img
@@ -532,6 +564,12 @@ export default {
     this.card = card;
   },
   methods: {
+    remove(item, chips) {
+      console.log(chips);
+      chips.splice(chips.indexOf(item), 1);
+      chips = [...chips];
+      this.searchData();
+    },
     getColor(attributes) {
       if (attributes == "红") return "red";
       else if (attributes == "蓝") return "blue";
