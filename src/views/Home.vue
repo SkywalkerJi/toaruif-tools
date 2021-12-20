@@ -565,7 +565,6 @@ export default {
   },
   methods: {
     remove(item, chips) {
-      console.log(chips);
       chips.splice(chips.indexOf(item), 1);
       chips = [...chips];
       this.searchData();
