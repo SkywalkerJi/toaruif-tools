@@ -43978,5 +43978,407 @@
             "nirvanaSearchS": []
         },
         "img": "392"
+    },
+    {
+        "ID": 393,
+        "nameJp": "【ヴィラン・サンタ】一方通行",
+        "nameCn": "【恶党・圣诞老人】一方通行",
+        "Japanese": {
+            "skill1": "ターキーショット",
+            "skill1Effect": "攻撃範囲内の敵に科学サイドに対して威力が上昇する小威力の物理攻撃をし、自身にダメージ1回分の【ベクトル操作】を2ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "ホーリーナイトストーム",
+            "nirvanaEffect": "攻撃範囲内の敵に大威力の物理攻撃をし、【持続被害(小)】を3ターン付与し、【持続被害(小)】を2ターン付与し、【持続被害(小)】を1ターン付与する",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "potentialAbility2": "判断力向上＋器用向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル回避率を小アップ＋器用を中アップさせる",
+            "skill1Search": [
+                "ベクトル操作"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "持続被害"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "器用向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "攻撃範囲内の敵",
+                "自身",
+                "小威力",
+                "［科学サイド］の敵に対して威力が上昇"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "大威力"
+            ],
+            "role": "一方通行",
+            "hp": "13410",
+            "dexterity": "2578",
+            "physicalAttack": "7521",
+            "powerAttack": "6140",
+            "physicalDefense": "3817",
+            "powerDefense": "3350",
+            "voice": "岡本信彦",
+            "class": "バトルキャラ",
+            "attributes": "緑",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "021",
+            "obtain": "とある暗部の聖夜配達ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "4",
+            "nirvanaCT": "4",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "绿",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "物理攻击",
+            "role": "一方通行",
+            "voice": "冈本信彦",
+            "obtain": "某暗部的圣诞夜派送扭蛋",
+            "skill1": "反射",
+            "skill1Effect": "对攻击范围内的敌人释放对科学侧角色威力上升的小威力的物理攻击，并为自身附加2回合能够抵挡1次攻击的【矢量操作】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "夜色风暴",
+            "nirvanaEffect": "对攻击范围内的敌人释放大威力的物理攻击，并附加3回合【持续被害（小）】、2回合【持续被害（小）】与1回合【持续被害（小）】",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "判断力向上+灵巧向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，灵巧中量增加。",
+            "skill1Search": [
+                "矢量操作"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "持续被害"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "攻击范围内的敌人",
+                "自身",
+                "小威力",
+                "对科学侧敌人威力上升"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "大威力"
+            ]
+        },
+        "img": "393"
+    },
+    {
+        "ID": 394,
+        "nameJp": "【聖夜の座標移動】結標淡希",
+        "nameCn": "【圣诞夜的坐标移动】结标淡希",
+        "Japanese": {
+            "skill1": "デリバリーレシート",
+            "skill1Effect": "正面の敵に中威力の異能攻撃をし、【攻撃方向減少-1】と【赤属性耐性ダウン(小)】を3ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "スパーリングシャワー",
+            "nirvanaEffect": "敵全体に中威力の異能攻撃をし、【赤属性耐性ダウン(中)】を2ターン付与する",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理防御力を中アップさせる",
+            "potentialAbility2": "構造解析（小）＋異攻向上",
+            "potentialAbility2Effect": "科学サイドへ攻撃した際の威力を小アップ＋バトル開始時に自分の異能攻撃力を中アップさせる",
+            "skill1Search": [
+                "攻撃方向減少",
+                "属性耐性ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "属性耐性ダウン"
+            ],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "異攻向上",
+                "構造解析"
+            ],
+            "skill1SearchS": [
+                "正面の敵",
+                "中威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "敵全体",
+                "中威力"
+            ],
+            "role": "結標淡希",
+            "hp": "12995",
+            "dexterity": "2010",
+            "physicalAttack": "3635",
+            "powerAttack": "7827",
+            "physicalDefense": "7406",
+            "powerDefense": "3832",
+            "voice": "櫻井浩美",
+            "class": "バトルキャラ",
+            "attributes": "赤",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "異能攻撃",
+            "attackDirection": "005",
+            "obtain": "とある暗部の聖夜配達ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "5",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "异能攻击",
+            "role": "结标淡希",
+            "voice": "樱井浩美",
+            "obtain": "某暗部的圣诞夜派送扭蛋",
+            "skill1": "送货收据",
+            "skill1Effect": "对正面的敌人释放中威力的异能攻击，并附加3回合【攻击方向减少-1】与【红属性耐性降低（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "香槟塔淋浴",
+            "nirvanaEffect": "对全体敌人释放中威力的异能攻击，并附加2回合【红属性耐性降低（中）】",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
+            "potentialAbility2": "构造解析（小）+异攻向上",
+            "potentialAbility2Effect": "攻击科学侧角色时威力少量增加，战斗开始时自己的异能攻击力中量增加。",
+            "skill1Search": [
+                "攻击方向减少",
+                "属性耐性降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "属性耐性降低"
+            ],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "异攻向上",
+                "构造解析"
+            ],
+            "skill1SearchS": [
+                "正面的敌人",
+                "中威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "全体敌人",
+                "中威力"
+            ]
+        },
+        "img": "394"
+    },
+    {
+        "ID": 395,
+        "nameJp": "【ブラックサンタ】土御門元春",
+        "nameCn": "【黑色圣诞老人】土御门元春",
+        "Japanese": {
+            "skill1": "ツイステッドプレゼント",
+            "skill1Effect": "行動開始した時にペアのキャラと同じ属性の味方全体に【異攻アップ(中)】を1ターン付与し、ペアのキャラの属性が有利属性となる敵全体に【異防ダウン(小)】を2ターン付与する（2回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "異攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
+            "potentialAbility2": "異防向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の異能防御力を中アップさせる",
+            "skill1Search": [
+                "異攻アップ",
+                "異防ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "異攻向上"
+            ],
+            "potentialSearch2": [
+                "異防向上"
+            ],
+            "skill1SearchS": [
+                "ペアのキャラの属性が有利属性となる敵",
+                "同じ属性の味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "土御門元春",
+            "hp": "9048",
+            "dexterity": "2066",
+            "physicalAttack": "2919",
+            "powerAttack": "6350",
+            "physicalDefense": "2869",
+            "powerDefense": "5607",
+            "voice": "勝杏里",
+            "class": "アシストキャラ",
+            "attributes": "黄",
+            "faction": "魔術サイド\n科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある暗部の聖夜配達ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "ASSIST",
+            "faction": "魔法侧 科学侧",
+            "attackMethod": "辅助角色",
+            "role": "土御门元春",
+            "voice": "胜杏里",
+            "obtain": "某暗部的圣诞夜派送扭蛋",
+            "skill1": "扭曲礼物",
+            "skill1Effect": "行动开始时为与组合角色相同属性的己方角色附加1回合【异攻增加（中）】，为所有被组合角色的属性克制的敌人附加2回合【异防降低（小）】（仅2次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "异防向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的异能防御力中量增加。",
+            "skill1Search": [
+                "异攻增加",
+                "异防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异攻向上"
+            ],
+            "potentialSearch2": [
+                "异防向上"
+            ],
+            "skill1SearchS": [
+                "与配对角色属性有利属性的敌人",
+                "同属性的我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "395"
+    },
+    {
+        "ID": 396,
+        "nameJp": "【仮面をつけたサンタ】海原光貴",
+        "nameCn": "【假面圣诞老人】海原光贵",
+        "Japanese": {
+            "skill1": "選りすぐりのプレゼント",
+            "skill1Effect": "敵がスキルを使用した時ペアのキャラにダメージ1回分の【ガード】と【異攻アップ(小)】を3ターン付与する（2回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "異防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能防御力を中アップさせる",
+            "potentialAbility2": "集中力向上＋HP向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋最大HPを中アップさせる",
+            "skill1Search": [
+                "ガード",
+                "異攻アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "異防向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "海原光貴",
+            "hp": "10089",
+            "dexterity": "1301",
+            "physicalAttack": "2677",
+            "powerAttack": "5482",
+            "physicalDefense": "3133",
+            "powerDefense": "4145",
+            "voice": "岸尾だいすけ",
+            "class": "アシストキャラ",
+            "attributes": "黄",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある暗部の聖夜配達",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "ASSIST",
+            "faction": "魔法侧",
+            "attackMethod": "辅助角色",
+            "role": "海原光贵",
+            "voice": "岸尾大辅",
+            "obtain": "某暗部的圣诞夜派送",
+            "skill1": "精心选的礼物",
+            "skill1Effect": "敌方使用技能时，为组合角色附加3回合能够抵挡1次伤害的【护盾】与【异攻增加（小）】（仅2次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "集中力向上+HP向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，最大HP中量增加。",
+            "skill1Search": [
+                "护盾",
+                "异攻增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异防向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "396"
     }
 ]
