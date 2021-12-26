@@ -44380,5 +44380,213 @@
             "nirvanaSearchS": []
         },
         "img": "396"
+    },
+    {
+        "ID": 397,
+        "nameJp": "【鋼鉄破り】御坂妹",
+        "nameCn": "【击破钢铁】御坂妹",
+        "Japanese": {
+            "skill1": "照準スコープ調整",
+            "skill1Effect": "自身に【クリティカル威力アップ(中)】を3ターン付与し、自身のSPを25上昇する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "遠距離フルオート射撃",
+            "nirvanaEffect": "正面の敵にダメージを無効にする特殊状態を無視してクリティカルが発生しやすい特大威力の物理攻撃をする",
+            "potentialAbility1": "器用向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の器用を中アップする",
+            "potentialAbility2": "集中力向上＋物攻向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋物理攻撃力を中アップさせる",
+            "skill1Search": [
+                "クリティカル威力アップ",
+                "SP上昇"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "器用向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "自身"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "正面の敵",
+                "特大威力",
+                "クリティカルが発生しや",
+                "ダメージを無効にする特殊状態を無視して攻撃"
+            ],
+            "role": "御坂妹",
+            "hp": "11552",
+            "dexterity": "2527",
+            "physicalAttack": "7695",
+            "powerAttack": "6514",
+            "physicalDefense": "3767",
+            "powerDefense": "3897",
+            "voice": "ささきのぞみ",
+            "class": "バトルキャラ",
+            "attributes": "黄",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "025",
+            "obtain": "新キャラ！ピックアップガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "5",
+            "nirvanaCT": "4",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "物理攻击",
+            "role": "御坂妹",
+            "voice": "佐佐木望",
+            "obtain": "新角色！Pick UP扭蛋",
+            "skill1": "调整瞄准范围",
+            "skill1Effect": "为自己附加3回合【暴击威力增加（中）】，并且SP增加25",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "远距离全自动射击",
+            "nirvanaEffect": "对正面的敌人释放无视所有使伤害无效的特殊状态、更容易发生暴击的特大威力的物理攻击",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "集中力向上+物攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，物理攻击力中量增加。",
+            "skill1Search": [
+                "暴击威力增加",
+                "SP增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "灵巧向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "自身"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "正面的敌人",
+                "特大威力",
+                "容易发生暴击",
+                "无视使伤害无效的特殊效果的攻击"
+            ]
+        },
+        "img": "397"
+    },
+    {
+        "ID": 398,
+        "nameJp": "【海軍用船上槍】五和",
+        "nameCn": "【海军用船长枪】五和",
+        "Japanese": {
+            "skill1": "救われぬ者に救いの手を!!",
+            "skill1Effect": "自身に【物攻アップ(大)】と【攻撃方向増加+2】を2ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "海軍用船上槍",
+            "nirvanaEffect": "攻撃範囲内の敵に自身のHPが半分以下の時に威力が上昇する特大威力の物理攻撃をする",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "potentialAbility2": "左方向攻撃強化＋異防向上",
+            "potentialAbility2Effect": "自身の左方向への攻撃力をアップ＋バトル開始時に自分の異能防御力を中アップさせる",
+            "skill1Search": [
+                "攻撃方向増加",
+                "物攻アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "異防向上",
+                "方向攻撃強化"
+            ],
+            "skill1SearchS": [
+                "自身"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "特大威力",
+                "攻撃は自身のHPが半分以下の時に威力が上昇"
+            ],
+            "role": "五和",
+            "hp": "12222",
+            "dexterity": "1841",
+            "physicalAttack": "8001",
+            "powerAttack": "3882",
+            "physicalDefense": "4277",
+            "powerDefense": "7406",
+            "voice": "茅野愛衣",
+            "class": "バトルキャラ",
+            "attributes": "緑",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "017",
+            "obtain": "新キャラ！ピックアップガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "5",
+            "nirvanaCT": "4",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "绿",
+            "class": "BATTLE",
+            "faction": "魔法侧",
+            "attackMethod": "物理攻击",
+            "role": "五和",
+            "voice": "茅野爱衣",
+            "obtain": "新角色！Pick UP扭蛋",
+            "skill1": "给不被救赎的人以救赎之手！！",
+            "skill1Effect": "为自己附加2回合【物攻增加（大）】与【攻击方向增加+2】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "海军用船长枪",
+            "nirvanaEffect": "对攻击范围内的敌人进行一次当自身的HP在一半以下时威力上升的特大威力的物理攻击",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "左方向攻击强化+异防向上",
+            "potentialAbility2Effect": "自己对左方向的攻击力增加，战斗开始时自己的异能防御力中量增加。",
+            "skill1Search": [
+                "攻击方向增加",
+                "物攻增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "异防向上",
+                "方向攻击强化"
+            ],
+            "skill1SearchS": [
+                "自身"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "特大威力",
+                "当自己的HP值一半以下时，威力会上升"
+            ]
+        },
+        "img": "398"
     }
 ]

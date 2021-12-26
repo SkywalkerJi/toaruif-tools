@@ -2,10 +2,10 @@
   <div class="about">
     <h4>とある魔術の禁書目録 幻想収束 辅助工具集</h4>
     <h4>
-      目前还有6张卡缺6星卡图，其余卡图已全。如果你对现用卡图不满意也欢迎提供更高质量卡图，详情请查看卡图征集页面。
+      目前还有10张卡缺6星卡图，其余卡图已全。如果你对现用卡图不满意也欢迎提供更高质量卡图，详情请查看卡图征集页面。
     </h4>
     <h4>
-      已汉化396张卡（2021.12.22）。
+      已汉化398张卡（2021.12.27）。
       <a href="https://paratranz.cn/projects/1209/files">参与汉化</a>
     </h4>
     <h4>
@@ -13,12 +13,8 @@
       <a href="https://twitter.com/Skywalker_Ji">SkywalkerJi</a>
     </h4>
     <h4>
-      开发反馈Q群
-      <a href="https://jq.qq.com/?_wv=1027&k=1v2Y0f8y">1077682402</a>
-    </h4>
-    <h4>
-      游戏交流Q群
-      <a href="https://jq.qq.com/?_wv=1027&k=WWLhZoay">544796698</a>
+      参与论坛讨论
+      <a href="https://bbs.nga.cn/thread.php?stid=29987234">NGA魔禁版</a>
     </h4>
     <h4>
       Telegram频道
