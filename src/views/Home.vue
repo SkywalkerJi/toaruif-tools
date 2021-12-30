@@ -128,7 +128,7 @@
       <v-card-title>{{ $t("高级筛选") }}</v-card-title>
       <v-combobox
         v-model="effect.specialState"
-        :items="specialState"
+        :items="$t('specialState')"
         chips
         clearable
         :label="$t('技能 & 必杀技效果')"
@@ -145,7 +145,7 @@
             @click="select"
             @click:close="remove(item, effect.specialState)"
           >
-            <strong>{{ item }}</strong
+            <strong>{{ item.text }}</strong
             >&nbsp;
             <span>✔</span>
           </v-chip>
@@ -153,7 +153,7 @@
       </v-combobox>
       <v-combobox
         v-model="effect.potentialTags"
-        :items="potentialTags"
+        :items="$t('potentialTags')"
         chips
         clearable
         :label="$t('潜能效果')"
@@ -170,7 +170,7 @@
             @click="select"
             @click:close="remove(item, effect.potentialTags)"
           >
-            <strong>{{ item }}</strong
+            <strong>{{ item.text }}</strong
             >&nbsp;
             <span>✔</span>
           </v-chip>
@@ -178,7 +178,7 @@
       </v-combobox>
       <v-combobox
         v-model="effect.enemyRange"
-        :items="enemyRange"
+        :items="$t('enemyRange')"
         chips
         clearable
         :label="$t('敌方作用范围')"
@@ -195,7 +195,7 @@
             @click="select"
             @click:close="remove(item, effect.enemyRange)"
           >
-            <strong>{{ item }}</strong
+            <strong>{{ item.text }}</strong
             >&nbsp;
             <span>✔</span>
           </v-chip>
@@ -203,7 +203,7 @@
       </v-combobox>
       <v-combobox
         v-model="effect.ourScope"
-        :items="ourScope"
+        :items="$t('ourScope')"
         chips
         clearable
         :label="$t('我方作用范围')"
@@ -220,7 +220,7 @@
             @click="select"
             @click:close="remove(item, effect.ourScope)"
           >
-            <strong>{{ item }}</strong
+            <strong>{{ item.text }}</strong
             >&nbsp;
             <span>✔</span>
           </v-chip>
@@ -228,7 +228,7 @@
       </v-combobox>
       <v-combobox
         v-model="effect.occurrenceCond"
-        :items="occurrenceCond"
+        :items="$t('occurrenceCond')"
         chips
         clearable
         :label="$t('发生条件')"
@@ -245,7 +245,7 @@
             @click="select"
             @click:close="remove(item, effect.occurrenceCond)"
           >
-            <strong>{{ item }}</strong
+            <strong>{{ item.text }}</strong
             >&nbsp;
             <span>✔</span>
           </v-chip>
@@ -253,7 +253,7 @@
       </v-combobox>
       <v-combobox
         v-model="effect.power"
-        :items="power"
+        :items="$t('power')"
         chips
         clearable
         :label="$t('威力 & 特攻')"
@@ -270,7 +270,7 @@
             @click="select"
             @click:close="remove(item, effect.power)"
           >
-            <strong>{{ item }}</strong
+            <strong>{{ item.text }}</strong
             >&nbsp;
             <span>✔</span>
           </v-chip>
@@ -353,185 +353,17 @@ export default {
       },
       obtain: ["", "通常", "期间限定", "幻想盛典限定", "活动"],
       faction: ["", "科学侧", "魔法侧", "其他阵营", "魔法侧 科学侧"],
-      enemyRange: [
-        "全体敌人",
-        "正面的敌人",
-        "正面和左右的敌人",
-        "正面和左面的敌人",
-        "正面和右面的敌人",
-        "右面的敌人",
-        "左面的敌人",
-        "攻击范围内的敌人",
-        "属性敌人",
-        "魔术侧敌人",
-        "科学侧敌人",
-        "该敌人",
-        "该敌人与该敌人两临的角色",
-        "配对角色攻击范围内的敌人",
-        "与配对角色同属性的敌人",
-        "与配对角色属性有利属性的敌人",
-      ],
-      ourScope: [
-        "自身",
-        "自身和右临的角色",
-        "自身和左临的角色",
-        "自身和两临的角色",
-        "自身的右临的角色",
-        "自身的左临的角色",
-        "自身的两临的角色",
-        "我方全体",
-        "魔术侧的我方全体",
-        "科学侧的我方全体",
-        "某属性的我方全体",
-        "同属性的我方全体",
-        "配对角色以外的我方全体",
-        "自身以外的我方全体",
-        "配对角色两临的角色",
-      ],
-      occurrenceCond: [
-        "行动开始时",
-        "敌行动开始时",
-        "敌方技能使用后",
-        "敌方必杀技使用后",
-        "敌行动结束时配对角色的HP小于自身一半时",
-        "配对角色退场时",
-        "配对角色给予敌人暴击伤害时",
-        "配对角色对敌人造成伤害时",
-        "配对角色使用技能后",
-        "配对角色使用必杀技后",
-        "配对角色受到伤害时",
-        "配对角色使敌人退场时",
-        "配对角色以外的我方角色使用技能后",
-        "配对角色以外的我方角色使用必殺技后",
-        "包含配对角色我方使敌人退场时",
-        "包含配对角色我方使用技能后",
-        "包含配对角色我方使用必杀技后",
-        "配对角色从辅助角色以外受到的弱化状态时",
-        "场上魔术侧角色数",
-        "场上科学侧角色数",
-        "攻击范围内包含魔术侧敌人",
-        "攻击范围内包含科学侧敌人",
-      ],
-      power: [
-        "小威力",
-        "中威力",
-        "大威力",
-        "特大威力",
-        "必发生暴击",
-        "容易发生暴击",
-        "对魔术侧敌人威力上升",
-        "对科学侧敌人威力上升",
-        "当自己的HP值一半以下时，威力会上升",
-        "自身HP值越低伤害越高",
-        "自身HP值越低伤害越低",
-        "对方HP值越高伤害越高",
-        "无视使伤害无效的特殊效果的攻击",
-        "当自己的HP值最大时，威力会上升",
-        "根据自身被赋予的强化状态的数量威力上升的攻击",
-        "将自身物理防御力作为物理攻击力来使用的攻击",
-      ],
       items: [],
       errors: [],
       select: [],
       effect: {
         specialState: [],
         potentialTags: [],
+        enemyRange: [],
+        ourScope: [],
+        occurrenceCond: [],
+        power: [],
       },
-      specialState: [
-        "护盾",
-        "贯穿",
-        "不屈",
-        "HP恢复妨碍",
-        "强化解除耐性",
-        "弱化状态耐性",
-        "技能封印",
-        "必杀技封印",
-        "必杀技封印耐性",
-        "辅助封印",
-        "辅助封印耐性",
-        "强化妨碍",
-        "攻击力提升妨碍",
-        "移动不能",
-        "移动不能耐性",
-        "气绝",
-        "感电",
-        "感电耐性",
-        "天罚",
-        "集中状态",
-        "持续被害",
-        "出血",
-        "制御不能",
-        "矢量操作",
-        "强制咏唱待机",
-        "外部供奉",
-        "攻击方向增加",
-        "攻击方向减少",
-        "暴击必中",
-        "物攻增加",
-        "物攻降低",
-        "异攻增加",
-        "异攻降低",
-        "物防增加",
-        "物防降低",
-        "异防增加",
-        "异防降低",
-        "暴击发生率增加",
-        "暴击发生率降低",
-        "暴击回避率增加",
-        "暴击发生率降低",
-        "暴击威力增加",
-        "暴击威力降低",
-        "物理伤害减轻",
-        "异能伤害减轻",
-        "属性伤害减轻",
-        "属性耐性降低",
-        "强化状态解除",
-        "数值强化解除",
-        "特殊状态解除",
-        "攻击强化解除",
-        "防御强化解除",
-        "弱化状态解除",
-        "弱体化解除妨害",
-        "数值弱化解除",
-        "状态异常解除",
-        "攻击弱化解除",
-        "防御弱化解除",
-        "SP获得量增加",
-        "SP获得量降低",
-        "SP增加",
-        "SP减少",
-        "技能冷却时间",
-        "必杀技冷却时间",
-        "行动槽减少",
-        "HP回复",
-        "HP减少",
-      ],
-      potentialTags: [
-        "与该角色同色全体队友能力向上",
-        "与该角色同色全体队友物理能力向上",
-        "与该角色同色全体队友异能能力向上",
-        "与该角色同色全体队友对克制属性角色物理防御力向上",
-        "与该角色同色全体队友对克制属性角色异能防御力向上",
-        "与该角色同色全体队友对克制属性角色物理攻击力向上",
-        "与该角色同色全体队友对克制属性角色异能攻击力向上",
-        "物攻向上",
-        "物防向上",
-        "异攻向上",
-        "异防向上",
-        "HP向上",
-        "灵巧向上",
-        "方向攻击强化",
-        "集中力向上",
-        "判断力向上",
-        "SP获得量向上",
-        "魔术连携力向上",
-        "科学连携力向上",
-        "术式解析",
-        "构造解析",
-        "科学支援",
-        "魔术支援",
-      ],
-
       text: [],
       search: "",
       headers: [
@@ -541,13 +373,13 @@ export default {
           sortable: false,
           value: "img",
         },
+        { text: "キャラ名", value: "nameJp", sortable: false },
         {
-          text: this.$t("卡名"),
+          text: "中文卡名",
           align: "start",
           sortable: false,
           value: "nameCn",
         },
-        // { text: "原名", value: "nameJp", sortable: false },
         { text: this.$t("阵营"), value: "Chinese.faction", width: "90px" },
         {
           text: this.$t("星级"),
@@ -770,15 +602,22 @@ export default {
         attackMethod: this.cardSearch.attackMethod,
         initialrarity: this.cardSearch.initialrarity,
         obtain: this.cardSearch.obtain,
-        specialState: this.effect.specialState,
-        potentialTags: this.effect.potentialTags,
-        enemyRange: this.effect.enemyRange,
-        ourScope: this.effect.ourScope,
-        occurrenceCond: this.effect.occurrenceCond,
-        power: this.effect.power,
       };
+      keys.specialState = this.getValueFromArray(this.effect.specialState);
+      keys.potentialTags = this.getValueFromArray(this.effect.potentialTags);
+      keys.enemyRange = this.getValueFromArray(this.effect.enemyRange);
+      keys.ourScope = this.getValueFromArray(this.effect.ourScope);
+      keys.occurrenceCond = this.getValueFromArray(this.effect.occurrenceCond);
+      keys.power = this.getValueFromArray(this.effect.power);
       keys = this.deleteEmptyKey(keys);
       this.card = this.searchKeysValues(card, keys);
+    },
+    getValueFromArray(array) {
+      let valueArr = [];
+      array.forEach((element) => {
+        valueArr.push(element.value);
+      });
+      return valueArr;
     },
   },
 };

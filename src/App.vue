@@ -49,8 +49,8 @@
       <v-spacer></v-spacer>
       <div class="locale-changer">
         <select v-model="$i18n.locale">
-          <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">
-            {{ lang }}
+          <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang.value">
+            {{ lang.text }}
           </option>
         </select>
       </div>
@@ -89,7 +89,13 @@ export default {
       { title: "关于", icon: "mdi-information-variant", to: "/about" },
     ],
     right: null,
-    langs: ['ja', 'en','zh_CN']
+    // langs: ['ja', 'en','zh_CN']
+    langs: [
+      { text: "日本語", value: "ja" },
+      { text: "简体中文", value: "zh_CN" },
+      { text: "English", value: "en" },
+      { text: "繁体中文", value: "zh_TW" },
+    ],
   }),
 };
 </script>

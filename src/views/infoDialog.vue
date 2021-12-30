@@ -2,37 +2,36 @@
   <v-dialog transition="dialog-top-transition" max-width="700" v-model="show">
     <template v-slot:default="dialog">
       <v-card>
-        <v-toolbar color="primary" dark>卡片详情</v-toolbar>
+        <v-toolbar color="primary" dark>{{ $t("卡片详情") }}</v-toolbar>
         <v-card-text>
           <v-container>
             <v-row>
               <v-col>
-              <v-carousel
-                v-model="model"
-                height="auto"
-                :show-arrows="true"
-                hide-delimiter-background
-                delimiter-icon="mdi-minus"
-                show-arrows-on-hover
-              >
-                <v-carousel-item v-for="(url, i) in inputCard.imgUrl" :key="i">
-                  <!-- <v-sheet :color="colors" height="100%" tile>
+                <v-carousel
+                  v-model="model"
+                  height="auto"
+                  :show-arrows="true"
+                  hide-delimiter-background
+                  delimiter-icon="mdi-minus"
+                  show-arrows-on-hover
+                >
+                  <v-carousel-item
+                    v-for="(url, i) in inputCard.imgUrl"
+                    :key="i"
+                  >
+                    <!-- <v-sheet :color="colors" height="100%" tile>
                     <v-row class="fill-height" align="center" justify="center">
                       <div class="text-h2">{{ i ==1?"6星":"初始" }} 卡图</div>
                     </v-row>
                   </v-sheet> -->
-                  <v-img
-                    max-height="300"
-                    :src="url"
-                    v-if="inputCard.img"
-                  >
-                  </v-img>
-                </v-carousel-item>
-              </v-carousel>
+                    <v-img max-height="300" :src="url" v-if="inputCard.img">
+                    </v-img>
+                  </v-carousel-item>
+                </v-carousel>
               </v-col>
             </v-row>
             <v-row>
-              <v-col v-if='inputCard.nameCn'>
+              <v-col v-if="$i18n.locale != 'ja'">
                 <v-text-field
                   dense
                   v-model="inputCard.nameCn"
@@ -41,16 +40,16 @@
                   readonly
                 ></v-text-field>
               </v-col>
-              <v-col v-if='!inputCard.nameCn'>
+              <v-col v-if="$i18n.locale == 'ja'">
                 <v-text-field
                   dense
                   v-model="inputCard.nameJp"
-                  label="日文卡名"
+                  label="キャラ名"
                   outlined
                   readonly
                 ></v-text-field>
               </v-col>
-              <v-col>
+              <v-col v-if="$i18n.locale != 'ja'">
                 <v-text-field
                   dense
                   v-model="inputCard.Chinese.attributes"
@@ -59,9 +58,18 @@
                   readonly
                 ></v-text-field>
               </v-col>
+              <v-col v-if="$i18n.locale == 'ja'">
+                <v-text-field
+                  dense
+                  v-model="inputCard.Japanese.attributes"
+                  label="属性"
+                  outlined
+                  readonly
+                ></v-text-field>
+              </v-col>
             </v-row>
             <v-row>
-              <v-col v-if='inputCard.Chinese.skill1Effect'>
+              <v-col v-if="$i18n.locale != 'ja'">
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.skill1Effect"
@@ -71,11 +79,11 @@
                   rows="2"
                 ></v-textarea>
               </v-col>
-              <v-col v-if='!inputCard.Chinese.skill1Effect'>
+              <v-col v-if="$i18n.locale == 'ja'">
                 <v-textarea
                   dense
                   v-model="inputCard.Japanese.skill1Effect"
-                  label="技能原文"
+                  label="スキル"
                   outlined
                   readonly
                   rows="2"
@@ -83,7 +91,9 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col v-if="inputCard.Chinese.skill2Effect">
+              <v-col
+                v-if="inputCard.Chinese.skill2Effect && $i18n.locale != 'ja'"
+              >
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.skill2Effect"
@@ -93,11 +103,13 @@
                   rows="2"
                 ></v-textarea>
               </v-col>
-              <v-col v-if="!inputCard.Chinese.skill2Effect&&inputCard.Japanese.skill2Effect">
+              <v-col
+                v-if="inputCard.Japanese.skill2Effect && $i18n.locale == 'ja'"
+              >
                 <v-textarea
                   dense
                   v-model="inputCard.Japanese.skill2Effect"
-                  label="技能2 原文"
+                  label="スキル2"
                   outlined
                   readonly
                   rows="2"
@@ -105,21 +117,29 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col v-if="inputCard.Chinese.class == 'BATTLE'&&inputCard.Chinese.nirvanaEffect">
+              <v-col
+                v-if="
+                  inputCard.Chinese.class == 'BATTLE' && $i18n.locale != 'ja'
+                "
+              >
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.nirvanaEffect"
-                  label="大招"
+                  label="必杀技"
                   outlined
                   readonly
                   rows="2"
                 ></v-textarea>
               </v-col>
-              <v-col v-if="inputCard.Chinese.class == 'BATTLE'&&!inputCard.Chinese.nirvanaEffect">
+              <v-col
+                v-if="
+                  inputCard.Chinese.class == 'BATTLE' && $i18n.locale == 'ja'
+                "
+              >
                 <v-textarea
                   dense
                   v-model="inputCard.Japanese.nirvanaEffect"
-                  label="大招原文"
+                  label="必殺技"
                   outlined
                   readonly
                   rows="2"
@@ -127,7 +147,12 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col v-if="inputCard.Chinese.potentialAbility1Effect">
+              <v-col
+                v-if="
+                  inputCard.Chinese.potentialAbility1Effect &&
+                  $i18n.locale != 'ja'
+                "
+              >
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.potentialAbility1Effect"
@@ -137,11 +162,16 @@
                   rows="2"
                 ></v-textarea>
               </v-col>
-              <v-col v-if="!inputCard.Chinese.potentialAbility1Effect">
+              <v-col
+                v-if="
+                  !inputCard.Chinese.potentialAbility1Effect &&
+                  $i18n.locale == 'ja'
+                "
+              >
                 <v-textarea
                   dense
                   v-model="inputCard.Japanese.potentialAbility1Effect"
-                  label="潜在能力1 原文"
+                  label="潜在能力1"
                   outlined
                   readonly
                   rows="2"
@@ -149,7 +179,12 @@
               </v-col>
             </v-row>
             <v-row>
-              <v-col v-if="inputCard.Chinese.potentialAbility2Effect">
+              <v-col
+                v-if="
+                  inputCard.Chinese.potentialAbility2Effect &&
+                  $i18n.locale != 'ja'
+                "
+              >
                 <v-textarea
                   dense
                   v-model="inputCard.Chinese.potentialAbility2Effect"
@@ -159,7 +194,12 @@
                   rows="2"
                 ></v-textarea>
               </v-col>
-                <v-col v-if="!inputCard.Chinese.potentialAbility2Effect&&inputCard.Japanese.potentialAbility2Effect">
+              <v-col
+                v-if="
+                  inputCard.Japanese.potentialAbility2Effect &&
+                  $i18n.locale == 'ja'
+                "
+              >
                 <v-textarea
                   dense
                   v-model="inputCard.Japanese.potentialAbility2Effect"
@@ -180,7 +220,7 @@
                   readonly
                 ></v-text-field>
               </v-col>
-              <v-col>
+              <v-col v-if="$i18n.locale != 'ja'">
                 <v-text-field
                   dense
                   v-model="inputCard.Chinese.attackMethod"
@@ -189,9 +229,18 @@
                   readonly
                 ></v-text-field>
               </v-col>
+              <v-col v-if="$i18n.locale == 'ja'">
+                <v-text-field
+                  dense
+                  v-model="inputCard.Japanese.attackMethod"
+                  label="タイプ"
+                  outlined
+                  readonly
+                ></v-text-field>
+              </v-col>
             </v-row>
             <v-row>
-              <v-col>
+              <v-col v-if="$i18n.locale != 'ja'">
                 <v-text-field
                   dense
                   v-model="inputCard.Chinese.class"
@@ -200,11 +249,29 @@
                   readonly
                 ></v-text-field>
               </v-col>
-              <v-col>
+              <v-col v-if="$i18n.locale == 'ja'">
+                <v-text-field
+                  dense
+                  v-model="inputCard.Japanese.class"
+                  label="タイプ"
+                  outlined
+                  readonly
+                ></v-text-field>
+              </v-col>
+              <v-col v-if="$i18n.locale != 'ja'">
                 <v-text-field
                   dense
                   v-model="inputCard.Chinese.faction"
                   label="阵营"
+                  outlined
+                  readonly
+                ></v-text-field>
+              </v-col>
+              <v-col v-if="$i18n.locale == 'ja'">
+                <v-text-field
+                  dense
+                  v-model="inputCard.Japanese.faction"
+                  label="サイド"
                   outlined
                   readonly
                 ></v-text-field>
@@ -220,10 +287,19 @@
                   readonly
                 ></v-text-field>
               </v-col>
-              <v-col>
+              <v-col v-if="$i18n.locale != 'ja'">
                 <v-text-field
                   dense
                   v-model="inputCard.Chinese.obtain"
+                  label="入手"
+                  outlined
+                  readonly
+                ></v-text-field>
+              </v-col>
+              <v-col v-if="$i18n.locale == 'ja'">
+                <v-text-field
+                  dense
+                  v-model="inputCard.Japanese.obtain"
                   label="入手"
                   outlined
                   readonly
@@ -262,10 +338,7 @@ export default {
       },
     },
   },
-  mounted() {
-
-  },
-  methods: {
-  },
+  mounted() {},
+  methods: {},
 };
 </script>
