@@ -1,6 +1,6 @@
 {
     "hello": "en",
-    "基础筛选": "Basic filtering",
+    "基础筛选": "Basic filter",
     "高级筛选": "Advanced filter",
     "异能攻击": "Ability attack",
     "物理攻击": "Physical attack",
@@ -679,5 +679,6 @@
             "value": "魔术支援"
         }
     ],
-    "卡片详情":"キャラ情報"
+    "卡片详情":"Card details",
+    "关闭":"close"
 }

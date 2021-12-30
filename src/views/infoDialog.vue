@@ -215,7 +215,7 @@
                 <v-text-field
                   dense
                   v-model="inputCard.arrow"
-                  label="方向"
+                  :label='$t("方向")'
                   outlined
                   readonly
                 ></v-text-field>
@@ -282,7 +282,7 @@
                 <v-text-field
                   dense
                   v-model="inputCard.Japanese.initialrarity"
-                  label="星级"
+                  :label='$t("星级")'
                   outlined
                   readonly
                 ></v-text-field>
@@ -309,7 +309,7 @@
           </v-container>
         </v-card-text>
         <v-card-actions class="justify-end">
-          <v-btn text @click="dialog.value = false">关闭</v-btn>
+          <v-btn text @click="dialog.value = false">{{ $t("关闭") }}</v-btn>
         </v-card-actions>
       </v-card>
     </template>
