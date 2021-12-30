@@ -10,6 +10,14 @@ module.exports = {
         return args
       })
   },
+  pluginOptions: {
+    i18n: {
+      locale: "zh_CN",
+      fallbackLocale: "zh_CN",
+      localeDir: "locales",
+      enableInSFC: true
+    }
+  },
   publicPath: process.env.NODE_ENV === 'production'
     ? '/toaruif-tools/'
     : '/',

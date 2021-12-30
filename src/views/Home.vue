@@ -5,7 +5,7 @@
       :inputCard="this.inputCard"
     ></infoDialog>
     <v-container>
-      <v-card-title>基础筛选： </v-card-title>
+      <v-card-title>{{ $t("基础筛选") }}</v-card-title>
       <v-row>
         <v-col>
           <v-btn-toggle
@@ -15,10 +15,12 @@
             color="deep-purple accent-3"
             group
           >
-            <v-btn value="BATTLE" color="red" class="red--text"> BATTLE </v-btn>
-            <v-btn value="ASSIST" color="blue" class="blue--text">
-              ASSIST
-            </v-btn>
+            <v-btn value="BATTLE" color="red" class="red--text">{{
+              $t("BATTLE")
+            }}</v-btn>
+            <v-btn value="ASSIST" color="blue" class="blue--text">{{
+              $t("ASSIST")
+            }}</v-btn>
           </v-btn-toggle></v-col
         >
         <v-col>
@@ -50,11 +52,21 @@
             group
             @change="searchData"
           >
-            <v-btn value="红" color="red" class="red--text"> 红 </v-btn>
-            <v-btn value="蓝" color="blue" class="blue--text"> 蓝 </v-btn>
-            <v-btn value="绿" color="green" class="green--text"> 绿 </v-btn>
-            <v-btn value="黄" color="yellow" class="amber--text"> 黄 </v-btn>
-            <v-btn value="紫" color="purple" class="purple--text"> 紫 </v-btn>
+            <v-btn value="红" color="red" class="red--text">{{
+              $t("红")
+            }}</v-btn>
+            <v-btn value="蓝" color="blue" class="blue--text">{{
+              $t("蓝")
+            }}</v-btn>
+            <v-btn value="绿" color="green" class="green--text">{{
+              $t("绿")
+            }}</v-btn>
+            <v-btn value="黄" color="yellow" class="amber--text">{{
+              $t("黄")
+            }}</v-btn>
+            <v-btn value="紫" color="purple" class="purple--text">{{
+              $t("紫")
+            }}</v-btn>
           </v-btn-toggle>
         </v-col>
         <v-col>
@@ -66,10 +78,10 @@
             group
           >
             <v-btn value="异能攻击" color="red" class="red--text">
-              <v-icon> mdi-book-open-variant </v-icon>异能攻击
+              <v-icon> mdi-book-open-variant </v-icon>{{ $t("异能攻击") }}
             </v-btn>
             <v-btn value="物理攻击" color="blue" class="blue--text">
-              <v-icon> mdi-fencing </v-icon> 物理攻击
+              <v-icon> mdi-fencing </v-icon>{{ $t("物理攻击") }}
             </v-btn>
           </v-btn-toggle>
         </v-col>
@@ -97,7 +109,7 @@
           <v-select
             v-model="cardSearch.faction"
             :items="faction"
-            label="阵营"
+            :label="$t('阵营')"
             filled
             @change="searchData"
           ></v-select
@@ -106,20 +118,20 @@
           <v-select
             v-model="cardSearch.obtain"
             :items="obtain"
-            label="入手途径"
+            label="入手途径（暂不支持）"
             filled
             disabled
             @change="searchData"
           ></v-select
         ></v-col>
       </v-row>
-      <v-card-title>高级筛选：</v-card-title>
+      <v-card-title>{{ $t("高级筛选") }}</v-card-title>
       <v-combobox
         v-model="effect.specialState"
         :items="specialState"
         chips
         clearable
-        label="技能&必杀技效果"
+        :label="$t('技能 & 必杀技效果')"
         multiple
         prepend-icon="mdi-filter-variant"
         solo
@@ -144,7 +156,7 @@
         :items="potentialTags"
         chips
         clearable
-        label="潜能效果"
+        :label="$t('潜能效果')"
         multiple
         prepend-icon="mdi-filter-variant"
         solo
@@ -169,7 +181,7 @@
         :items="enemyRange"
         chips
         clearable
-        label="敌作用范围"
+        :label="$t('敌方作用范围')"
         multiple
         prepend-icon="mdi-filter-variant"
         solo
@@ -194,7 +206,7 @@
         :items="ourScope"
         chips
         clearable
-        label="我方作用范围"
+        :label="$t('我方作用范围')"
         multiple
         prepend-icon="mdi-filter-variant"
         solo
@@ -219,7 +231,7 @@
         :items="occurrenceCond"
         chips
         clearable
-        label="发生条件"
+        :label="$t('发生条件')"
         multiple
         prepend-icon="mdi-filter-variant"
         solo
@@ -244,7 +256,7 @@
         :items="power"
         chips
         clearable
-        label="威力和特攻"
+        :label="$t('威力 & 特攻')"
         multiple
         prepend-icon="mdi-filter-variant"
         solo
@@ -267,7 +279,7 @@
     </v-container>
     <v-container>
       <v-card-title>
-        筛选结果中搜索
+        {{ $t("筛选结果中搜索") }}
         <v-spacer></v-spacer>
         <v-text-field
           v-model="search"
@@ -524,31 +536,51 @@ export default {
       search: "",
       headers: [
         {
-          text: "头像",
+          text: this.$t("头像"),
           align: "left",
           sortable: false,
           value: "img",
         },
         {
-          text: "中文卡名",
+          text: this.$t("卡名"),
           align: "start",
           sortable: false,
           value: "nameCn",
         },
         // { text: "原名", value: "nameJp", sortable: false },
-        { text: "阵营", value: "Chinese.faction", width: "90px" },
-        { text: "星级", value: "Japanese.initialrarity", width: "80px" },
-        { text: "颜色", value: "Chinese.attributes", width: "80px" },
+        { text: this.$t("阵营"), value: "Chinese.faction", width: "90px" },
+        {
+          text: this.$t("星级"),
+          value: "Japanese.initialrarity",
+          width: "80px",
+        },
+        { text: this.$t("颜色"), value: "Chinese.attributes", width: "80px" },
         // { text: "卡种", value: "Chinese.class" },
-        { text: "类型", value: "Chinese.attackMethod", width: "80px" },
-        { text: "方向", value: "Japanese.attackDirection", width: "80px" },
-        { text: "HP", value: "Japanese.hp", width: "40px" },
-        { text: "灵巧", value: "Japanese.dexterity", width: "80px" },
-        { text: "物攻", value: "Japanese.physicalAttack", width: "80px" },
-        { text: "异攻", value: "Japanese.powerAttack", width: "80px" },
-        { text: "物防", value: "Japanese.physicalDefense", width: "80px" },
-        { text: "异防", value: "Japanese.powerDefense", width: "80px" },
-        { text: "入手", value: "Japanese.obtain" },
+        { text: this.$t("类型"), value: "Chinese.attackMethod", width: "80px" },
+        {
+          text: this.$t("方向"),
+          value: "Japanese.attackDirection",
+          width: "80px",
+        },
+        { text: this.$t("HP"), value: "Japanese.hp", width: "40px" },
+        { text: this.$t("灵巧"), value: "Japanese.dexterity", width: "80px" },
+        {
+          text: this.$t("物攻"),
+          value: "Japanese.physicalAttack",
+          width: "80px",
+        },
+        { text: this.$t("异攻"), value: "Japanese.powerAttack", width: "80px" },
+        {
+          text: this.$t("物防"),
+          value: "Japanese.physicalDefense",
+          width: "80px",
+        },
+        {
+          text: this.$t("异防"),
+          value: "Japanese.powerDefense",
+          width: "80px",
+        },
+        // { text: "入手", value: "Japanese.obtain" },
         { text: "ID", value: "ID" },
         // { text: "技能", value: "Chinese.skill1Effect" },
         // { text: "必杀技", value: "Chinese.nirvanaEffect" },

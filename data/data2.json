@@ -44588,5 +44588,639 @@
             ]
         },
         "img": "398"
+    },
+    {
+        "ID": 399,
+        "nameJp": "【修道巫女】インデックス",
+        "nameCn": "【修道巫女】茵蒂克丝",
+        "Japanese": {
+            "skill1": "神意伝達",
+            "skill1Effect": "敵全体に【青属性耐性ダウン(小)】と【HP回復妨害】を3ターン付与し、赤属性の敵全体に【制御不能】を1ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "神のご加護",
+            "nirvanaEffect": "味方全体に【クリティカル威力アップ(大)】を3ターン付与し、青属性の味方全体にダメージ2回分の【強制詠唱待機】を3ターン付与する",
+            "potentialAbility1": "青バトル異能能力向上（中）＋青バトル対赤異防向上（大）",
+            "potentialAbility1Effect": "バトル開始時に青属性バトルキャラ全員の異能攻撃力、異能防御力を中アップさせ、更に赤属性からの攻撃に対して異能防御力を大アップさせる",
+            "potentialAbility2": "青バトル異能能力向上（大）＋青バトル対赤異攻向上（大）",
+            "potentialAbility2Effect": "バトル開始時に青属性バトルキャラ全員の異能攻撃力、異能防御力を大アップさせ、更に赤属性への攻撃に対して異能攻撃力を大アップさせる",
+            "skill1Search": [
+                "HP回復妨害",
+                "制御不能",
+                "属性耐性ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "強制詠唱待機",
+                "クリティカル威力アップ"
+            ],
+            "potentialSearch1": [
+                "バトル異能能力向上",
+                "バトル異防向上"
+            ],
+            "potentialSearch2": [
+                "バトル異能能力向上",
+                "バトル異攻向上"
+            ],
+            "skill1SearchS": [
+                "敵全体",
+                "属性の敵"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "味方全体",
+                "属性の味方全体"
+            ],
+            "role": "インデックス",
+            "hp": "12737",
+            "dexterity": "2510",
+            "physicalAttack": "3658",
+            "powerAttack": "7033",
+            "physicalDefense": "4030",
+            "powerDefense": "6636",
+            "voice": "井口 裕香",
+            "class": "バトルキャラ",
+            "attributes": "青",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "異能攻撃",
+            "attackDirection": "012",
+            "obtain": "幻想祭宴ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "7",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "BATTLE",
+            "faction": "魔法侧",
+            "attackMethod": "异能攻击",
+            "role": "茵蒂克丝",
+            "voice": "井口裕香",
+            "obtain": "幻想祭宴扭蛋",
+            "skill1": "传达神意",
+            "skill1Effect": "为全体敌人附加3回合【蓝属性耐性降低（小）】与【HP恢复妨碍】，并为红属性的全体敌人附加1回合【制御不能】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "神的加护",
+            "nirvanaEffect": "为己方全体角色附加3回合【暴击威力增加（大）】，并为蓝属性的己方全体附加3回合能抵挡2次伤害的【强制咏唱待机】",
+            "potentialAbility1": "蓝战斗角色异能能力向上（中）+蓝战斗角色对红色异防向上（大）",
+            "potentialAbility1Effect": "战斗开始时蓝属性战斗角色全员的异能攻击力、异能防御力中量增加，且对红属性攻击时异能防御力大量增加。",
+            "potentialAbility2": "蓝战斗角色异能能力向上（大）+蓝战斗角色对红色异攻向上（大）",
+            "potentialAbility2Effect": "战斗开始时蓝属性战斗角色全员的异能攻击力、异能防御力大量增加，且对红属性攻击时异能攻击力大量增加。",
+            "skill1Search": [
+                "HP恢复妨碍",
+                "制御不能",
+                "属性耐性降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "强制咏唱待机",
+                "暴击威力增加"
+            ],
+            "potentialSearch1": [
+                "与该角色同色全体队友异能能力向上",
+                "与该角色同色全体队友对克制属性角色异能防御力向上"
+            ],
+            "potentialSearch2": [
+                "与该角色同色全体队友异能能力向上",
+                "与该角色同色全体队友对克制属性角色异能攻击力向上"
+            ],
+            "skill1SearchS": [
+                "全体敌人",
+                "属性敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "我方全体",
+                "某属性的我方全体"
+            ]
+        },
+        "img": "399"
+    },
+    {
+        "ID": 400,
+        "nameJp": "【聖人巫女】神裂火織",
+        "nameCn": "【圣人巫女】神裂火织",
+        "Japanese": {
+            "skill1": "厄払い",
+            "skill1Effect": "自身に2回分の【不屈(大)】と【ターゲット集中状態】を1ターン付与し、緑属性の味方全体に【物攻アップ(中)】を3ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "吉書始",
+            "nirvanaEffect": "攻撃範囲内の敵に特大威力の物理攻撃をし、攻撃範囲内の青属性の敵に【緑属性耐性ダウン(小)】を11ターン付与し、自身のSPを11上昇する",
+            "potentialAbility1": "緑バトル物理能力向上（中）＋緑バトル対青物防向上（大）",
+            "potentialAbility1Effect": "バトル開始時に緑属性バトルキャラ全員の物理攻撃力、物理防御力を中アップさせ、更に青属性からの攻撃に対して物理防御力を大アップさせる",
+            "potentialAbility2": "緑バトル物理能力向上（大）＋緑バトル対青物攻向上（大）",
+            "potentialAbility2Effect": "バトル開始時に緑属性バトルキャラ全員の物理攻撃力、物理防御力を大アップさせ、更に青属性への攻撃に対して物理攻撃力を大アップさせる",
+            "skill1Search": [
+                "不屈",
+                "集中状態",
+                "物攻アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "属性耐性ダウン",
+                "SP上昇"
+            ],
+            "potentialSearch1": [
+                "バトル物理能力向上",
+                "バトル物防向上"
+            ],
+            "potentialSearch2": [
+                "バトル物理能力向上",
+                "バトル物攻向上"
+            ],
+            "skill1SearchS": [
+                "自身",
+                "属性の味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "属性の敵",
+                "自身",
+                "特大威力"
+            ],
+            "role": "神裂火織",
+            "hp": "12119",
+            "dexterity": "1247",
+            "physicalAttack": "7456",
+            "powerAttack": "5421",
+            "physicalDefense": "7255",
+            "powerDefense": "5220",
+            "voice": "伊藤静",
+            "class": "バトルキャラ",
+            "attributes": "緑",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "019",
+            "obtain": "幻想祭宴ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "5",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "绿",
+            "class": "BATTLE",
+            "faction": "魔法侧",
+            "attackMethod": "物理攻击",
+            "role": "神裂火织",
+            "voice": "伊藤静",
+            "obtain": "幻想祭宴扭蛋",
+            "skill1": "祓除厄运",
+            "skill1Effect": "为自身附加1回合能够抵挡2次伤害的【不屈（大）】与【集中状态】，并为绿属性的己方全体附加3回合【物攻增加（中）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "吉書始",
+            "nirvanaEffect": "对攻击范围内的敌人释放特大威力的物理攻击，并为攻击范围内的蓝属性敌人附加11回合【绿属性耐性降低（小）】，自身SP上升11点",
+            "potentialAbility1": "绿战斗角色物理能力向上（中）+绿战斗角色对蓝色物防向上（大）",
+            "potentialAbility1Effect": "战斗开始时绿属性战斗角色全员的物理攻击力、物理防御力中量增加，且面对蓝属性时的物理防御力大量增加",
+            "potentialAbility2": "绿战斗角色物理能力向上（大）+绿战斗角色对蓝色物防向上（大）",
+            "potentialAbility2Effect": "战斗开始时绿属性战斗角色全员的物理攻击力、物理防御力中量增加，且对蓝属性攻击时物理攻击大量增加",
+            "skill1Search": [
+                "不屈",
+                "集中状态",
+                "物攻增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "属性耐性降低",
+                "SP增加"
+            ],
+            "potentialSearch1": [
+                "与该角色同色全体队友物理能力向上",
+                "与该角色同色全体队友对克制属性角色物理防御力向上"
+            ],
+            "potentialSearch2": [
+                "与该角色同色全体队友物理能力向上",
+                "与该角色同色全体队友对克制属性角色物理攻击力向上"
+            ],
+            "skill1SearchS": [
+                "自身",
+                "某属性的我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "属性敌人",
+                "自身",
+                "特大威力"
+            ]
+        },
+        "img": "400"
+    },
+    {
+        "ID": 401,
+        "nameJp": "【神楽】レイヴィニア＝バードウェイ",
+        "nameCn": "【神乐 】雷维尼亚·芭德薇",
+        "Japanese": {
+            "skill1": "安寧の舞",
+            "skill1Effect": "行動開始した時に敵全体に【物防ダウン(中)】を1ターン付与し、ペアのキャラと同じ属性の味方全体のHPを回復(中)する（2回のみ）",
+            "skill2": "昂揚の舞",
+            "skill2Effect": "ペアのキャラが必殺技を使用した時、ペア以外の味方全体のHPを回復(中)し、ダメージ1回分の【ガード】を1ターン付与し、ペアのキャラのSPを40上昇する(1回のみ)",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の最大HPを中アップさせる",
+            "potentialAbility2": "SP獲得量向上＋器用向上",
+            "potentialAbility2Effect": "バトル開始時に自分のSP獲得量を小アップ＋器用を中アップさせる",
+            "skill1Search": [
+                "物防ダウン",
+                "HPを回復"
+            ],
+            "skill2Search": [
+                "ガード",
+                "SP上昇",
+                "HPを回復"
+            ],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "器用向上",
+                "SP獲得量向上"
+            ],
+            "skill1SearchS": [
+                "敵全体",
+                "同じ属性の味方全体"
+            ],
+            "skill2SearchS": [
+                "ペアのキャラが必殺技を使用した後",
+                "ペア以外の味方全体"
+            ],
+            "nirvanaSearchS": [],
+            "role": "レイヴィニア＝バードウェイ",
+            "hp": "9749",
+            "dexterity": "2178",
+            "physicalAttack": "6050",
+            "powerAttack": "5084",
+            "physicalDefense": "2858",
+            "powerDefense": "3099",
+            "voice": "大地葉",
+            "class": "アシストキャラ",
+            "attributes": "紫",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "幻想祭宴ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "紫",
+            "class": "ASSIST",
+            "faction": "魔法侧",
+            "attackMethod": "辅助角色",
+            "role": "雷维尼亚·芭德薇",
+            "voice": "大地叶",
+            "obtain": "幻想祭宴扭蛋",
+            "skill1": "宁静之舞",
+            "skill1Effect": "行动开始时为全体敌人附加1回合【物防降低（中）】，并为与组合角色相同属性的全体己方角色恢复HP（中）（仅2次）",
+            "skill2": "昂扬之舞",
+            "skill2Effect": "组合角色的使用必杀技时，回复除组合角色以外的己方角色的HP（中），并附加1回合能够抵挡1次伤害的【护盾】，再为组合角色上升40点SP（仅1次）",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "SP获取量向上+灵巧向上",
+            "potentialAbility2Effect": "战斗开始时自己的SP获得量少量增加，灵巧中量增加。",
+            "skill1Search": [
+                "物防降低",
+                "HP回复"
+            ],
+            "skill2Search": [
+                "护盾",
+                "SP增加",
+                "HP回复"
+            ],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上",
+                "SP获得量向上"
+            ],
+            "skill1SearchS": [
+                "全体敌人",
+                "同属性的我方全体"
+            ],
+            "skill2SearchS": [
+                "配对角色使用必杀技后",
+                "配对角色以外的我方全体"
+            ],
+            "nirvanaSearchS": []
+        },
+        "img": "401"
+    },
+    {
+        "ID": 402,
+        "nameJp": "【傾奇者】ステイル＝マグヌス",
+        "nameCn": "【倾奇者】史提尔·马格努斯",
+        "Japanese": {
+            "skill1": "験担ぎ",
+            "skill1Effect": "魔術サイドの味方全体に【異攻アップ(小)】と【クリティカル威力アップ(小)】と【SP獲得量アップ(大)】を3ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "灼熱来光",
+            "nirvanaEffect": "攻撃範囲内の敵に魔術サイドに対してとても威力が上昇する特大威力の異能攻撃をする",
+            "potentialAbility1": "異防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能防御力を中アップさせる",
+            "potentialAbility2": "判断力向上＋異攻向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル回避率を小アップ＋異能攻撃力を中アップさせる",
+            "skill1Search": [
+                "異攻アップ",
+                "クリティカル威力アップ",
+                "SP獲得量アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "異防向上"
+            ],
+            "potentialSearch2": [
+                "異攻向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "魔術サイドの味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "特大威力",
+                "［魔術サイド］の敵に対して威力が上昇"
+            ],
+            "role": "ステイル＝マグヌス",
+            "hp": "10766",
+            "dexterity": "3062",
+            "physicalAttack": "3780",
+            "powerAttack": "10022",
+            "physicalDefense": "2301",
+            "powerDefense": "2798",
+            "voice": "谷山紀章",
+            "class": "バトルキャラ",
+            "attributes": "緑",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "異能攻撃",
+            "attackDirection": "015",
+            "obtain": "幻想祭宴ガチャ（期間限定キャラ）",
+            "awakeningCrystal": "",
+            "skill1CT": "6",
+            "nirvanaCT": "4",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "绿",
+            "class": "BATTLE",
+            "faction": "魔法侧",
+            "attackMethod": "异能攻击",
+            "role": "史提尔·马格努斯",
+            "voice": "谷山纪章",
+            "obtain": "幻想祭宴扭蛋（期间限定角色）",
+            "skill1": "抬神轿",
+            "skill1Effect": "为己方全体魔法侧的角色附加3回合【异攻增加（小）】、【暴击威力增加（小）】与【SP获得量增加（大）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "灼热来光",
+            "nirvanaEffect": "对攻击范围内的敌人释放对[魔法侧]威力上升的特大威力的异能攻击",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "判断力向上+异攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，异能攻击力中量增加。",
+            "skill1Search": [
+                "异攻增加",
+                "暴击威力增加",
+                "SP获得量增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异防向上"
+            ],
+            "potentialSearch2": [
+                "异攻向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "魔术侧的我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "特大威力",
+                "对魔术侧敌人威力上升"
+            ]
+        },
+        "img": "402"
+    },
+    {
+        "ID": 403,
+        "nameJp": "【一教師のお正月】月詠小萌",
+        "nameCn": "【某教室的新年】月咏小萌",
+        "Japanese": {
+            "skill1": "年始の指導",
+            "skill1Effect": "ペアのキャラが敵にダメージを与えた時、その敵に【異攻ダウン(中)】と【異防ダウン(中)】を2ターン付与する（2回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理防御力を中アップさせる",
+            "potentialAbility2": "異攻向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
+            "skill1Search": [
+                "異攻ダウン",
+                "異防ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "異攻向上"
+            ],
+            "skill1SearchS": [
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "月詠小萌",
+            "hp": "10987",
+            "dexterity": "2044",
+            "physicalAttack": "1715",
+            "powerAttack": "6506",
+            "physicalDefense": "5069",
+            "powerDefense": "5069",
+            "voice": "こやまきみこ",
+            "class": "アシストキャラ",
+            "attributes": "紫",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "幻想祭宴ガチャ（期間限定キャラ）",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "紫",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "月咏小萌",
+            "voice": "日本传统",
+            "obtain": "幻想祭宴扭蛋（期间限定角色）",
+            "skill1": "新年的指导",
+            "skill1Effect": "当组合角色对敌人造成伤害时，为那个敌人附加2回合【异攻降低（中）】与【异防降低（中）】（仅2次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理防御力中量增加。",
+            "potentialAbility2": "异攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "skill1Search": [
+                "异攻降低",
+                "异防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物防向上"
+            ],
+            "potentialSearch2": [
+                "异攻向上"
+            ],
+            "skill1SearchS": [
+                "配对角色对敌人造成伤害时",
+                "该敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "403"
+    },
+    {
+        "ID": 404,
+        "nameJp": "【秘めたる想い】姫神秋沙",
+        "nameCn": "【隐藏的思念】姬神秋沙",
+        "Japanese": {
+            "skill1": "魔法使いのアシスト",
+            "skill1Effect": "行動開始した時にペアのキャラの攻撃範囲内の敵に【物防ダウン(大)】を1ターン付与する（1回のみ）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の最大HPを中アップさせる",
+            "potentialAbility2": "判断力向上＋器用向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル回避率を小アップ＋器用を中アップさせる",
+            "skill1Search": [
+                "物防ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "器用向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "ペアのキャラの攻撃範囲内の敵"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "姫神秋沙",
+            "hp": "8500",
+            "dexterity": "1287",
+            "physicalAttack": "5691",
+            "powerAttack": "2083",
+            "physicalDefense": "4837",
+            "powerDefense": "3628",
+            "voice": "能登麻美子",
+            "class": "アシストキャラ",
+            "attributes": "緑",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある姫神の新年模様",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "绿",
+            "class": "ASSIST",
+            "faction": "魔法侧",
+            "attackMethod": "辅助角色",
+            "role": "姬神秋沙",
+            "voice": "能登麻美子",
+            "obtain": "某姬神的新年模样",
+            "skill1": "魔法使的辅助",
+            "skill1Effect": "行动开始时，为组合角色的攻击范围内的敌人附加1回合【物防降低（大）】（仅1次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "判断力向上+灵巧向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，灵巧中量增加。",
+            "skill1Search": [
+                "物防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "配对角色攻击范围内的敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "404"
     }
 ]

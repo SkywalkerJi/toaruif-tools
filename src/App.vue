@@ -3,8 +3,12 @@
     <v-navigation-drawer v-model="drawer" app>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="text-h6">とある魔術の禁書目録</v-list-item-title>
-          <v-list-item-title class="text-h6">幻想収束 辅助工具集</v-list-item-title>
+          <v-list-item-title class="text-h6"
+            >とある魔術の禁書目録</v-list-item-title
+          >
+          <v-list-item-title class="text-h6"
+            >幻想収束 辅助工具集</v-list-item-title
+          >
         </v-list-item-content>
       </v-list-item>
 
@@ -38,13 +42,18 @@
         ></v-img>
       </template>
 
-      <v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-app-bar-title>{{$route.name}}
-      </v-app-bar-title>
+      <v-app-bar-title>{{ $route.name }} </v-app-bar-title>
 
       <v-spacer></v-spacer>
-
+      <div class="locale-changer">
+        <select v-model="$i18n.locale">
+          <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">
+            {{ lang }}
+          </option>
+        </select>
+      </div>
       <!-- <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
@@ -71,11 +80,16 @@ export default {
     items: [
       { title: "卡片筛选", icon: "mdi-card-search-outline", to: "/" },
       { title: "效果帮助", icon: "mdi-help-box", to: "/help" },
-      { title: "卡图征集", icon: "mdi-clipboard-check-multiple-outline", to: "/nopic" },
+      {
+        title: "卡图征集",
+        icon: "mdi-clipboard-check-multiple-outline",
+        to: "/nopic",
+      },
       { title: "参与汉化", icon: "mdi-translate", to: "/paratranz" },
       { title: "关于", icon: "mdi-information-variant", to: "/about" },
     ],
     right: null,
+    langs: ['ja', 'en','zh_CN']
   }),
 };
 </script>

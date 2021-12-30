@@ -30,7 +30,7 @@
         >
         </v-img>
       </template>
-      <template v-slot:item.id="{ item }"> {{ item.ID }}.jpg </template>
+      <template v-slot:item.pic="{ item }"> {{ item.ID }}.jpg </template>
     </v-data-table>
   </div>
 </template>
@@ -56,7 +56,7 @@ export default {
           value: "中文",
         },
         { text: "原名", value: "日文", sortable: false },
-        { text: "文件名", value: "id", sortable: true },
+        { text: "文件名", value: "pic", sortable: true },
       ],
     };
   },
