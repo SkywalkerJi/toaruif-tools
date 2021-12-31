@@ -215,7 +215,7 @@
                 <v-text-field
                   dense
                   v-model="inputCard.arrow"
-                  :label='$t("方向")'
+                  :label="$t('方向')"
                   outlined
                   readonly
                 ></v-text-field>
@@ -282,7 +282,7 @@
                 <v-text-field
                   dense
                   v-model="inputCard.Japanese.initialrarity"
-                  :label='$t("星级")'
+                  :label="$t('星级')"
                   outlined
                   readonly
                 ></v-text-field>
