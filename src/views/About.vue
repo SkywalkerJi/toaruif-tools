@@ -12,7 +12,7 @@
       <a href="https://twitter.com/Skywalker_Ji">Twitter</a>
     </h4>
     <h4>
-      <a href="https://bbs.nga.cn/thread.php?stid=29987234">NGA（Chinese）</a>
+      <a href="https://github.com/SkywalkerJi/toaruif-tools">GitHub</a>
     </h4>
     <h4>
       <a href="https://t.me/toaru_project">Telegram</a>
