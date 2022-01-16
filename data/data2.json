@@ -45290,5 +45290,747 @@
         },
         "img": "404",
         "arrow": []
+    },
+    {
+        "ID": 405,
+        "nameJp": "【BLAU】青髪ピアス",
+        "nameCn": "【BLAU】蓝发耳环",
+        "Japanese": {
+            "skill1": "神をも畏れぬ所業",
+            "skill1Effect": "ペアのキャラが敵にクリティカルでダメージを与えた時、ペアのキャラと同じ属性の味方全体に【クリティカル発生率アップ(小)】と【物攻アップ(小)】を2ターン付与する(5回のみ)",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "SP獲得量向上（小）＋集中力向上（小）＋物防向上",
+            "potentialAbility1Effect": "バトル開始時に自分のSP獲得量を小アップ＋クリティカル発生率を小アップ＋物理防御力を中アップさせる",
+            "potentialAbility2": "SP獲得量向上（小）＋異防向上（小）＋物攻撃向上",
+            "potentialAbility2Effect": "バトル開始時に自分のSP獲得量を小アップ＋異能防御力を小アップ＋物理攻撃力を中アップさせる",
+            "skill1Search": [
+                "物攻アップ",
+                "クリティカル発生率アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物防向上",
+                "集中力向上",
+                "SP獲得量向上"
+            ],
+            "potentialSearch2": [
+                "異防向上",
+                "SP獲得量向上"
+            ],
+            "skill1SearchS": [
+                "ペアのキャラが敵にクリティカルでダメージを与えた時",
+                "同じ属性の味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "青髪ピアス",
+            "hp": "11376",
+            "dexterity": "2276",
+            "physicalAttack": "6509",
+            "powerAttack": "3038",
+            "physicalDefense": "3606",
+            "powerDefense": "6046",
+            "voice": "川原慶久",
+            "class": "アシストキャラ",
+            "attributes": "青",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "等級ショップ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "蓝发耳环",
+            "voice": "川原庆久",
+            "obtain": "等级商店",
+            "skill1": "连神都不畏惧的事业",
+            "skill1Effect": "组合角色给予敌人暴击伤害时，为与组合角色相同属性的己方角色附加2回合【暴击发生率增加（小）】与【物攻增加（小）】（仅5次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "SP获得量向上（小）+集中力向上（小）+物防向上",
+            "potentialAbility1Effect": "战斗开始时自己的SP获得量少量增加+暴击率少量增加+物理防御力中量增加。",
+            "potentialAbility2": "SP获得量向上（小）+异防向上（小）+物攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的SP获得量少量增加+异能防御少量增加+物理攻击力中量增加。",
+            "skill1Search": [
+                "物攻增加",
+                "暴击发生率增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物防向上",
+                "集中力向上",
+                "SP获得量向上"
+            ],
+            "potentialSearch2": [
+                "异防向上",
+                "SP获得量向上"
+            ],
+            "skill1SearchS": [
+                "配对角色给予敌人暴击伤害时",
+                "同属性的我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "405"
+    },
+    {
+        "ID": 406,
+        "nameJp": "【メンバー】馬場芳郎",
+        "nameCn": "【member】马场芳郎",
+        "Japanese": {
+            "skill1": "手練手管",
+            "skill1Effect": "敵が行動開始した時にペアのキャラにダメージ2回分の【ガード】と【弱体化状態耐性】を1ターン付与し、【異防アップ(中)】を3ターン付与する(1回のみ)",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "SP獲得量向上（小）＋判断力向上（小）＋異防向上",
+            "potentialAbility1Effect": "バトル開始時に自分のSP獲得量を小アップ＋クリティカル回避率を小アップ＋異能防御力を中アップさせる",
+            "potentialAbility2": "判断力向上（小）＋物防向上（小）＋物攻向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル回避率を小アップ＋物理防御力を小アップ＋物理攻撃力を中アップさせる",
+            "skill1Search": [
+                "ガード",
+                "弱体化状態耐性",
+                "異防アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "異防向上",
+                "判断力向上",
+                "SP獲得量向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "物防向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "馬場芳郎",
+            "hp": "13124",
+            "dexterity": "1746",
+            "physicalAttack": "6406",
+            "powerAttack": "3244",
+            "physicalDefense": "6252",
+            "powerDefense": "3939",
+            "voice": "林大地",
+            "class": "アシストキャラ",
+            "attributes": "赤",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "組織戦線ショップ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "马场芳郎",
+            "voice": "林大地",
+            "obtain": "组织战线商店",
+            "skill1": "耍花招",
+            "skill1Effect": "在敌人开始行动时，为组合角色附加2回合能够抵挡一次的【护盾】与【移动不能耐性】,并附加3回合【异防增加（中）】（仅1次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "SP获得量向上（小）+判断力向上（小）+异防向上",
+            "potentialAbility1Effect": "战斗开始时自己的SP获得量少量增加+暴击回避率少量增加+异能防御力中量增加。",
+            "potentialAbility2": "判断力向上（小）+物防向上（小）+物攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加+物理防御力少量增加+物理攻击力中量增加。",
+            "skill1Search": [
+                "护盾",
+                "弱化状态耐性",
+                "异防增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异防向上",
+                "判断力向上",
+                "SP获得量向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "物防向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "406"
+    },
+    {
+        "ID": 407,
+        "nameJp": "【ゲリラライブ】扶桑彩愛",
+        "nameCn": "【游击live】扶桑彩爱",
+        "Japanese": {
+            "skill1": "音波共振",
+            "skill1Effect": "敵全体に小威力の物理攻撃をし、科学サイドの敵全体に【移動不能】を1ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "轟音ソング",
+            "nirvanaEffect": "敵全体に科学サイドに対して威力が上昇する中威力の物理攻撃をし、【物防ダウン(中)】を3ターン付与する",
+            "potentialAbility1": "構造解析（小）＋HP向上",
+            "potentialAbility1Effect": "科学サイドへ攻撃した際の威力を小アップ＋バトル開始時に自分の最大HPを中アップさせる",
+            "potentialAbility2": "集中力向上＋物攻向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋物理攻撃力を中アップさせる",
+            "skill1Search": [
+                "移動不能"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "物防ダウン"
+            ],
+            "potentialSearch1": [
+                "HP向上",
+                "構造解析"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "敵全体",
+                "科学サイドの敵",
+                "小威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "敵全体",
+                "中威力",
+                "［科学サイド］の敵に対して威力が上昇"
+            ],
+            "role": "扶桑彩愛",
+            "hp": "13672",
+            "dexterity": "2269",
+            "physicalAttack": "8278",
+            "powerAttack": "3783",
+            "physicalDefense": "4764",
+            "powerDefense": "8744",
+            "voice": "夏吉ゆうこ",
+            "class": "バトルキャラ",
+            "attributes": "青",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "012",
+            "obtain": "組織戦線ショップ",
+            "awakeningCrystal": "",
+            "skill1CT": "5",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "物理攻击",
+            "role": "扶桑彩爱",
+            "voice": "夏吉优子",
+            "obtain": "组织战线商店",
+            "skill1": "音波共振",
+            "skill1Effect": "对全体敌人释放小威力的物理攻击，并为全体科学侧的敌人附加1回合【移动不能】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "轰鸣曲",
+            "nirvanaEffect": "对攻击范围内的敌人释放对科学侧角色威力上升的中威力的物理攻击，并为敌人附加3回合【物攻降低（中）】",
+            "potentialAbility1": "构造解析（小）+HP向上",
+            "potentialAbility1Effect": "攻击科学侧角色时威力少量增加，战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "集中力向上+物攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，物理攻击力中量增加。",
+            "skill1Search": [
+                "移动不能"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "物防降低"
+            ],
+            "potentialSearch1": [
+                "HP向上",
+                "构造解析"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "全体敌人",
+                "科学侧敌人",
+                "小威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "全体敌人",
+                "中威力",
+                "对科学侧敌人威力上升"
+            ]
+        },
+        "img": "407",
+        "arrow": [
+            "2",
+            "3"
+        ]
+    },
+    {
+        "ID": 408,
+        "nameJp": "【振袖日和】絹旗最愛",
+        "nameCn": "【振袖日和】绢旗最爱",
+        "Japanese": {
+            "skill1": "払い手",
+            "skill1Effect": "正面の敵にダメージを無効にする特殊状態を無視して中威力の物理攻撃をして、その敵とその敵の両隣のキャラに【物防ダウン(中)】を3ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "超縁起物",
+            "nirvanaEffect": "正面と左右の敵に特大威力の物理攻撃をし、【物攻ダウン(中)】を2ターン付与し、自身に【物理ダメージカット(大)】を2ターン付与する",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "potentialAbility2": "前方攻撃強化＋HP向上",
+            "potentialAbility2Effect": "自身の前方向への攻撃力をアップ＋バトル開始時に自分の最大HPを中アップさせる",
+            "skill1Search": [
+                "物防ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "物攻ダウン",
+                "物理ダメージカット"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "方向攻撃強化"
+            ],
+            "skill1SearchS": [
+                "正面の敵",
+                "その敵",
+                "その敵とその敵の両隣のキャラ",
+                "中威力",
+                "ダメージを無効にする特殊状態を無視して攻撃"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "正面と左右の敵",
+                "右の敵",
+                "自身",
+                "特大威力"
+            ],
+            "role": "絹旗最愛",
+            "hp": "13832",
+            "dexterity": "1326",
+            "physicalAttack": "10435",
+            "powerAttack": "4865",
+            "physicalDefense": "4783",
+            "powerDefense": "3748",
+            "voice": "赤﨑千夏",
+            "class": "バトルキャラ",
+            "attributes": "青",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "008",
+            "obtain": "とある組織の振袖初詣ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "5",
+            "nirvanaCT": "6",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "物理攻击",
+            "role": "绢旗最爱",
+            "voice": "赤崎千夏",
+            "obtain": "某组织的振袖新年参拜扭蛋",
+            "skill1": "付款人",
+            "skill1Effect": "对正面的敌人释放无视所有使伤害无效的特殊状态的中威力的物理攻击，为该敌人与两侧的敌人附加3回合【物防降低（中）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "超缘起物",
+            "nirvanaEffect": "对正面与左右侧的敌人释放特大威力的物理攻击，并附加2回合【物攻降低（中）】,为自身附加2回合【物理伤害减轻（大）】",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "前方向攻击强化+HP向上",
+            "potentialAbility2Effect": "自己对前方向的攻击力增加+战斗开始时自己的最大HP中量增加。",
+            "skill1Search": [
+                "物防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "物攻降低",
+                "物理伤害减轻"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "方向攻击强化"
+            ],
+            "skill1SearchS": [
+                "正面的敌人",
+                "该敌人",
+                "该敌人与该敌人两临的角色",
+                "中威力",
+                "无视使伤害无效的特殊效果的攻击"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "正面和左右的敌人",
+                "右面的敌人",
+                "自身",
+                "特大威力"
+            ]
+        },
+        "img": "408",
+        "arrow": [
+            "2"
+        ]
+    },
+    {
+        "ID": 409,
+        "nameJp": "【和傘小町】フレンダ＝セイヴェルン",
+        "nameCn": "【和伞小町】芙兰达·塞维伦",
+        "Japanese": {
+            "skill1": "新春爆弾",
+            "skill1Effect": "正面と左右の敵に小威力の物理攻撃をし、正面と左右の敵に科学サイドの敵が含まれる時、味方全体に【クリティカル発生率アップ(中)】を3ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "キュートなドールと傘回し",
+            "nirvanaEffect": "攻撃範囲内の敵に特大威力の物理攻撃をし、科学サイドの敵全体に【紫属性耐性ダウン(中)】を2ターン付与する",
+            "potentialAbility1": "器用向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の器用を中アップする",
+            "potentialAbility2": "構造解析（小）＋物攻向上",
+            "potentialAbility2Effect": "科学サイドへ攻撃した際の威力を小アップ＋バトル開始時に自分の物理攻撃力を中アップさせる",
+            "skill1Search": [
+                "クリティカル発生率アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "属性耐性ダウン"
+            ],
+            "potentialSearch1": [
+                "器用向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "構造解析"
+            ],
+            "skill1SearchS": [
+                "攻撃範囲内に科学サイドの敵が含まれる場合",
+                "正面と左右の敵",
+                "右の敵",
+                "科学サイドの敵",
+                "味方全体",
+                "小威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "科学サイドの敵",
+                "特大威力"
+            ],
+            "role": "フレンダ＝セイヴェルン",
+            "hp": "12874",
+            "dexterity": "2596",
+            "physicalAttack": "8121",
+            "powerAttack": "3783",
+            "physicalDefense": "3603",
+            "powerDefense": "6912",
+            "voice": "内田真礼",
+            "class": "バトルキャラ",
+            "attributes": "紫",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "033",
+            "obtain": "とある組織の振袖初詣ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "5",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "紫",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "物理攻击",
+            "role": "芙兰达·塞维伦",
+            "voice": "内田真礼",
+            "obtain": "某组织的振袖新年参拜扭蛋",
+            "skill1": "新春爆弹",
+            "skill1Effect": "对正面与左右侧的敌人释放小威力的物理攻击，当正面和左右的敌人里有科学侧敌人时，为我方全体角色附加3回合【暴击发生率增加（中）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "可爱的玩偶和旋转伞",
+            "nirvanaEffect": "对攻击范围内的敌人释放特大威力的物理攻击，并为科学侧敌人附加2回合【紫属性耐性降低（中）】",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "构造解析（小）+物攻向上",
+            "potentialAbility2Effect": "攻击科学侧角色时威力少量增加，战斗开始时自己的物理攻击力中量增加。",
+            "skill1Search": [
+                "暴击发生率增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "属性耐性降低"
+            ],
+            "potentialSearch1": [
+                "灵巧向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "构造解析"
+            ],
+            "skill1SearchS": [
+                "攻击范围内包含科学侧敌人",
+                "正面和左右的敌人",
+                "右面的敌人",
+                "科学侧敌人",
+                "我方全体",
+                "小威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "科学侧敌人",
+                "特大威力"
+            ]
+        },
+        "img": "409",
+        "arrow": [
+            "2",
+            "3"
+        ]
+    },
+    {
+        "ID": 410,
+        "nameJp": "【振袖名花】麦野沈利",
+        "nameCn": "【振袖名花】麦野沉利",
+        "Japanese": {
+            "skill1": "月下のしじま",
+            "skill1Effect": "ペアのキャラを含む味方が必殺技を使用した時、敵全体に【物防ダウン(小)】と【持続被害(小)】を2ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "異防向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能防御力を中アップさせる",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "skill1Search": [
+                "持続被害",
+                "物防ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "異防向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上"
+            ],
+            "skill1SearchS": [
+                "敵全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "麦野沈利",
+            "hp": "10312",
+            "dexterity": "2695",
+            "physicalAttack": "6323",
+            "powerAttack": "1791",
+            "physicalDefense": "4283",
+            "powerDefense": "5623",
+            "voice": "小清水亜美",
+            "class": "アシストキャラ",
+            "attributes": "紫",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある組織の振袖初詣ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "紫",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "麦野沉利",
+            "voice": "小清水亚美",
+            "obtain": "某组织的振袖新年参拜扭蛋",
+            "skill1": "月下的沉默",
+            "skill1Effect": "包含组合角色的己方角色使用必杀技后，为全体敌人附加2回合【物防降低（小）】与【持续被害（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异防向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能防御力中量增加。",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "skill1Search": [
+                "持续被害",
+                "物防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异防向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上"
+            ],
+            "skill1SearchS": [
+                "全体敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "410"
+    },
+    {
+        "ID": 411,
+        "nameJp": "【うららか寝正月】滝壺理后",
+        "nameCn": "【新年睡大觉】泷壶理后",
+        "Japanese": {
+            "skill1": "縁起追跡",
+            "skill1Effect": "行動開始した時にペアのキャラに【物攻アップ(小)】を3ターン付与し、赤属性の敵全体に【物防ダウン(小)】を2ターン付与する(2回のみ)",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "potentialAbility2": "判断力向上＋器用向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル回避率を小アップ＋器用を中アップさせる",
+            "skill1Search": [
+                "物攻アップ",
+                "物防ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "器用向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "属性の敵"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "滝壺理后",
+            "hp": "10833",
+            "dexterity": "1281",
+            "physicalAttack": "4322",
+            "powerAttack": "2699",
+            "physicalDefense": "4608",
+            "powerDefense": "4438",
+            "voice": "洲崎綾",
+            "class": "アシストキャラ",
+            "attributes": "青",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある組織の振袖初詣",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "泷壶理后",
+            "voice": "洲崎绫",
+            "obtain": "某组织的振袖新年参拜",
+            "skill1": "缘起追踪",
+            "skill1Effect": "行动开始时为组合角色附加3回合【物攻增加（小）】，为全体红属性敌人附加2回合【物防降低（小）】（仅2次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "判断力向上+灵巧向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，灵巧中量增加。",
+            "skill1Search": [
+                "物攻增加",
+                "物防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "属性敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "411"
     }
 ]
