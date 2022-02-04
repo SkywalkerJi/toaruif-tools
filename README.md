@@ -2,7 +2,7 @@
 
 ## HOW TO USE
 ```
-https://御坂美琴.cn/toaruif-tools/
+https://if.御坂美琴.cn/
 ```
 
 ## Project setup
