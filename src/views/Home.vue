@@ -301,7 +301,7 @@
       class="elevation-1"
       :footer-props="{ 'items-per-page-options': [15, 30, 50, 100, -1] }"
     >
-      <template v-slot:item.img="{ item }">
+      <template v-slot:[`item.img`]="{ item }">
         <v-img
           max-height="73"
           max-width="73"
@@ -309,12 +309,12 @@
         >
         </v-img>
       </template>
-      <template v-slot:item.Chinese.attributes="{ item }">
+      <template v-slot:[`item.Chinese.attributes`]="{ item }">
         <v-chip :color="getColor(item.Chinese.attributes)" dark>
           {{ item.Chinese.attributes }}
         </v-chip>
       </template>
-      <template v-slot:item.Japanese.attackDirection="{ item }">
+      <template v-slot:[`item.Japanese.attackDirection`]="{ item }">
         <v-img
           max-height="20"
           max-width="80"
@@ -327,7 +327,7 @@
         >
         </v-img>
       </template>
-      <template v-slot:item.Japanese.obtain="{ item }">
+      <template v-slot:[`item.Japanese.obtain`]="{ item }">
         {{ item.Japanese.limited }}{{ item.Japanese.obtain }}
       </template>
     </v-data-table>
