@@ -46328,5 +46328,925 @@
             "nirvanaSearchS": []
         },
         "img": "414"
+    },
+    {
+        "ID": 415,
+        "nameJp": "【めるてぃすいーつ】レッサー",
+        "nameCn": "【致命一击】蕾莎",
+        "Japanese": {
+            "skill1": "バレンタインサプライズ",
+            "skill1Effect": "黄属性の味方全体に【クリティカル威力アップ(中)】と【物攻アップ(小)】を3ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "とびきりのハート",
+            "nirvanaEffect": "攻撃範囲内の敵のステータスアップ状態を解除し、【攻撃力アップ妨害】と【黄属性耐性ダウン(小)】を3ターン付与し、大威力の物理攻撃をする",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "potentialAbility2": "術式解析（小）＋HP向上",
+            "potentialAbility2Effect": "魔術サイドへ攻撃した際の威力を小アップ＋バトル開始時に自分の最大HPを中アップする",
+            "skill1Search": [
+                "物攻アップ",
+                "クリティカル威力アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "攻撃力アップ妨害",
+                "属性耐性ダウン",
+                "ステータスアップ状態を解除"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "術式解析"
+            ],
+            "skill1SearchS": [
+                "属性の味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "大威力"
+            ],
+            "role": "レッサー",
+            "hp": "13832",
+            "dexterity": "1960",
+            "physicalAttack": "10435",
+            "powerAttack": "4865",
+            "physicalDefense": "2684",
+            "powerDefense": "3978",
+            "voice": "高田憂希",
+            "class": "バトルキャラ",
+            "attributes": "黄",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "026",
+            "obtain": "とある宿敵の甘味大戦ステップアップガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "5",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "BATTLE",
+            "faction": "魔法侧",
+            "attackMethod": "物理攻击",
+            "role": "蕾莎",
+            "voice": "高田忧希",
+            "obtain": "某宿敌的甜味大战UP!扭蛋",
+            "skill1": "情人节惊喜",
+            "skill1Effect": "为黄属性的全部己方角色附加3回合【暴击威力增加（中）】与【物攻增加（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "额外的爱心",
+            "nirvanaEffect": "对攻击范围内的敌人释放数值强化解除，附加3回合【攻击力提升妨碍】与【黄属性耐性降低（小）】，并释放大威力的物理攻击",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "术式解析（小）+HP向上",
+            "potentialAbility2Effect": "攻击魔法侧角色时威力少量增加，战斗开始时自己的最大HP中量增加。",
+            "skill1Search": [
+                "物攻增加",
+                "暴击威力增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "攻击力提升妨碍",
+                "属性耐性降低",
+                "数值强化解除"
+            ],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "HP向上",
+                "术式解析"
+            ],
+            "skill1SearchS": [
+                "某属性的我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "大威力"
+            ]
+        },
+        "img": "415",
+        "arrow": [
+            "2",
+            "3"
+        ]
+    },
+    {
+        "ID": 416,
+        "nameJp": "【愛の運び屋】オリアナ＝トムソン",
+        "nameCn": "【爱的送货人】欧莉安娜·汤姆森",
+        "Japanese": {
+            "skill1": "大人の苦味",
+            "skill1Effect": "正面と左右の敵に小威力の異能攻撃をし、正面と左右の敵に魔術サイドの敵が含まれる時、味方全体に【物理ダメージカット(大)】を1ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "ValentineSymbol",
+            "nirvanaEffect": "攻撃範囲内の敵に魔術サイドに対して威力が上昇する特大威力の異能攻撃をし、【持続被害(中)】を2ターン付与する",
+            "potentialAbility1": "器用向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の器用を中アップする",
+            "potentialAbility2": "左方向攻撃強化＋異攻向上",
+            "potentialAbility2Effect": "自身の左方向への攻撃力をアップ＋バトル開始時に自分の異能攻撃力を中アップさせる",
+            "skill1Search": [
+                "物理ダメージカット"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "持続被害"
+            ],
+            "potentialSearch1": [
+                "器用向上"
+            ],
+            "potentialSearch2": [
+                "異攻向上",
+                "方向攻撃強化"
+            ],
+            "skill1SearchS": [
+                "攻撃範囲内に魔術サイドの敵が含まれる場合",
+                "正面と左右の敵",
+                "右の敵",
+                "魔術サイドの敵",
+                "味方全体",
+                "小威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "特大威力",
+                "［魔術サイド］の敵に対して威力が上昇"
+            ],
+            "role": "オリアナ＝トムソン",
+            "hp": "13406",
+            "dexterity": "2553",
+            "physicalAttack": "3653",
+            "powerAttack": "8121",
+            "physicalDefense": "6912",
+            "powerDefense": "3603",
+            "voice": "柚木涼香",
+            "class": "バトルキャラ",
+            "attributes": "青",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "異能攻撃",
+            "attackDirection": "011",
+            "obtain": "とある宿敵の甘味大戦ステップアップガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "4",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "BATTLE",
+            "faction": "魔法侧",
+            "attackMethod": "异能攻击",
+            "role": "欧莉安娜·汤姆森",
+            "voice": "柚木凉香",
+            "obtain": "某宿敌的甜味大战UP!扭蛋",
+            "skill1": "大人的苦味",
+            "skill1Effect": "对正面与左右侧的敌人释放小威力的异能攻击，当正面和左右的敌人里有魔法侧敌人时，为我方全体角色附加1回合【物理伤害减轻（大）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "情人节符号",
+            "nirvanaEffect": "对攻击范围内的敌人释放对魔法侧威力上升的特大威力的异能攻击，并附加2回合【持续被害（中）】",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "左方向攻击强化+异攻向上",
+            "potentialAbility2Effect": "自己对左方向的攻击力增加，战斗开始时自己的异能攻击力中量增加。",
+            "skill1Search": [
+                "物理伤害减轻"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "持续被害"
+            ],
+            "potentialSearch1": [
+                "灵巧向上"
+            ],
+            "potentialSearch2": [
+                "异攻向上",
+                "方向攻击强化"
+            ],
+            "skill1SearchS": [
+                "攻击范围内包含魔术侧敌人",
+                "正面和左右的敌人",
+                "右面的敌人",
+                "魔术侧敌人",
+                "我方全体",
+                "小威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "特大威力",
+                "对魔术侧敌人威力上升"
+            ]
+        },
+        "img": "416",
+        "arrow": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "ID": 417,
+        "nameJp": "【バレンタインフェア】オルソラ＝アクィナス",
+        "nameCn": "【情人节展览会】奥索拉·阿奎纳",
+        "Japanese": {
+            "skill1": "愛情の詰め合わせ",
+            "skill1Effect": "行動開始した時にペアのキャラのHPを回復(小)し、【物攻アップ(小)】と【SP獲得量アップ(小)】を1ターン付与する(4回のみ)",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "器用向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の器用を中アップする",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "skill1Search": [
+                "物攻アップ",
+                "SP獲得量アップ",
+                "HPを回復"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "器用向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上"
+            ],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "オルソラ＝アクィナス",
+            "hp": "13524",
+            "dexterity": "1107",
+            "physicalAttack": "6514",
+            "powerAttack": "2051",
+            "physicalDefense": "6096",
+            "powerDefense": "6250",
+            "voice": "遠藤綾",
+            "class": "アシストキャラ",
+            "attributes": "黄",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある宿敵の甘味大戦ステップアップガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "ASSIST",
+            "faction": "魔法侧",
+            "attackMethod": "辅助角色",
+            "role": "奥索拉·阿奎纳",
+            "voice": "远藤绫",
+            "obtain": "某宿敌的甜味大战UP!扭蛋",
+            "skill1": "爱情的混合",
+            "skill1Effect": "行动开始时为组合角色进行HP恢复（小），并附加1回合【物攻增加（小）】与【SP获得量增加（小）】（仅4次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "灵巧向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的灵巧中量增加。",
+            "potentialAbility2": "物攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "skill1Search": [
+                "物攻增加",
+                "SP获得量增加",
+                "HP回复"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "灵巧向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上"
+            ],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "417"
+    },
+    {
+        "ID": 418,
+        "nameJp": "【チョコカービング】シェリー＝クロムウェル",
+        "nameCn": "【巧克力蛋糕】雪莉·克伦威尔",
+        "Japanese": {
+            "skill1": "ビターアート",
+            "skill1Effect": "ペアのキャラが敵にダメージを与えた時、その敵に【物攻ダウン(中)】と【クリティカル回避率ダウン(中)】を2ターン付与する(2回のみ)",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "異攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
+            "potentialAbility2": "判断力向上＋器用向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル回避率を小アップ＋器用を中アップさせる",
+            "skill1Search": [
+                "物攻ダウン",
+                "クリティカル回避率ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "異攻向上"
+            ],
+            "potentialSearch2": [
+                "器用向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "ペアのキャラが敵にダメージを与えた時",
+                "その敵"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "シェリー＝クロムウェル",
+            "hp": "8896",
+            "dexterity": "1428",
+            "physicalAttack": "2374",
+            "powerAttack": "6337",
+            "physicalDefense": "5565",
+            "powerDefense": "2324",
+            "voice": "渡辺明乃",
+            "class": "アシストキャラ",
+            "attributes": "青",
+            "faction": "魔術サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある宿敵の甘味大戦",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "ASSIST",
+            "faction": "魔法侧",
+            "attackMethod": "辅助角色",
+            "role": "雪莉·克伦威尔",
+            "voice": "渡边明乃",
+            "obtain": "某宿敌的甜味大战",
+            "skill1": "苦味艺术",
+            "skill1Effect": "当组合角色对敌人造成伤害时，为那个敌人附加2回合【物攻降低（中）】与【暴击威力降低（中）】（仅2次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "判断力向上+灵巧向上",
+            "potentialAbility2Effect": "判断力向上+灵巧向上",
+            "skill1Search": [
+                "物攻降低",
+                "暴击发生率降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异攻向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "配对角色对敌人造成伤害时",
+                "该敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "418"
+    },
+    {
+        "ID": 419,
+        "nameJp": "【失格紋の少年】マティアス＝ヒルデスハイマー",
+        "nameCn": "【失格纹的少年】马蒂亚斯▪希尔德思海曼",
+        "Japanese": {
+            "skill1": "魔糸拘束",
+            "skill1Effect": "正面の敵に【異防ダウン(大)】と【移動不能】を2ターン付与し、【気絶】を1ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "特殊魔力エンチャント",
+            "nirvanaEffect": "正面の敵にダメージを無効にする特殊状態を無視して必ずクリティカルが発生する特大威力の異能攻撃をする",
+            "potentialAbility1": "異攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
+            "potentialAbility2": "前方攻撃強化＋器用向上",
+            "potentialAbility2Effect": "自身の前方向への攻撃力をアップ＋バトル開始時に自分の器用を中アップさせる",
+            "skill1Search": [
+                "移動不能",
+                "気絶",
+                "異防ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "異攻向上"
+            ],
+            "potentialSearch2": [
+                "器用向上",
+                "方向攻撃強化"
+            ],
+            "skill1SearchS": [
+                "正面の敵"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "正面の敵",
+                "特大威力",
+                "必ずクリティカルが発生",
+                "ダメージを無効にする特殊状態を無視して攻撃"
+            ],
+            "role": "マティアス＝ヒルデスハイマー",
+            "hp": "13140",
+            "dexterity": "2596",
+            "physicalAttack": "6548",
+            "powerAttack": "8284",
+            "physicalDefense": "3589",
+            "powerDefense": "3877",
+            "voice": "玉城仁菜",
+            "class": "バトルキャラ",
+            "attributes": "黄",
+            "faction": "その他サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "異能攻撃",
+            "attackDirection": "028",
+            "obtain": "とある紋章の滅魔共闘ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "5",
+            "nirvanaCT": "6",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "BATTLE",
+            "faction": "其他阵营",
+            "attackMethod": "异能攻击",
+            "role": "马蒂亚斯▪希尔德思海曼",
+            "voice": "",
+            "obtain": "某纹章的灭魔共斗扭蛋",
+            "skill1": "魔线拘束",
+            "skill1Effect": "为正面的敌人附加2回合【异防下降（大）】与【移动不能】，并附加1回合【气绝】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "特殊魔力强化",
+            "nirvanaEffect": "对正面的敌人释放无视所有使伤害无效的特殊状态、必定发生暴击的特大威力的异能攻击",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "前方攻击强化+灵巧向上",
+            "potentialAbility2Effect": "对自己前方向的攻击力增加，战斗开始时自己的灵巧中量增加。",
+            "skill1Search": [
+                "移动不能",
+                "气绝",
+                "异防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异攻向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上",
+                "方向攻击强化"
+            ],
+            "skill1SearchS": [
+                "正面的敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "正面的敌人",
+                "特大威力",
+                "必发生暴击",
+                "无视使伤害无效的特殊效果的攻击"
+            ]
+        },
+        "img": "419",
+        "arrow": [
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "ID": 420,
+        "nameJp": "【超天災級の少女】イリス",
+        "nameCn": "【超天灾级的少女】伊莉丝",
+        "Japanese": {
+            "skill1": "竜の息吹",
+            "skill1Effect": "正面の敵に大威力の物理攻撃をする",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "竜の怪力",
+            "nirvanaEffect": "攻撃範囲内の敵の防御力アップ状態を解除し、【アシスト封印】を1ターン付与し、特大威力の物理攻撃をする",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の最大HPを中アップさせる",
+            "potentialAbility2": "集中力向上＋物攻向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋物理攻撃力を中アップさせる",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "アシスト封印",
+                "防御力アップ状態を解除"
+            ],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "正面の敵",
+                "大威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "特大威力"
+            ],
+            "role": "イリス",
+            "hp": "14416",
+            "dexterity": "1943",
+            "physicalAttack": "8717",
+            "powerAttack": "3783",
+            "physicalDefense": "7481",
+            "powerDefense": "3603",
+            "voice": "",
+            "class": "バトルキャラ",
+            "attributes": "赤",
+            "faction": "その他サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "物理攻撃",
+            "attackDirection": "004",
+            "obtain": "とある紋章の滅魔共闘ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "4",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "BATTLE",
+            "faction": "其他阵营",
+            "attackMethod": "物理攻击",
+            "role": "伊莉丝",
+            "voice": "",
+            "obtain": "某纹章的灭魔共斗扭蛋",
+            "skill1": "龙的吐息",
+            "skill1Effect": "对正面的敌人释放大威力的物理攻击",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "龙的怪力",
+            "nirvanaEffect": "解除攻击范围内的敌人的防御力增加状态，并附加1回合【辅助封印】，再释放特大威力的物理攻击",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "集中力向上+物攻向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，物理攻击力中量增加。",
+            "skill1Search": [],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "辅助封印",
+                "防御强化解除"
+            ],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "物攻向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [
+                "正面的敌人",
+                "大威力"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "特大威力"
+            ]
+        },
+        "img": "420",
+        "arrow": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "ID": 421,
+        "nameJp": "【栄光紋の少女】ルリイ＝アーベントロート",
+        "nameCn": "【荣光纹的少女】露丽▪阿本德罗特",
+        "Japanese": {
+            "skill1": "エンチャント付与",
+            "skill1Effect": "行動開始時した時にペアのキャラと同じ属性の味方全体に【異攻アップ(小)】と【クリティカル威力アップ(小)】を2ターン付与する(3回のみ)",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の最大HPを中アップさせる",
+            "potentialAbility2": "異攻向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
+            "skill1Search": [
+                "異攻アップ",
+                "クリティカル威力アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "異攻向上"
+            ],
+            "skill1SearchS": [
+                "行動開始時",
+                "同じ属性の味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "ルリイ＝アーベントロート",
+            "hp": "10182",
+            "dexterity": "2239",
+            "physicalAttack": "4315",
+            "powerAttack": "7845",
+            "physicalDefense": "1879",
+            "powerDefense": "2293",
+            "voice": "鈴代紗弓",
+            "class": "アシストキャラ",
+            "attributes": "黄",
+            "faction": "その他サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある紋章の滅魔共闘ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "ASSIST",
+            "faction": "其他阵营",
+            "attackMethod": "辅助角色",
+            "role": "露丽▪阿本德罗特",
+            "voice": "",
+            "obtain": "某纹章的灭魔共斗扭蛋",
+            "skill1": "附加条件",
+            "skill1Effect": "行动开始时为与组合角色相同属性的己方角色附加2回合【异攻增加（小）】与【暴击威力增加（小）】（仅3次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "异攻向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "skill1Search": [
+                "异攻增加",
+                "暴击威力增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "异攻向上"
+            ],
+            "skill1SearchS": [
+                "行动开始时",
+                "同属性的我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "421"
+    },
+    {
+        "ID": 422,
+        "nameJp": "【常魔紋の少女】アルマ＝レプシウス",
+        "nameCn": "【常魔纹的少女】阿尔玛▪莱普修斯",
+        "Japanese": {
+            "skill1": "鋭い勘",
+            "skill1Effect": "ペアのキャラがスキルを使用した時、ペアのキャラと同じ属性の味方全体に【異攻アップ(小)】と【攻撃方向増加+2】を2ターン付与する(2回のみ)",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "異攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の異能攻撃力を中アップさせる",
+            "potentialAbility2": "器用向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の器用を中アップする",
+            "skill1Search": [
+                "攻撃方向増加",
+                "異攻アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "異攻向上"
+            ],
+            "potentialSearch2": [
+                "器用向上"
+            ],
+            "skill1SearchS": [
+                "ペアのキャラがスキルを使用した後",
+                "同じ属性の味方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "アルマ＝レプシウス",
+            "hp": "12059",
+            "dexterity": "2659",
+            "physicalAttack": "2665",
+            "powerAttack": "5661",
+            "physicalDefense": "2409",
+            "powerDefense": "4993",
+            "voice": "白石晴香",
+            "class": "アシストキャラ",
+            "attributes": "赤",
+            "faction": "その他サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある紋章の滅魔共闘ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "红",
+            "class": "ASSIST",
+            "faction": "其他阵营",
+            "attackMethod": "辅助角色",
+            "role": "阿尔玛▪莱普修斯",
+            "voice": "",
+            "obtain": "某纹章的灭魔共斗扭蛋",
+            "skill1": "敏锐的直觉",
+            "skill1Effect": "组合角色使用技能时，为与组合角色相同属性的己方全员附加2回合【异攻增加（小）】与【攻击方向增加+2】（仅2次）。",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "异攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的异能攻击力中量增加。",
+            "potentialAbility2": "灵巧向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的灵巧中量增加。",
+            "skill1Search": [
+                "攻击方向增加",
+                "异攻增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "异攻向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上"
+            ],
+            "skill1SearchS": [
+                "配对角色使用技能后",
+                "同属性的我方全体"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "422"
+    },
+    {
+        "ID": 423,
+        "nameJp": "【暗黒竜】イリス",
+        "nameCn": "【暗黑龙】伊莉丝",
+        "Japanese": {
+            "skill1": "竜のはばたき",
+            "skill1Effect": "行動開始した時にペアのキャラに【クリテティカル発生率アップ(小)】と【クリティカル回避率アップ(小)】と【物攻アップ(中)】を1ターン付与する(3回のみ)",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "potentialAbility2": "集中力向上＋器用向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル率を小アップ＋器用を中アップさせる",
+            "skill1Search": [
+                "物攻アップ",
+                "クリティカル回避率アップ"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "器用向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "暗黒竜イリス",
+            "hp": "9960",
+            "dexterity": "1281",
+            "physicalAttack": "7381",
+            "powerAttack": "3835",
+            "physicalDefense": "2114",
+            "powerDefense": "1907",
+            "voice": "",
+            "class": "アシストキャラ",
+            "attributes": "青",
+            "faction": "その他サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "とある紋章の滅魔共闘",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "蓝",
+            "class": "ASSIST",
+            "faction": "其他阵营",
+            "attackMethod": "辅助角色",
+            "role": "伊莉丝",
+            "voice": "",
+            "obtain": "某纹章的灭魔共斗",
+            "skill1": "龙的振翅",
+            "skill1Effect": "行动开始时，给予组合角色3回合【暴击率增加（小）】与【暴击回避率增加（小）】与【物攻增加（中）】（仅3次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "集中力向上+灵巧向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击率少量增加，灵巧中量增加。",
+            "skill1Search": [
+                "物攻增加",
+                "暴击回避率增加"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上",
+                "集中力向上"
+            ],
+            "skill1SearchS": [],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "423"
     }
 ]
