@@ -47248,5 +47248,213 @@
             "nirvanaSearchS": []
         },
         "img": "423"
+    },
+    {
+        "ID": 424,
+        "nameJp": "【クイーンウサ耳メイド】食蜂操祈",
+        "nameCn": "【兔耳女王女仆】食蜂操祈",
+        "Japanese": {
+            "skill1": "奉仕力の心得",
+            "skill1Effect": "自身と両隣のキャラの弱体化状態を全て回復し、【弱体化状態耐性】を2ターン付与し、【異攻アップ(小)】を3ターン付与する",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "慣れないメイドの照れ隠し",
+            "nirvanaEffect": "攻撃範囲内の敵に大威力の異能攻撃をし、【異攻ダウン(大)】と【クリティカル威力ダウン(中)】を4ターン付与する",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の最大HPを中アップさせる",
+            "potentialAbility2": "判断力向上＋器用向上",
+            "potentialAbility2Effect": "バトル開始時に自分のクリティカル回避率を小アップ＋異能攻撃力を中アップさせる",
+            "skill1Search": [
+                "弱体化状態耐性",
+                "異攻アップ",
+                "弱体化状態を解除"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "異攻ダウン",
+                "クリティカル威力ダウン"
+            ],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "器用向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "自身と両隣のキャラ"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻撃範囲内の敵",
+                "大威力"
+            ],
+            "role": "食蜂操祈",
+            "hp": "11329",
+            "dexterity": "2553",
+            "physicalAttack": "4865",
+            "powerAttack": "10435",
+            "physicalDefense": "2812",
+            "powerDefense": "3329",
+            "voice": "浅倉杏美",
+            "class": "バトルキャラ",
+            "attributes": "黄",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "異能攻撃",
+            "attackDirection": "025",
+            "obtain": "超電磁砲15周年記念ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "5",
+            "nirvanaCT": "5",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "BATTLE",
+            "faction": "科学侧",
+            "attackMethod": "异能攻击",
+            "role": "食蜂操祈",
+            "voice": "浅仓杏美",
+            "obtain": "超电磁炮15周年纪念扭蛋",
+            "skill1": "侍奉力的心得",
+            "skill1Effect": "解除自身与两侧的角色全部负面状态，并附加2回合【弱化状态耐性】与3回合【异攻增加（小）】",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "不习惯的女仆的害羞",
+            "nirvanaEffect": "对攻击范围内的敌人释放大威力的异能攻击，并附加4回合【异攻降低（大）】与【暴击威力降低（中）】",
+            "potentialAbility1": "HP向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的最大HP中量增加。",
+            "potentialAbility2": "判断力向上+灵巧向上",
+            "potentialAbility2Effect": "战斗开始时自己的暴击回避率少量增加，异能攻击力中量增加。",
+            "skill1Search": [
+                "弱化状态耐性",
+                "异攻增加",
+                "弱化状态解除"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [
+                "异攻降低",
+                "暴击威力降低"
+            ],
+            "potentialSearch1": [
+                "HP向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上",
+                "判断力向上"
+            ],
+            "skill1SearchS": [
+                "自身和两临的角色"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [
+                "攻击范围内的敌人",
+                "大威力"
+            ]
+        },
+        "img": "424",
+        "arrow": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "ID": 425,
+        "nameJp": "【追跡者】弓箭猟虎",
+        "nameCn": "【追迹者】弓箭猎虎",
+        "Japanese": {
+            "skill1": "スナイパー",
+            "skill1Effect": "敵がスキルを使用した時、その敵に【物防ダウン(中)】と【HP回復妨害】と【持続被害(中)】を3ターン付与する(2回のみ)",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "バトル開始時に自分の物理攻撃力を中アップさせる",
+            "potentialAbility2": "器用向上（中）",
+            "potentialAbility2Effect": "バトル開始時に自分の器用を中アップする",
+            "skill1Search": [
+                "HP回復妨害",
+                "持続被害",
+                "物防ダウン"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "器用向上"
+            ],
+            "skill1SearchS": [
+                "その敵"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": [],
+            "role": "弓箭猟虎",
+            "hp": "10312",
+            "dexterity": "2202",
+            "physicalAttack": "6200",
+            "powerAttack": "3038",
+            "physicalDefense": "5428",
+            "powerDefense": "3194",
+            "voice": "鈴代紗弓",
+            "class": "アシストキャラ",
+            "attributes": "黄",
+            "faction": "科学サイド",
+            "initialrarity": "☆3",
+            "attackMethod": "",
+            "attackDirection": "",
+            "obtain": "超電磁砲15周年記念ガチャ",
+            "awakeningCrystal": "",
+            "skill1CT": "",
+            "nirvanaCT": "",
+            "skill1Code": "",
+            "skill2Code": "",
+            "nirvanaCode": "",
+            "limited": ""
+        },
+        "Chinese": {
+            "attributes": "黄",
+            "class": "ASSIST",
+            "faction": "科学侧",
+            "attackMethod": "辅助角色",
+            "role": "弓箭猎虎",
+            "voice": "铃代纱弓",
+            "obtain": "超电磁炮15周年纪念扭蛋",
+            "skill1": "狙击手",
+            "skill1Effect": "当敌人释放技能时，为该敌人附加3回合【物防降低（中）】、【HP恢复妨碍】与【持续被害（中）】（仅2次）",
+            "skill2": "",
+            "skill2Effect": "",
+            "nirvana": "",
+            "nirvanaEffect": "",
+            "potentialAbility1": "物攻向上（中）",
+            "potentialAbility1Effect": "战斗开始时自己的物理攻击力中量增加。",
+            "potentialAbility2": "灵巧向上（中）",
+            "potentialAbility2Effect": "战斗开始时自己的灵巧中量增加。",
+            "skill1Search": [
+                "HP恢复妨碍",
+                "持续被害",
+                "物防降低"
+            ],
+            "skill2Search": [],
+            "nirvanaSearch": [],
+            "potentialSearch1": [
+                "物攻向上"
+            ],
+            "potentialSearch2": [
+                "灵巧向上"
+            ],
+            "skill1SearchS": [
+                "该敌人"
+            ],
+            "skill2SearchS": [],
+            "nirvanaSearchS": []
+        },
+        "img": "425"
     }
 ]
